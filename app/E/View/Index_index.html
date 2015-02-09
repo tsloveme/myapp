@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>员工管理</title>
+</head>
+
+<body>
+<h1><center>员工管理</center></h1>
+<div style="width:800px; margin:0 auto;">
+<!--<div align="right"><a href="__URL__/add.html">添加文章</a></div>-->
+<form method="post" action="__URL__/search" style="padding-bottom:8px;">
+	<label>名 字:</label>
+	<input type="text" name="first_name" placeholder="请输入名字"<if condition='$f_name'> value="{$f_name}"
+	<else />
+	</if> >
+	<label>姓 氏:</label>
+	<input type="text" name="last_name" placeholder="请输入姓氏"<if condition='$l_name'> value="{$l_name}"
+	<else />
+	</if> >
+	<label>性 别:</label>
+	<input type="radio" name="gender" value="M" <if condition='$sex== "M"'> checked="checked"
+	<else /></if> autocomplete="off" />
+	<label>男</label>
+	<input type="radio" name="gender" value="F"  <if condition='$sex== "F"'> checked="checked"
+	<else /></if> autocomplete="off" />
+	<label>女</label>
+	<input type="submit" value="搜索员工" />
+</form>
+<table cellspacing="0" border="1" width="100%">
+	<tr>
+		<th>员工号</th>
+		<th>名 字</th>
+		<th>姓 氏</th>
+		<th>性 别</th>
+		<th>入职日期</th>
+		<th>出生日期</th>
+	</tr>
+	<volist name="data" id="vo" mod="2">
+	<tr <eq name="mod"> style=" background-color:#e0e0e0;"</eq> >
+		<td>{$vo.emp_no}</td>
+		<td>{$vo.first_name}</td>
+		<td>{$vo.last_name}</td>
+		<td><if condition="$vo.gender eq 'F'"> 女
+		<else /> 男
+		</if></td>
+		<td>{$vo.hire_date}</td>
+		<td>{$vo.birth_date}</td>
+	</tr>
+	</volist>
+	<tr>
+		<td colspan="6">
+		<div>{$page}</div>
+		</td>
+	</tr>
+</table>
+</div>
+</body>
+</html>

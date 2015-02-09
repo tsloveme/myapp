@@ -1,0 +1,38 @@
+[ 2015-02-09T00:41:23+08:00 ] 127.0.0.1 /index.php/wyn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032040s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-09T00:41:30+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.1423s ]
+NOTIC: [8] Undefined variable: temp E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: temp2 E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-09T00:46:44+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002202s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined variable: temp E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: temp2 E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+

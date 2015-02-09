@@ -1,0 +1,1884 @@
+[ 2015-01-24T00:00:15+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: 参数错误或者未定义:id
+
+[ 2015-01-24T00:00:36+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002411s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: 参数错误或者未定义:id
+
+[ 2015-01-24T00:00:42+08:00 ] 127.0.0.1 /index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:00:50+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:00:58+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:00:59+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003093s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:03+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.199462s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:06+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:10+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:13+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:17+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:20+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:23+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:27+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009987s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:30+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001751s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:34+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:37+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.200070s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:40+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.200728s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:44+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.197658s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:47+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/__URL__
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.200988s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:51+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/__URL__
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:57+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:01:59+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.200273s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:02+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.203356s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:06+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:09+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:13+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:16+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.204440s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:19+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:41+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009099s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:48+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001806s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:49+08:00 ] 127.0.0.1 /index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:54+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:02:58+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:03:11+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.203087s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:06:00+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.204096s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:06:04+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:06:06+08:00 ] 127.0.0.1 /index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001769s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:06:08+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:06:33+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:06:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:06:50+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:06:54+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002089s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:06:56+08:00 ] 127.0.0.1 /index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.205424s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:06+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:11+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:13+08:00 ] 127.0.0.1 /index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:16+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:18+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:21+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.007172s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:25+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:28+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:32+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:35+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.210407s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:39+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.209326s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:43+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001821s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:46+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:50+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:53+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001871s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:11:57+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001911s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:01+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:04+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:07+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:11+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002507s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:14+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:14+08:00 ] 127.0.0.1 /index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001804s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:19+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.209442s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:20+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:24+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.209540s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.210513s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:33+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:34+08:00 ] 127.0.0.1 /index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:12:58+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:03+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:05+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:08+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:10+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.209109s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:13+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:17+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.000600s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:20+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:23+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Index/Index/Index/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:25+08:00 ] 127.0.0.1 /index.php/Home/In
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: 无法加载控制器:In
+
+[ 2015-01-24T00:13:29+08:00 ] 127.0.0.1 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.211060s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002042s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:36+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001693s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:39+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:43+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:46+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:50+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001638s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:54+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001818s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:13:57+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:00+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.210414s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:04+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:07+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.210946s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:12+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:15+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002509s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:19+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:22+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:26+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:30+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:33+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:37+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.211830s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:40+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:44+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002201s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:48+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001754s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:52+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008838s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:14:58+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:01+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.212562s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:05+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:09+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001630s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:12+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:16+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:20+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:23+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:28+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:32+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001452s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:35+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:39+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001696s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:43+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001960s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:48+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:53+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002535s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:15:57+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.211667s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:00+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:04+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:07+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:11+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:14+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:18+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:21+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:25+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002643s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:28+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:32+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:35+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:39+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:44+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:48+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:16:53+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005921s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:00+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001408s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:07+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:13+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:17+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007506s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:22+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.212364s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:25+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001432s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:29+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002204s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:32+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:36+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002077s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:39+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:43+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:44+08:00 ] 127.0.0.1 /index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:47+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:51+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:53+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.200701s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:17:59+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014772s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:00+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001695s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:04+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001432s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:09+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003135s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:12+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.212592s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:16+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:20+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:25+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:28+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:32+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:36+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:39+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:43+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:48+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:51+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:54+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:18:58+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001434s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:02+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:06+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.212850s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:10+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:13+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:17+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:21+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:25+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:29+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004562s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:32+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.213377s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:36+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:40+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:45+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:48+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001751s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:51+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:55+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:19:59+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:02+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016775s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:06+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:09+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:13+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:17+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.214289s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:21+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001616s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:25+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002812s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:29+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__APP__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:30+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:38+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:40+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:20:43+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:21:27+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:21:30+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.231051s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:21:34+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.205801s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:21:37+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:21:41+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:21:45+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:21:48+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002537s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:21:53+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: 参数错误或者未定义:id
+
+[ 2015-01-24T00:22:00+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:22:20+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:22:23+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002327s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:22:26+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/Index/__URL__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.215912s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:22:30+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/Index/__URL__/Index/__URL__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:22:34+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/Index/__URL__/Index/__URL__/Index/__URL__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:22:37+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/Index/__URL__/Index/__URL__/Index/__URL__/Index/__URL__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:22:41+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/Index/__URL__/Index/__URL__/Index/__URL__/Index/__URL__/Index/__URL__/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:22:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:22:53+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:22:56+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:22:58+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.215859s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:23:00+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.214499s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:24:47+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001881s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:25:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.217074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.218326s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:25:34+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:25:37+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:25:39+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:26:06+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:26:10+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.208046s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:26:12+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:26:17+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.218718s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:26:18+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001522s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: 参数错误或者未定义:id
+
+[ 2015-01-24T00:26:46+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003167s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:26:48+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001371s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:26:50+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002918s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:26:54+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:26:58+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/Home/Index/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:01+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/Home/Index/Home/Index/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:05+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/Home/Index/Home/Index/Home/Index/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:09+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/Home/Index/Home/Index/Home/Index/Home/Index/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001535s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:19+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:23+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:25+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001549s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:27+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:53+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:57+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002605s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:27:58+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.223693s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:03+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:04+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:08+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:11+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/Home/Index/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:15+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/Home/Index/Home/Index/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:19+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/Home/Index/Home/Index/Home/Index/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001922s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:23+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/Home/Index/Home/Index/Home/Index/Home/Index/Home/Index/Home/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:33+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:37+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:38+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:28:42+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001820s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:29:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:29:48+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:29:51+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:29:53+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:29:58+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003484s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:29:59+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:30:03+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/__URL__/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:30:07+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/__URL__/__URL__/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:30:11+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/__URL__/__URL__/__URL__/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:30:14+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/__URL__/__URL__/__URL__/__URL__/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:30:18+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/__URL__/__URL__/__URL__/__URL__/__URL__/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.208538s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:30:21+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/__URL__/__URL__/__URL__/__URL__/__URL__/__URL__/__URL__/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:30:24+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: 参数错误或者未定义:id
+
+[ 2015-01-24T00:33:23+08:00 ] 127.0.0.1 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001883s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:35:43+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001901s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:35:48+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:35:49+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:35:51+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:35:55+08:00 ] 127.0.0.1 /index.php/Home/Index/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.235475s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:35:57+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002129s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:36:00+08:00 ] 127.0.0.1 /index.php/Home/Index/delete/id/35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:36:01+08:00 ] 127.0.0.1 /index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000493s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:54:15+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.254868s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:54:40+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.242337s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:54:43+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:55:36+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.246932s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:57:33+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001501s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T00:58:55+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:01:30+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002048s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:02:18+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:02:22+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:02:27+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:03:27+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:04:31+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.254603s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:05:46+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:07:06+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:08:04+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002113s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:08:22+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:08:30+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001559s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:08:31+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:37:25+08:00 ] 127.0.0.1 /index.php/Home/Index/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:37:31+08:00 ] 127.0.0.1 /index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001534s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:37:34+08:00 ] 127.0.0.1 /index.php/Home/Index/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:37:48+08:00 ] 127.0.0.1 /index.php/Home/Index/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.302126s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:37:49+08:00 ] 127.0.0.1 /index.php/Home/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001362s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:37:58+08:00 ] 127.0.0.1 /index.php/Home/Index/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:38:03+08:00 ] 127.0.0.1 /index.php/Home/Index/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.301687s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T01:38:04+08:00 ] 127.0.0.1 /index.php/Home/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T14:07:07+08:00 ] 192.168.1.105 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011010s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+
+[ 2015-01-24T23:35:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012720s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Home\Conf\config.php 第 4 行.
+

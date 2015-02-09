@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(basic.css);
+
+a.praise{ background:url(../images/praiseicon.jpg) no-repeat; width:22px; height:22px; display:inline-block; margin-right:10px;}
+a.calcenPraise{ background:url(../images/praiseiconhover.jpg) no-repeat; width:22px; height:22px; display:inline-block; margin-right:10px;}
+a.praise:hover{ background:url(../images/praiseiconhover.jpg) no-repeat;}
+a.praise2{ background:url(../images/praiseiconhover.jpg) no-repeat; width:22px; height:22px; display:inline-block; margin-right:10px;}
+a.praise2:hover{ background:url(../images/praiseicon.jpg) no-repeat;}
+a.share{ background:url(../images/shareicon.jpg) no-repeat; width:22px; height:22px; display:inline-block; margin-right:10px;}
+a.share:hover{background:url(../images/shareiconhover.jpg) no-repeat;}
+a.share2{ background:url(../images/shareiconhover.jpg) no-repeat; width:22px; height:22px; display:inline-block; margin-right:10px;}
+a.share2:hover{background:url(../images/shareicon.jpg) no-repeat;}
+a.collection{ background:url(../images/collectionicon.jpg) no-repeat; width:22px; height:22px; display:inline-block; margin-right:10px;}
+a.calcenCollection{ background:url(../images/collectioniconhover.jpg) no-repeat; width:22px; height:22px; display:inline-block; margin-right:10px;}
+a.collection:hover{background:url(../images/collectioniconhover.jpg) no-repeat;}
+a.collection2{ background:url(../images/collectioniconhover.jpg) no-repeat; width:22px; height:22px; display:inline-block; margin-right:10px;}
+a.collection2:hover{background:url(../images/collectionicon.jpg) no-repeat;}
+a.notice{ background:url(../images/noticeicon.jpg) no-repeat; width:22px; height:22px; display:inline-block; margin-right:10px;}
+a.noticed{background:url(../images/noticeiconhover.jpg) no-repeat;}
+a.notice:hover{background:url(../images/noticeiconhover.jpg) no-repeat;}
+a.discuz{ background:url(../images/discuzicon.jpg) no-repeat; width:18px; height:18px; display:inline-block; margin-right:10px;}
+a.discuz:hover{color:#f60;}
+a.delete{ background:url(../images/delete_icon.gif) no-repeat; width:22px; height:22px; display:inline-block; margin-right:10px;}
+a.delete:hover{ background:url(../images/delete_icon_hover.gif) no-repeat;}
+a.delete2{ background:url(../images/delete_icon_hover.gif) no-repeat; width:22px; height:22px; display:inline-block; margin-right:10px;}
+a.delete2:hover{ background:url(../images/delete_icon.gif) no-repeat;}
+
+
+.firstBox{ margin:10px auto; overflow:hidden;zoom:1; padding-top:5px;}
+.page_content{ margin:0px auto; overflow:hidden;zoom:1; padding-top:0px;}
+.boxshadow{box-shadow:0 0 5px #ccc;-moz-box-shadow:0 0 5px #ccc;-webkit-box-shadow:0 0 5px #ccc;}
+.pageleft{ float:left; width:188px;}
+.pageleft .myInfo{ padding:12px; border:1px solid #dcdcdc; margin-bottom:15px; background:#fff url(../images/basic/garyBg.jpg) repeat-x;}
+.myInfo .headImg{ overflow:hidden;zoom:1; margin-bottom:8px;}
+.myInfo .headImg .imgBox{ float:left; width:50px; height:50px;}
+.pageleft .myInfo .headImg .myMsg{ float:left; margin-left:8px;}
+.pageleft .myInfo .headImg .myMsg h1{ width:100px; height:18px; overflow:hidden;}
+.pageleft .myInfo .headImg .myMsg a.points{ color:#f60;}
+.lastTime{ margin:5px auto;}
+a.hint{ background:url(../images/basic/hintbg.png) no-repeat; width:17px; height:17px; line-height:17px; color:#fff; font-size:11px; text-align:center;}
+
+.page_right{ width:786px; float:right;}
+.bannerNews{}
+.banner{ width:786px; height:250px; margin-bottom:14px;}
+.leftbox{box-shadow:0 0 5px #ccc;-moz-box-shadow:0 0 5px #ccc;-webkit-box-shadow:0 0 5px #ccc; background:#fff url(../images/basic/garyBg.jpg) repeat-x; margin-bottom:15px;}
+.subnav{border:1px solid #dcdcdc; padding-bottom:10px;}
+.leftbox .title{ background:url(../images/basic/lineBg.jpg) bottom repeat-x; line-height:36px; overflow:hidden;}
+.leftbox .title h1{ border-bottom:2px solid #057; font-size:14px; padding:0px 15px; float:left;}
+.leftbox .title a.more{ float:right; margin-right:10px;}
+
+.f_right .leftbox{ margin-top:0px; margin-bottom:15px;}
+.rankings{ background:url(../images/rankings.gif) no-repeat 0px 2px; padding-left:15px; margin:8px 10px;}
+.rankings li{ 
+	line-height:26px;
+	overflow: hidden;
+	display: block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+}
+
+.subnav .sub_tree{ margin:10px auto;}
+.subnav .sub_tree li{line-height:26px; padding:0px 15px;}
+.subnav .sub_tree li a{ 
+	display:block; 
+	background:url(../images/nolines_minus.gif) no-repeat 0px 5px; 
+	padding-left:16px; 
+	font-size:13px;
+}
+.subnav .sub_tree li a.hover {background:#bbe1ee url(../images/nolines_plus.gif) no-repeat; font-weight:bold;}
+.subnav .sub_tree li a.open{ background:url(../images/nolines_minus.gif) no-repeat 0px 5px;}
+.subnav .sub_tree ul{ margin-bottom:3px;}
+.subnav .no_tree li{ line-height:30px;margin:2px 0px;}
+.subnav .no_tree li a.hover{ background:#b9dfed; font-weight:bold;}
+.subnav .no_tree li a{ padding:0px 20px;  display:block;}
+.subnav .no_tree li a:hover{ background:#b9dfed;}
+
+.situation .main, .classmates .main{ padding:10px 15px;}
+.situation dl, .classmates dl{ overflow:hidden;zoom:1; line-height:30px;}
+.classmates dl{ margin-bottom:10px; padding-bottom:5px; border-bottom:1px dashed #dcdcdc;}
+.classmates .last{ margin-bottom:0px; padding-bottom:0px; border-bottom:none;}
+.situation dl dt{ float:left; width:68px; font-weight:bold;}
+.situation dl dd{ float:left;}
+.classmates dl dt{ float:left; width:50px; font-weight:bold;}
+.classmates dl dd{ float:left; margin-left:10px;}
+.classmates dl dd .name a{ font-weight:bold; line-height:20px;}
+.classmates dl dd .post{ line-height:20px;}
+.notice{ background:#fff url(../images/basic/garyBg.jpg) repeat-x;}
+.notice .main{ background:url(../images/notice.jpg) no-repeat; line-height:24px; padding:10px 10px 10px 60px; margin-bottom:15px;}
+.exambtn{ text-align:center; padding-bottom:10px;}
+.exambtn a{ padding-top:24px; text-align:center; background-position:center top; height:auto; width:50px;}
+.exambtn a:hover{ background-position:center top;}
+.review{ padding:10px;}
+
+.step_box{ line-height:21px; overflow:hidden;zoom:1; margin-bottom:5px;}
+.step_box .step{ float:left;}
+.step_box .sub_search{ float:right;padding-top:4px;margin-bottom:-4px}
+.step_box .sub_search li{ float:left; overflow:hidden;zoom:1; margin-left:2px;}
+.step_box .sub_search li.inputxt{ float:left;}
+.step_box .sub_search li.inputxt input{ border:1px solid #dcdcdc; line-height:20px;}
+.page_main{border:1px solid #dcdcdc; background:#fff url(../images/basic/garyBg.jpg) repeat-x; margin-bottom:15px;}
+.page_main .title{ border-bottom:1px solid #057; line-height:36px; overflow:hidden;zoom:1;}
+.page_main .title li{ float:left; font-size:14px; padding:0px 15px; cursor:pointer;}
+.page_main .title li.hover{ font-weight:bold; background:#bbe1ee;}
+.page_main td{ padding:5px; line-height:20px;}
+.page_main .listil{ background:#daf5fe; line-height:20px; padding:5px 5px; font-weight:bold;}
+.page_main .main_list li{ padding:5px; background:url(../images/listbg.jpg) center bottom no-repeat; padding-bottom:20px;}
+.page_main .main_list2 li{background:url(images_fgrid/listbgo.jpg) bottom repeat-x;}
+.page_main .main_list li p{ color:#999;}
+.page_main .main_list img.border{ border:1px solid #dcdcdc;}
+a.ablue{ color:#057;}
+a.ablue:hover{ color:#f60; text-decoration:underline;}
+.page_main .stor-red{ background:url(../images/bg_icon_stor.png) no-repeat; width:18px; height:18px; color:#fff;}
+.page_main .stor-gray{ background:url(../images/bg_icon_stor.png) no-repeat 0 -18px; width:18px; height:18px; color:#fff;}
+
+.re_text{}
+.re_text div{ margin-bottom:10px;}
+.re_text textarea{ height:40px; width:98%;}
+.comments_list{ border-top:1px solid #dcdcdc; margin-top:8px; padding-top:8px;}
+.comments_item{ border-bottom:1px dashed #dcdcdc; padding-bottom:8px; margin-bottom:8px;}
+.comments_item_bd{ overflow:hidden;zoom:1;}
+.ui_avatar{ float:left; width:30px;}
+.comments_content{ float:left; margin-left:10px; line-height:16px; width:90%;}
+.comments_content a{ color:#007ab8;}
+.comments_content span{ color:#ccc;}
+.comments_list_ui{ margin-left:40px; overflow:hidden;zoom:1; margin-top:10px;}
+.comment_btn{ width:430px;}
+.comment_btn .btn{ margin-top:10px; text-align:left;}
+
+.changebox .title{ overflow:hidden;zoom:1; border-bottom:2px solid #0080c1;}
+.changebox .title li{ float:left; padding:0px 15px; line-height:30px; background:#fff; border:1px solid #dcdcdc; border-bottom:none; margin-right:5px; cursor:pointer;}
+.changebox .title .hover{background:#0080c1; border:1px solid #0080c1; border-bottom:none; color:#fff;}
+.changebox .main{ background:#fff; overflow:hidden;zoom:1; padding-bottom:20px;}
+.changebox .main .headpic{ float:left; width:87px; text-align:center; margin-left:50px; padding-top:20px;}
+.changebox .main .headpic img{ border:1px solid #fff; margin-bottom:10px;}
+.changebox .main .infolist{ float:right; width:770px; padding-top:20px;}
+.changebox .main .infolist .w200{ width:210px;}
+.changebox .main .infolist dl{ overflow:hidden;zoom:1; line-height:22px; margin-bottom:20px;}
+.changebox .main .infolist dl dt{ width:88px; float:left; text-align:right;}
+.changebox .main .infolist dl dd{ float:left; margin-left:5px;}
+.changebox .main .infolist dl dd textarea{ width:500px;}
+.changebox .main .infolist dl dd select{ width:140px;}
+.changepass{ background:#fff; width:600px; margin:20px auto;}
+.changepass h1{ line-height:30px; margin-bottom:10px; padding:0px 10px;}
+.changepass dl{ overflow:hidden;zoom:1; line-height:22px; margin-bottom:20px;}
+.changepass dl dt{ width:88px; float:left; text-align:right;}
+.changepass dl dd{ float:left; margin-left:5px;}
+
+.plancount{ padding:15px; line-height:22px;}
+.plancount p{ margin-bottom:10px; border-bottom:1px dashed #dcdcdc; padding-bottom:10px; padding-left:30px;}
+.plancount .alarm1{ background:url(../images/alarm1.png) no-repeat;}
+.plancount .alarm2{ background:url(../images/alarm2.png) no-repeat;}
+.plancount .alarm3{ background:url(../images/alarm3.png) no-repeat;}
+
+.layou2{ width:960px; padding:15px; margin:0px auto; background:#fff;box-shadow:0 0 5px #ccc;-moz-box-shadow:0 0 5px #ccc;-webkit-box-shadow:0 0 5px #ccc;}
+.news-list{ border-bottom:1px solid #dcdcdc; overflow:hidden;zoom:1; margin-bottom:15px; padding-bottom:15px;}
+.news-img{ float:left; width:101px; border:1px solid #dcdcdc;}
+.news-con{ float:right; width:840px;}
+.news-con p{ line-height:22px;}
+.news-con-tit{ overflow:hidden;zoom:1; line-height:18px; margin-bottom:5px;}
+.news-con-tit h1{ float:left; width:600px;}
+.news-con-tit .share-btn{ float:right; text-align:right; width:200px;}
+.news-con-tit .share-btn a{ padding-left:25px;}
+
+.newcon .title{ overflow:hidden;zoom:1; border-bottom:1px solid #dcdcdc; padding-bottom:10px; margin-bottom:15px;}
+.newcon .title h1{ float:left; width:450px; font-size:18px;}
+.newcon .title p{ width:300px; float:right; text-align:right;}
+.newcon .con{ line-height:22px;} 
+.newcon .con p{ margin-bottom:15px;}
+.newcon .share-btn a{ padding-left:30px;}
+.new-review{width:990px; margin:15px auto; background:#fff url(../images/basic/garyBg.jpg) repeat-x;box-shadow:0 0 5px #ccc;-moz-box-shadow:0 0 5px #ccc;-webkit-box-shadow:0 0 5px #ccc;}
+.txreport textarea{ width:350px; height:40px;}
+.txreport .faceBth{ background:url(../images/index/faceBtn.png) no-repeat 0px 3px; padding-left:20px; color:#666; position:relative; float:left;}
+.txreport .tx-btn{ height:22px; margin-top:5px; line-height:18px;}
+.txreport .tx-btn .fb-btn{ float:left; margin-left:260px;}
+.txreport .tx-btn .fb-btn a{ height:18px; line-height:18px;}
+.list-review{ margin-left:40px;}
+
+.spdbr{ margin:20px 30px; width:230px; float:left; display:inline;}
+.spdbr h1{ line-height:32px; margin-bottom:10px;}
+.spdbr dl{ overflow:hidden;zoom:1; margin-bottom:10px;}
+.spdbr dl dd{ float:left; text-align:right; margin-right:8px; line-height:24px;}
+.spdbr dl dt{ float:left;}
+
+.chose_c2{ overflow:hidden;zoom:1;}
+.chose_c2 .f_right{ float:right; width:190px;}
+.chose_c2box{ padding:15px;}
+.chose_c2box dl{ overflow:hidden;zoom:1; line-height:26px; border-bottom:1px solid #e5e5e5; padding-bottom:10px; margin-bottom:10px;}
+.chose_c2box dl dt{ float:left; width:80px; font-size:15px;}
+.chose_c2box dl dd{ float:left; width:450px; margin-left:10px;}
+.chose_c2box dl dd a{ margin-left:5px; color:#1093b9;}
+.chose_c2box dl dd a:hover{ color:#f60;}
+
+.classfx td{ border:0px;}
+
+.pro_tag{ overflow:hidden; margin:10px;}
+.pro_tag li{ float:left; margin:5px; border:1px solid #dcdcdc; background:#f2f2f2; padding:2px 5px; -moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}
+.pro_tag li:hover{ border-color:#e2e2e2; background:#f5f5f5;}
+.pro_tag li a.del{ margin-left:10px; color:#a00; font-family: "微软雅黑";}
+.detal{ padding:10px; border-top:1px solid #dcdcdc; background:#f2f2f2;}
+.detal a{ float:right; color:#004de8;}
+
+.pro-rank{ position:relative;}
+.pro-rank span{ display:block; position: absolute; top:5px; left:6px; width:14px; height:14px; background:url(../images/bg_icon_stor.png) no-repeat -2px -20px; text-align:center; line-height:14px; color:#fff;}
+.pro-rank span.first{ background:url(../images/index/pone.png) no-repeat; height:24px;}
+.pro-rank span.second{ background:url(../images/index/ptwo.png) no-repeat;}
+.pro-rank span.third{ background:url(../images/index/pthree.png) no-repeat;}
+
+.exam_action{ margin:20px; text-align:center; color:#f60;}
+.exaction{ padding:20px;}
+.exaction h1{ background:url(../images/index/myrwLink.png) no-repeat; padding-left:50px; line-height:37px; margin-bottom:10px; font-size:16px; padding-bottom:10px; border-bottom:1px dashed #dcdcdc;}
+.exaction h2{ margin:10px auto;}
+.exaction td{ border:1px solid #dcdcdc;padding:10px;}
+.exaction td.trc{ background:#f2f2f2; text-align:right;height: 15px;}
+.exaction .action{ text-align:center; margin:20px auto 0 auto;}

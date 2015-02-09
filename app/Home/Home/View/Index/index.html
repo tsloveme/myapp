@@ -1,0 +1,27 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>文章列表</title>
+</head>
+
+<body>
+<h1><center>文章列表</center></h1>
+<div style="width:800px; margin:0 auto;">
+<div align="right"><a href="__URL__/add.html">添加文章</a></div>
+<!--文章列表循环输出-->
+<volist name="list" id="vo">
+	<div style="border:1px #ccc solid; margin:8px 0;">
+    	<h2><a href="__URL__/read/id/{$vo.id}" target="_blank">{$vo.title}</a></h2>
+        <p>{$vo.description}</p>
+        <p align="right"><small>
+        	<a href="__URL__/read/id/{$vo.id}">查看</a> 
+        	<a href="__URL__/edit/id/{$vo.id}">编辑</a> 
+        	<a href="__URL__/delete/id/{$vo.id}">删除</a> 
+        </small></p>
+    </div>
+</volist>
+
+</div>
+</body>
+</html>

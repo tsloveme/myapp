@@ -1,0 +1,1866 @@
+[ 2015-02-05T00:47:12+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001813s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:47:40+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005982s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:47:44+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.014858s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:48:08+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001668s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:48:13+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001536s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:48:33+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.007982s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:48:34+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.004210s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:48:36+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002153s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:48:38+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002214s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:49:29+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:49:31+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007621s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:49:32+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:49:36+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:49:40+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.004099s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:49:40+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:49:41+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.000269s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:53:12+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:53:17+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:55:11+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:55:24+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001307s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:55:41+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:56:39+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:56:43+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T00:57:08+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:05:46+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005963s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:06:03+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005814s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:08:33+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005662s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:08:36+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002780s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:10:03+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005091s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:10:06+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005036s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:10:47+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:15:01+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001535s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:15:04+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.003183s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:15:43+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.004339s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:16:22+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:16:26+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002556s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:17:19+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:17:21+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004238s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:17:26+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002304s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:17:33+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001497s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:18:21+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:20:39+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:21:20+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:21:26+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:22:40+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:24:03+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004270s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:24:55+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:25:49+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:26:21+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:26:46+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:31:03+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:31:23+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002296s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:31:44+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002611s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:06+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:10+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001901s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:12+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:14+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006498s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:14+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:15+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001811s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:15+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:15+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:16+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002414s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:16+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:16+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001898s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:17+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:17+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:35:18+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:36:14+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:37:10+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001830s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:37:56+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:38:55+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003045s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:39:38+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002076s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:43:18+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002342s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:45:43+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:46:19+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:51:19+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:52:08+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001784s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:53:47+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.007580s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:53:51+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004385s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:54:11+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002140s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:54:58+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:55:31+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:55:50+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:58:52+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T01:58:55+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004539s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005008s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:-0.0037s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T01:59:31+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005017s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:-0.0029s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0106s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:00:17+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001408s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:00:19+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003498s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:-0.0017s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:00:25+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002243s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004748s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0048s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:-0.0038s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:00:26+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004795s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004255s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:-0.0063s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0044s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:00:27+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004579s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005173s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0599s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:-0.0046s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:00:28+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004210s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006328s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0053s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:-0.0042s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:-0.0053s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:01:33+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014138s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:01:35+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003490s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:-0.0037s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:-0.0011s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:03:15+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:03:17+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003132s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.002876s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:03:23+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007292s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:-0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:-0.0062s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:-0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:-0.0033s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:03:25+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008080s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:-0.0079s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0118s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:03:26+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006650s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:03:30+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005609s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:-0.0055s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:-0.0062s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:-0.0046s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:03:31+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:03:32+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:-0.0030s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:-0.0087s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:03:33+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002294s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:-0.0086s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:-0.0046s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0111s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:03:55+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:03:58+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008561s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033584s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0039s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0048s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:-0.0041s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:-0.0053s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:-0.0052s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:-0.0078s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 82 行.
+
+[ 2015-02-05T02:07:10+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:07:27+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022189s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:07:33+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004743s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:10:46+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:10:49+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006179s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' XOR `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 69 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2015-02-05T02:11:05+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2015-02-05T02:11:53+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003233s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2015-02-05T02:13:05+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2015-02-05T02:13:48+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002278s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' XOR `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 69 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2015-02-05T02:13:50+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:13:52+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001440s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' XOR `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [8] Array to string conversion E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 69 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2015-02-05T02:14:04+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001648s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2015-02-05T02:18:39+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:19:13+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:19:21+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006543s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003029s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0052s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' XOR `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Array to string conversion E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 71 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2015-02-05T02:19:26+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003843s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2015-02-05T02:20:31+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010091s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:20:45+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001450s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:21:19+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008751s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:21:36+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:21:36+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:21:36+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002317s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:21:37+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:21:37+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002008s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:21:37+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002533s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:21:37+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003639s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:21:37+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002148s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:22:09+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:22:12+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.005565s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007207s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: temp E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: temp2 E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:22:39+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001639s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:-0.010432s ]
+INFO: [ app_begin ] --END-- [ RunTime:-0.010380s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0216s ]
+NOTIC: [8] Undefined variable: temp E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: temp2 E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:22:39+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:22:39+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:23:01+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:27:08+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:27:21+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002254s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:27:23+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0144s ]
+NOTIC: [8] Undefined variable: temp E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: temp2 E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:27:27+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: temp E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: temp2 E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:27:30+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:27:34+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:27:48+08:00 ] 127.0.0.1 /index.php/wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:28:52+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012096s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' XOR `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('北京市','110000') [ RunTime:0.0389s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' XOR `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('山西省','140000') [ RunTime:0.0423s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:-0.0064s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' XOR `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('上海市','310000') [ RunTime:0.0434s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' XOR `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('江苏省','320000') [ RunTime:0.0477s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' XOR `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('福建省','350000') [ RunTime:0.0673s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' XOR `provinceNo` = '360000' LIMIT 1   [ RunTime:-0.0045s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('江西省','360000') [ RunTime:0.0578s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' XOR `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('山东省','370000') [ RunTime:0.0263s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' XOR `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('河南省','410000') [ RunTime:0.0186s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:-0.0145s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' XOR `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('湖北省','420000') [ RunTime:0.0206s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0066s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' XOR `provinceNo` = '430000' LIMIT 1   [ RunTime:-0.0030s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('湖南省','430000') [ RunTime:0.0384s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' XOR `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('广东省','440000') [ RunTime:0.0137s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' XOR `provinceNo` = '450000' LIMIT 1   [ RunTime:-0.0037s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('广西壮族自治区','450000') [ RunTime:0.0267s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' XOR `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('四川省','510000') [ RunTime:0.0188s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' XOR `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('陕西省','610000') [ RunTime:0.0315s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' XOR `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('天津市','120000') [ RunTime:0.0238s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' XOR `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('辽宁省','210000') [ RunTime:0.0269s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' XOR `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('浙江省','330000') [ RunTime:0.0347s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' XOR `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('云南省','530000') [ RunTime:0.0308s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' XOR `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('贵州省','520000') [ RunTime:0.0392s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:29:19+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001829s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003470s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' XOR `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('北京市','110000') [ RunTime:0.0492s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' XOR `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('上海市','310000') [ RunTime:0.0177s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' XOR `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0045s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('福建省','350000') [ RunTime:0.0391s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' XOR `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('山东省','370000') [ RunTime:0.0291s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' XOR `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('湖北省','420000') [ RunTime:0.0250s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' XOR `provinceNo` = '430000' LIMIT 1   [ RunTime:-0.0134s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('湖南省','430000') [ RunTime:0.0192s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' XOR `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('广东省','440000') [ RunTime:0.0424s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0063s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' XOR `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0066s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('广西壮族自治区','450000') [ RunTime:0.0187s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0071s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' XOR `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('四川省','510000') [ RunTime:0.0278s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' XOR `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('陕西省','610000') [ RunTime:0.0143s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' XOR `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('天津市','120000') [ RunTime:0.0259s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' XOR `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('辽宁省','210000') [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' XOR `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('浙江省','330000') [ RunTime:0.0504s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' XOR `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('云南省','530000') [ RunTime:0.0425s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' XOR `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('贵州省','520000') [ RunTime:0.0135s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:29:45+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006957s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004045s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:-0.0022s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' XOR `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `provinceId` FROM `wyn_province` WHERE `provinceName` = '山西省' XOR `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `wyn_province` SET `provinceName`='山西省',`provinceNo`='140000' WHERE ( provinceId =654 ) [ RunTime:0.0655s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' XOR `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `provinceId` FROM `wyn_province` WHERE `provinceName` = '江苏省' XOR `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `wyn_province` SET `provinceName`='江苏省',`provinceNo`='320000' WHERE ( provinceId =656 ) [ RunTime:0.0257s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:-0.0108s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' XOR `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('江西省','360000') [ RunTime:0.0466s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' XOR `provinceNo` = '410000' LIMIT 1   [ RunTime:-0.0058s ]
+SQL: INSERT INTO `wyn_province` (`provinceName`,`provinceNo`) VALUES ('河南省','410000') [ RunTime:0.0504s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:-0.0058s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0065s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:30:01+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:-0.0130s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:-0.0098s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:-0.0064s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:30:02+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.000150s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007658s ]
+INFO: [ app_begin ] --END-- [ RunTime:-0.004201s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:-0.0024s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:-0.0080s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:-0.0073s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:-0.0064s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0092s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:-0.0075s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:-0.0057s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:30:03+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010137s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:-0.0137s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:-0.0091s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0057s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:-0.0071s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0058s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:30:05+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007528s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:-0.0032s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:30:07+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001689s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:-0.003759s ]
+INFO: [ app_begin ] --END-- [ RunTime:-0.003708s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:-0.0072s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:-0.0073s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0084s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:-0.0098s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:32:22+08:00 ] 127.0.0.1 /index.php/wyn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008942s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:32:24+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001362s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002209s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:-0.0082s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:32:51+08:00 ] 127.0.0.1 /index.php/wyn/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002227s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
+[ 2015-02-05T02:33:56+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004928s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0063s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:-0.0081s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:33:58+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003380s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0065s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:-0.0066s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:-0.0088s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:-0.0080s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:34:00+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001686s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0063s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:-0.0083s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:-0.0072s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0063s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:-0.0106s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0061s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:34:02+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006954s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007758s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:-0.0079s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0092s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:-0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-02-05T02:34:03+08:00 ] 127.0.0.1 /index.php/Wyn/Index/proviceInsert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.005897s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003233s ]
+SQL: SHOW COLUMNS FROM `wyn_province` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '北京市' AND `provinceNo` = '110000' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山西省' AND `provinceNo` = '140000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '上海市' AND `provinceNo` = '310000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江苏省' AND `provinceNo` = '320000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '福建省' AND `provinceNo` = '350000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '江西省' AND `provinceNo` = '360000' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '山东省' AND `provinceNo` = '370000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '河南省' AND `provinceNo` = '410000' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖北省' AND `provinceNo` = '420000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '湖南省' AND `provinceNo` = '430000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广东省' AND `provinceNo` = '440000' LIMIT 1   [ RunTime:-0.0089s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '广西壮族自治区' AND `provinceNo` = '450000' LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '四川省' AND `provinceNo` = '510000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '陕西省' AND `provinceNo` = '610000' LIMIT 1   [ RunTime:0.0063s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '天津市' AND `provinceNo` = '120000' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '辽宁省' AND `provinceNo` = '210000' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '浙江省' AND `provinceNo` = '330000' LIMIT 1   [ RunTime:-0.0088s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '云南省' AND `provinceNo` = '530000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wyn_province` WHERE `provinceName` = '贵州省' AND `provinceNo` = '520000' LIMIT 1   [ RunTime:0.0064s ]
+NOTIC: [8] Undefined variable: ErrorArr E:\phpweb\myapp\app\Wyn\Controller\IndexController.class.php 第 89 行.
+
