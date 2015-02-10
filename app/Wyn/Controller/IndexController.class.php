@@ -91,9 +91,10 @@ class IndexController extends Controller{
 		//dump($arr);
 		//$this->display();
 	}
-	public function updateCity(){
+	public function updateCity(){//城市更新插入
 		header("Content-type: text/html; charset=utf-8"); //声明页面UTF-8;防止乱码
 		$c = M('city');
+		$p = M('province');
 		$str= file_get_contents('http://www.wyn88.com/area/fetchCitiesBy1stLetterJson.html?firstLetters=abcdefghijklmnopqrstuvwxyz');
 		$ptn = "/{\"provinceName\"[^}]+}/";
 		preg_match_all($ptn, $str, $matches);
@@ -107,13 +108,31 @@ class IndexController extends Controller{
 			$mProvinceName = $mProvinceName[1];
 			$mcityName = $mcityName[1];
 			$mcityNo = $mcityNo[1];
+			$mprovinceId = $p->where('provinceName = "'.$mProvinceName.'"')->getField('provinceId');
 			array_push($arr,array(
-			'provinceName'=>$mProvinceName,
+			//'provinceName'=>$mProvinceName,
 			'cityName'=>$mcityName,
-			'cityNo'=>$mcityNo));
-
-			
+			'cityNo'=>$mcityNo,
+			'provinceid'=>$mprovinceId
+			)
+			);			
 		}
+		//dump($arr);
+		foreach($arr as $k=>$v){
+			$condiction['cityName'] = $v['cityName'];
+			$condiction['cityNo'] = $v['cityNo'];
+			//dump($condiction);
+			$result = $c->where($condiction)->find();
+			if($result){continue;}
+			else{
+				$c->add($v);
+			}
+		}
+	}
+	//http://www.wyn88.com/resv/city_4403.html?cityName=%E6%B7%B1%E5%9C%B3%E5%B8%82&pageNo=2
+	public function getHotel(){//酒店信息获取
+		
+		
 	}
 
 }
