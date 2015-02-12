@@ -1,0 +1,6 @@
+[ 2015-02-12T21:02:57+08:00 ] 127.0.0.1 /index.php/public/tem/54d64d9a651e4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+ERR: 无法加载模块:Public
+

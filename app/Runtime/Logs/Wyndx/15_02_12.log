@@ -1,0 +1,912 @@
+[ 2015-02-12T20:49:51+08:00 ] 127.0.0.1 /index.php/wyndx/Index/testshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006912s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T20:49:51+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_files/tooltipConnectorDown.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T20:52:31+08:00 ] 127.0.0.1 /index.php/wyndx/Index/testshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001489s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T20:52:31+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_files/tooltipConnectorDown.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005027s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:01:48+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026781s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:13+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:19+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:19+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:19+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:20+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:20+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:20+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:20+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001867s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:02:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001614s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:03:17+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:03:20+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:03:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:03:23+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:03:24+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:05:14+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:05:17+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:05:18+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004779s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:05:18+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:05:18+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:05:19+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:05:44+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:07:11+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002101s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:07:14+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:07:14+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:07:14+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:07:14+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:07:14+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:07:15+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:07:23+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:07:25+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:07:26+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:07:27+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:18+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002236s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:23+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:23+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002295s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:23+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:24+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:25+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:35+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:36+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:36+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:36+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:37+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:37+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:37+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:15:37+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:16:54+08:00 ] 127.0.0.1 /index.php/wyndx/Index/testshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:16:54+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_files/tooltipConnectorDown.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:16:57+08:00 ] 127.0.0.1 /index.php/wyndx/Index/testshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002323s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:16:57+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_files/tooltipConnectorDown.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:16:58+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyndx\Conf\config.php 第 4 行.
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/easyui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004620s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/page.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005226s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006185s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/exam.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008309s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/icon.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007683s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_002.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009272s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001425s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004049s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_003.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005949s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_004.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/tooltipConnectorDown.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_003.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:18:48+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_004.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/easyui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004311s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/icon.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004285s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/exam.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004648s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005200s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_002.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006909s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/page.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010174s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_003.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_004.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005469s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/tooltipConnectorDown.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_003.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:23+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_004.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:23+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/tooltipConnectorDown.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001171s ]
+
+[ 2015-02-12T21:19:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+
+[ 2015-02-12T21:19:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/easyui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004277s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/exam.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010332s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/page.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006295s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_002.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009980s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/icon.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007040s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012324s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006982s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_003.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.001779s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_004.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005709s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:47+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/tooltipConnectorDown.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004074s ]
+
+[ 2015-02-12T21:19:49+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+
+[ 2015-02-12T21:19:49+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/easyui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006862s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:49+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/exam.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007078s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:49+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_002.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004869s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:49+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/page.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007420s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:49+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/icon.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006723s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:49+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006883s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:49+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004380s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:49+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_003.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003826s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:49+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/jquery_004.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003818s ]
+ERR: 非法操作:SunLearning1_1_files
+
+[ 2015-02-12T21:19:49+08:00 ] 127.0.0.1 /index.php/wyndx/Index/SunLearning1_1_files/tooltipConnectorDown.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+
+[ 2015-02-12T22:58:33+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.067322s ]
+
+[ 2015-02-12T22:58:34+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.070662s ]
+
+[ 2015-02-12T22:58:36+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-12T23:00:24+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.039448s ]
+
+[ 2015-02-12T23:00:25+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+
+[ 2015-02-12T23:00:25+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001885s ]
+
+[ 2015-02-12T23:00:26+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-12T23:00:36+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001556s ]
+
+[ 2015-02-12T23:00:37+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+
+[ 2015-02-12T23:01:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+
+[ 2015-02-12T23:01:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.045910s ]
+
+[ 2015-02-12T23:01:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+
+[ 2015-02-12T23:01:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+
+[ 2015-02-12T23:01:22+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+
+[ 2015-02-12T23:02:24+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+
+[ 2015-02-12T23:03:03+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-12T23:03:05+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-12T23:03:05+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004013s ]
+
+[ 2015-02-12T23:03:06+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+
+[ 2015-02-12T23:03:13+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-12T23:03:14+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+
+[ 2015-02-12T23:03:15+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+
+[ 2015-02-12T23:03:50+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001816s ]
+
+[ 2015-02-12T23:03:58+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+
+[ 2015-02-12T23:03:58+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+
+[ 2015-02-12T23:03:59+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001665s ]
+
+[ 2015-02-12T23:04:00+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.012871s ]
+
+[ 2015-02-12T23:04:00+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+
+[ 2015-02-12T23:04:01+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+
+[ 2015-02-12T23:04:42+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+
+[ 2015-02-12T23:05:25+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+
+[ 2015-02-12T23:06:34+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.053880s ]
+
+[ 2015-02-12T23:06:35+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.054603s ]
+
+[ 2015-02-12T23:06:36+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+
+[ 2015-02-12T23:06:59+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.053672s ]
+
+[ 2015-02-12T23:11:18+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.003202s ]
+
+[ 2015-02-12T23:11:35+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.046638s ]
+
+[ 2015-02-12T23:15:39+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+
+[ 2015-02-12T23:15:50+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+
+[ 2015-02-12T23:26:43+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+
+[ 2015-02-12T23:44:37+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+
+[ 2015-02-12T23:45:14+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-12T23:49:07+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+
+[ 2015-02-12T23:50:29+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+
+[ 2015-02-12T23:50:57+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.057896s ]
+

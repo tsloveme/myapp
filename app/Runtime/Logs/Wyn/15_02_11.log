@@ -1,0 +1,6 @@
+[ 2015-02-11T00:00:54+08:00 ] 127.0.0.1 /index.php/wyn/Index/updateCity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\Wyn\Conf\config.php 第 4 行.
+
