@@ -1,0 +1,220 @@
+[ 2015-02-13T00:15:02+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+
+[ 2015-02-13T00:15:03+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001746s ]
+
+[ 2015-02-13T00:15:18+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+
+[ 2015-02-13T00:15:19+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:-0.086189s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.084991s ]
+
+[ 2015-02-13T00:15:20+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-13T00:15:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+
+[ 2015-02-13T00:15:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+
+[ 2015-02-13T00:15:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001967s ]
+
+[ 2015-02-13T00:15:21+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+
+[ 2015-02-13T00:16:51+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001824s ]
+
+[ 2015-02-13T00:16:52+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007934s ]
+
+[ 2015-02-13T00:16:53+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+
+[ 2015-02-13T00:16:53+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+
+[ 2015-02-13T00:16:53+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+
+[ 2015-02-13T00:16:53+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010155s ]
+
+[ 2015-02-13T00:16:54+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003890s ]
+
+[ 2015-02-13T00:16:54+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.080784s ]
+
+[ 2015-02-13T00:16:54+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:-0.008224s ]
+
+[ 2015-02-13T00:16:54+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003149s ]
+
+[ 2015-02-13T00:17:25+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001863s ]
+
+[ 2015-02-13T00:17:27+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+
+[ 2015-02-13T00:17:27+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+
+[ 2015-02-13T00:17:27+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005038s ]
+
+[ 2015-02-13T00:17:28+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012173s ]
+
+[ 2015-02-13T00:17:28+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023076s ]
+
+[ 2015-02-13T00:17:28+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005666s ]
+
+[ 2015-02-13T00:17:29+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.079697s ]
+
+[ 2015-02-13T00:17:29+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003691s ]
+
+[ 2015-02-13T00:17:29+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019706s ]
+
+[ 2015-02-13T00:17:29+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003083s ]
+
+[ 2015-02-13T00:17:29+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041186s ]
+
+[ 2015-02-13T00:17:29+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026446s ]
+
+[ 2015-02-13T00:17:29+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.096244s ]
+
+[ 2015-02-13T00:17:29+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020377s ]
+
+[ 2015-02-13T00:17:29+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021016s ]
+
+[ 2015-02-13T00:17:29+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.096251s ]
+
+[ 2015-02-13T00:17:30+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.100656s ]
+
+[ 2015-02-13T00:17:30+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.102597s ]
+
+[ 2015-02-13T00:17:30+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033489s ]
+
+[ 2015-02-13T00:17:30+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038546s ]
+
+[ 2015-02-13T00:17:30+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.116507s ]
+
+[ 2015-02-13T00:17:30+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037995s ]
+
+[ 2015-02-13T00:17:30+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035881s ]
+
+[ 2015-02-13T00:17:42+08:00 ] 127.0.0.1 /index.php/wyndx/Index/storeanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+

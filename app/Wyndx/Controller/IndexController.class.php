@@ -12,11 +12,26 @@ class IndexController extends Controller{
 		$this->display();
 	}
 	public function storeanswer(){
-		$fileDir=$_POST["file"];
-		echo($fileDir);
-		$str = file_get_contents("../../View/Index_index.html");
-		echo($str);
-		echo "aaa";
+		header("Content-type: text/html; charset=utf-8");
+		//$fileDir=$_POST["file"];
+		//echo($fileDir);
+		$str = file_get_contents(C('Public').'/tem/20150208/exam1.html');
+		//单选题匹配
+		$ptnSigQue='/<div id="questionNumber\d*" class="question-content" queid="\d*">[\s\S]*?sin_que_option[\s\S]*?((<\/table>)|(([ABCD])[\s\n]*))<\/div>[\s\n]*<\/div>/';
+		preg_match_all($ptnSigQue,$str,$mASigQue);
+		//dump($m[4]);
+		
+		//判断题
+		$ptnJudge = '/标准答案：[\s\n]*?<span class="judge-((false)|(true))">[&nbsp;]*?\s*<\/span>/';
+		preg_match_all($ptnJudge,$str,$mAJudge);
+		//dump($mAJudge);
+		
+		//填空题
+		$ptnFillQue='/<br>标准答案：[\s\S]*?<\/div>[\s\n]*<div style="clear: both;"><\/div>/';
+		preg_match_all($ptnFillQue,$str,$mTem);
+		dump($mTem);
+		
+		
 		//$this->show($fileDir);
 		//$this->display(index);
 		
