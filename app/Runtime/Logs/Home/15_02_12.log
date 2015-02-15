@@ -1,0 +1,49 @@
+[ 2015-02-12T11:55:14+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\Git\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'myapp'
+
+[ 2015-02-12T11:57:00+08:00 ] ::1 /index.php/?v/wyn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\Git\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'myapp'
+
+[ 2015-02-12T12:03:44+08:00 ] ::1 /index.php/?v/wyn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\Git\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'myapp'
+
+[ 2015-02-12T12:58:53+08:00 ] ::1 /index.php/?v/wyn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\Git\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'myapp'
+
+[ 2015-02-12T12:58:56+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\Git\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'myapp'
+
+[ 2015-02-12T12:58:57+08:00 ] ::1 /index.php/?v/wyn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\Git\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'myapp'
+
+[ 2015-02-12T12:59:55+08:00 ] ::1 /index.php/?v/wyn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\Git\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'myapp'
+

@@ -1,75 +1,9 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>酒店列表更新程序</title>
-<script  language="javascript" type="text/javascript" src="__PUBLIC__/js/jquery-1.8.3.min.js"></script>
-<script language="javascript" type="text/javascript">
-$(function(){
-$("#updateProvince").click(function(){
-	/*$.ajax({//json格式数据不支持跨域，服务器端不能改，暂不能实现。
-		url : "http://www.wyn88.com/area/fetchCitiesBy1stLetterJson.html",
-		data : {firstLetters:"abcdefghijklmnopqrstuvwxyz"},
-		dataType : 'json',
-		//jsonp:"jsonpcallback",  
-		success : function(data){
-		alert(1);
-			if (data == "-1"){
-				$("#updateProvinceState").css("color","red").html("获取城市列表失败，请重试！");
-			}
-			else{
-				if (data.cities==null){
-					$("#updateProvinceState").css("color","red").html("城市列表为空");
-					return;
-				}
-				$("#updateProvinceState").css("color","#333").html("正在更新省份列表");
-				$("#updateProvinceLoading").show();
-				//省份列表
-				for ( var i = 0; i < data.cities.length; i++){
-					$.post({
-						url:"__URL__/proviceInsert",
-						data:{
-							provinceName : data.cities.provinceName,
-							provinceNo : data.cities.provinceNo
-						}
-					});	 	
-				}
-			}	
-		}
-	});*/
-});
-$("#updateProvince").click(function(){
-	$("#updateProvinceLoading").show();
-	$("#updateProvinceState").empty();
-	$.ajax({
-		url:"__URL__/proviceInsert",
-		type:"post",
-		success:function(data){
-			$("#updateProvinceLoading").hide();
-			$("#updateProvinceState").html("更新成功！"+data.num+" " + data.errList+" 更新"+data.updateNum+" 新加"+data.addNum);
-		},
-	});
-});
-})
-</script>
+<title>酒店批量加链接</title>
 </head>
-
-<body>
-<h1><center>省份更新</center></h1>
-<div style="width:800px; margin:0 auto;">
-	<div>
-		<input type="button" id="updateProvince" value="1.更新省份：" />
-		<label style="color:red" id="updateProvinceState"></label>
-		<span id="updateProvinceLoading" style="display:none"><img src="__PUBLIC__/images/loading.gif" height="16" /></span>
-	</div>
-	<br /> <br />
-	<div>
-		<input type="button" id="updateCity" value="2.更新城市：" />
-		<label style="color:red" class="state"></label>
-		<span class="loading" style="display:none"><img src="__PUBLIC__/images/loading.gif" height="16" /></span>
-	</div>
-</div>
-
-
-</body>
+<frameset rows="62,*" border="0">
+  <frame src="__MODULE__/Top">
+  <frame name="content" src="__MODULE__/AddLink">
 </html>

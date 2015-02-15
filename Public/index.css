@@ -1,0 +1,45 @@
+/*初始化*/
+.clearfix:after{content:"."; display:block; clear:both; line-height:0; font-size:0; height:0; overflow:hidden; visibility:hidden;}
+.clearfix{*zoom:1;}
+.clear{display:block; height:0; font-size:0; line-height:0; visibility:hidden; overflow:hidden; clear:both;}
+p,ul,ol,li,body,h1,h2,h3,h4,h5,h6,dl,dd,form,input,li,dd{margin:0; padding:0;}
+body{font-size:12px; color:#333; font-family:"微软雅黑",Arial, Helvetica, sans-serif; color#333; }
+h1,h2,h3,h4,h5,h6{font-size:14px;}
+img{border:none}
+li{list-style:none;}
+a,a:link{color:#535353; text-decoration:none;}
+a:hover{color:#CCB08A; text-decoration:underline;}
+html,body{height:98%;}
+.btn,.btn:link,.btn:hover{font-size:16px; font-family:"微软雅黑"; color:white; line-height:1.5px; padding:5px 10px; background-color:#7d7de3;border:1px #5555b5 solid; border-radius:3px; text-decoration:none;margin-right:15px;cursor:pointer;}
+.btng,.btng:link,.btng:hover{background-color:#e8e8e8;border:1px #d0d0d0 solid; color:#999}
+.btnr,.btnr:link,.btnr:hover{background-color:#ff5050;border:1px #ff2424 solid;}
+
+
+/*初始化*/
+
+/*菜单栏*/
+header{top:0;width:100%; z-index:999999; border-bottom:2px #333 solid; border-top:0; background-color:white; box-shadow:0 0 3px 3px #ccc; height:60px;overflow:hidden;}
+header .logo{width:240px; height:60px; background:url(images/logo.jpg) left bottom no-repeat; float:left;}
+header ul{height:35px;  line-height:35px; /*position:relative; z-index:1;*/border-bottom:1px #999 solid; padding-left:15px;margin-top:26px;font-size:20px;}
+header ul li{ display:inline-block;margin-right:5px; }
+header ul li a{height:31px; display:inline-block; padding:0 12px; cursor:pointer;}
+header ul .selected{height:30px; line-height:30px;font-weight:bold; border:1px #333 solid; border-bottom:0; position:relative; bottom:-1px; background-color:#333; color:#fff;}
+header ul .selected a,header ul .selected a:link,header ul .selected a:hover{color:#fff;}
+
+/*内容panner公用*/
+.contPannel{margin:10px;}
+.contPannel h2{font-size:16px; line-height:1.2; padding:10px 0 7px 0px; text-indent:2px; background-color:#f8f8f8; border-bottom:1px #e0e0e0 solid; margin-bottom:8px;}
+.contPannel h2:after{display:block; height:1px; background-color:#fff;}
+
+/*linkReplace*/
+
+/*弹出加链接*/
+#SearchResult a{display:inline-block; white-space:nowarp; border:1px dashed #4189ff; color:#4189ff; text-decoration:none; padding:2px 3px 3px 3px; margin:0 5px 5px 0; cursor:pointer;}
+#SearchResult .selected{border:1px solid #4189ff; background-color:#4189ff; color:#fff;}
+#SearchResult a:hover{text-decoration:none;}
+
+
+
+
+
+

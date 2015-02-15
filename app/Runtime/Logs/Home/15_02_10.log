@@ -1,0 +1,21 @@
+[ 2015-02-10T12:34:28+08:00 ] 10.8.25.25 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\Git\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: could not find driver
+
+[ 2015-02-10T12:40:23+08:00 ] 10.8.25.25 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\Git\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: could not find driver
+
+[ 2015-02-10T12:46:00+08:00 ] 10.8.25.25 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\Git\myapp\app\Home\Conf\config.php 第 4 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myapp.test_article' doesn't exist
+
