@@ -1,0 +1,28 @@
+.cheatOpen{position:fixed;z-index:999; width:60px; height:30px; background:#fff url(images/pen.jpg) center center no-repeat;boder:1px #e0e0e0 solid; background-size: auto 100%; border-radius:0 0 5px 5px; border-top:0; top:0; right:2px; cursor:pointer;}
+.cheat_cont{width:100%; height:120px; position:fixed; z-index:998;border-bottom:1px #999 solid; background-color:#fff;top:-121px;}
+.cheat_cont .main{width:1000px; margin:0 auto;}
+.cheat_cont .main table{width:100%; border-collase:collase; margin-top:5px;}
+.cheat_cont .main td{padding:4px 2px;font-size:14px; font-family:'微软雅黑'; vertical-align:middle}
+.cheatBtn,.cheatBtn:link,.cheatBtn:hover{font-size:16px; font-family:"微软雅黑"; color:white; line-height:1.5px; padding:3px 10px 5px 10px;; background-color:#7d7de3;border:1px #5555b5 solid; border-radius:3px; text-decoration:none;margin-right:15px;cursor:pointer; line-height:1;}
+.cheatBtng,.cheatBtng:link,.cheatBtng:hover{background-color:#e8e8e8;border:1px #d0d0d0 solid; color:#999}
+.cheatBtnr,.cheatBtnr:link,.cheatBtnr:hover{background-color:#ff5050;border:1px #ff2424 solid;}
+.cheatClose{color:blue;text-decoration:underline;position:absolute; right:15px; bottom:10px;}
+.cheatClose:hover{color:red; text-decoration:underline}
+.cheatText{display: inline-block;position: relative;vertical-align: middle;padding: 0;overflow: hidden;background: #fff;color: #555;border: 1px solid #aaa;text-shadow: none;border-radius: 3px;transition: box-shadow 0.25s ease;padding:5px 0 6px 4px;}
+.cheatText:hover {box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);}
+#testContent #title{margin-top:120px;}
+.getListStatus{padding-left:10px;}
+.getListStatus a{color:blue; margin-right:8px;}
+.getListStatus img{with:14px; height:14px;}
+
+
+/*select*/
+.select {display: inline-block;position: relative;vertical-align: middle;padding: 0;overflow: hidden;background: #fff;color: #555;border: 1px solid #aaa;text-shadow: none;border-radius: 3px;transition: box-shadow 0.25s ease;}
+.select:hover {box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);}
+.select:before {position: absolute;top: 0.5em;right: 0.5em;pointer-events: none;}
+.select select {cursor: pointer;padding: 0.5em;padding-right: 2em;width: 130%;border: none;background: transparent;background-image: none;appearance: none;text-indent: 0.01px;text-overflow: '';width: 160% \9;}
+.select select:focus {outline: none;
+}
+.select:before {font-family: "icons";speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.icon--down:before, .select:before {content: "\e600";}
+@font-face {font-family: 'icons';src: url(data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAARgAAoAAAAABBgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAAA9AAAANgAAADYZbVvCE9TLzIAAAHMAAAAYAAAAGAIIvy2Y21hcAAAAiwAAABMAAAATBpVzFdnYXNwAAACeAAAAAgAAAAIAAAAEGhlYWQAAAKAAAAANgAAADYAl8viaGhlYQAAArgAAAAkAAAAJANuAeZobXR4AAAC3AAAABQAAAAUAwAAdG1heHAAAALwAAAABgAAAAYABVAAbmFtZQAAAvgAAAFFAAABRVcZpu5wb3N0AAAEQAAAACAAAAAgAAMAAAEABAQAAQEBCGljb21vb24AAQIAAQA6+BwC+BsD+BgEHgoAGVP/i4seCgAZU/+LiwwHi2v4lPh0BR0AAAB2Dx0AAAB7ER0AAAAJHQAAAM8SAAYBAQgPERMWG2ljb21vb25pY29tb29udTB1MXUyMHVFNjAwAAACAYkAAwAFAQEEBwoNTPyUDvyUDvyUDvuUDvgg958VgYD7AiOLi4aFg4iEi4SLg46GkYuL+wLzgZaAloqel5eWlpqMmX8I7yvv6wWZl5qKloCXf4p4gIAIDviUFPiUFYsMCgADAgABkAAFAAABTAFmAAAARwFMAWYAAAD1ABkAhAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAEAAAOYAAeD/4P/gAeAAIAAAAAEAAAAAAAAAAAAAACAAAAAAAAIAAAADAAAAFAADAAEAAAAUAAQAOAAAAAoACAACAAIAAQAg5gD//f//AAAAAAAg5gD//f//AAH/4xoEAAMAAQAAAAAAAAAAAAAAAQAB//8ADwABAAAAAQAAss1nQF8PPPUACwIAAAAAAM/2xdgAAAAAz/bF2AAAAAABjAE1AAAACAACAAAAAAAAAAEAAAHg/+AAAAIAAAAAAAGMAAEAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAQAAAAIAAHQAAFAAAAUAAAAAAA4ArgABAAAAAAABAA4AAAABAAAAAAACAA4ARwABAAAAAAADAA4AJAABAAAAAAAEAA4AVQABAAAAAAAFABYADgABAAAAAAAGAAcAMgABAAAAAAAKADQAYwADAAEECQABAA4AAAADAAEECQACAA4ARwADAAEECQADAA4AJAADAAEECQAEAA4AVQADAAEECQAFABYADgADAAEECQAGAA4AOQADAAEECQAKADQAYwBpAGMAbwBtAG8AbwBuAFYAZQByAHMAaQBvAG4AIAAxAC4AMABpAGMAbwBtAG8AbwBuaWNvbW9vbgBpAGMAbwBtAG8AbwBuAFIAZQBnAHUAbABhAHIAaQBjAG8AbQBvAG8AbgBGAG8AbgB0ACAAZwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAC4AAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format("woff");font-weight: normal;font-style: normal;}

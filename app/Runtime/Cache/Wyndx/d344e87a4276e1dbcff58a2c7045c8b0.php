@@ -1,7 +1,21 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<!-- saved from url=(0119)http://wyndx.wyn88.com/testmgt/test!start.action?visitType=html&activityId=862&saveType=ACTIVITY&actAttId=258552&id=100 -->
+<!-- saved from url=(0105)http://wyndx.wyn88.com/testmgt/test!checkAttendance.action?visitType=html&activityId=775&actTestAttId=882 -->
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 	<title>SunLearning网络学习平台</title>
+	
 <meta http-equiv="Cache-Control" content="no-store">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -28,17 +42,17 @@
 	<script type="text/javascript">
 	<!--
 		var surveyind = false;
-		var testing = true;
-		var openModule = 'startTest';
-		var displayResult = false;
+		var testing = false;
+		var openModule = 'attendance';
+		var displayResult = true;
 		var answeredQuestion = '';
 		var displayMode = 0;
-		var commitMode = 3;
+		var commitMode = 0;
 		var curAnsweredQueId = '';
 	
 		//answer question time
 		var answerQuestionInteval = null;
-		var answerQuestionTime = (0 > 0 ? parseInt(0) : parseInt(30)) * 60 * 1000;
+		var answerQuestionTime = (0 > 0 ? parseInt(0) : parseInt(60)) * 60 * 1000;
 		function setAnswerQuestionTime(){
 			if(answerQuestionTime > 0){
 				var hours = parseInt(answerQuestionTime / 3600000);
@@ -65,7 +79,7 @@
 			}
 			answerQuestionTime -= 1000;
 		}
-		
+		/*
 		function disableAnswer(disabled){
 			$('input:radio', '#testContent').attr('disabled', disabled);
 			$('input:checkbox', '#testContent').attr('disabled', disabled);
@@ -87,7 +101,7 @@
 				disableAnswer(true);
 			}
 		}
-
+*/
 		//set select question answer
 		function setSelectQuestionAnswer(optionName, myAnswerSpanId){
 			var allOptionElements = $('input[name=' + optionName + ']');
@@ -282,11 +296,11 @@
 				var returnInfo = $.parseJSON(data);
 				alert(returnInfo.msg);
 				if(returnInfo.success == true){
-					if('ACTIVITY' === 'QUESTIONNAIRE'){
+					if('' === 'QUESTIONNAIRE'){
 						//window.opener.location.reload();
 						//window.opener=null;
 						//window.close();
-					}else if('ACTIVITY' === 'ACTIVITY'){
+					}else if('' === 'ACTIVITY'){
 						//window.parent.reloadAttendance();
 						//window.parent.ClosePop();
 					}
@@ -302,7 +316,7 @@
 		}
 		
 		function changePage(page){
-			window.location.href = '/testmgt/test!checkAttendance.action?visitType=html&actTestAttId=0&page=' + page;
+			window.location.href = '/testmgt/test!checkAttendance.action?visitType=html&actTestAttId=882&page=' + page;
 		}
 
 		function activeSession() {
@@ -324,7 +338,7 @@
 					dataType : 'json',
 					url: '/onemgt/exam!startMonitor.action',
 					data : {
-						id : '1021'
+						id : ''
 					},
 					success: function(data, textStatus){
 						if(data.forcesubmit == 1){
@@ -344,9 +358,9 @@
 			}, 1000*55);
 		}
 
-		var alt_limit = '2';
+		var alt_limit = '';
 		var ctr_limit = '';
-		var win_limit = '2';
+		var win_limit = '';
 		var win_pressed = 0;
        	var alt_pressed = 0;
        	var ctr_pressed = 0;
@@ -416,8 +430,8 @@
        		var WshShell = new ActiveXObject('WScript.Shell');
        		WshShell.SendKeys('{F11}');
        		if(testing){
-				if('1021' != '0'){
-					window.opener.setMonitorId('1021');
+				if('' != '0'){
+					window.opener.setMonitorId('');
 					startMonitor();
 				}else{
 					activeSession();
@@ -477,7 +491,7 @@
 			});
 			//disable question answer textArea
 			if(!testing){
-				disableAnswer(true);
+				//disableAnswer(true);
 			}
 			//clear fillBlank question space value
 			if(openModule === 'attendance' && !displayResult){
@@ -937,15 +951,15 @@
 	
 		
 			<form id="startTestForm" name="startTestForm" action="http://wyndx.wyn88.com/testmgt/testanswer!save.action" method="post" style="margin:0; padding:0;">
-				<input type="hidden" id="testid" name="testid" value="100">
-				<input type="hidden" id="saveType" name="saveType" value="ACTIVITY">
+				<input type="hidden" id="testid" name="testid" value="67">
+				<input type="hidden" id="saveType" name="saveType" value="">
 				<input type="hidden" id="questionnaireId" name="questionnaireId" value="0">
-				<input type="hidden" id="generatemode" name="generatemode" value="1">
-				<input type="hidden" id="actAttId" name="actAttId" value="258552">
-				<input type="hidden" id="startTime" name="startTime" value="1423324528">
-				<input type="hidden" id="categoryIdLst" name="categoryIdLst" value="103~102~">
-				<input type="hidden" id="actatthisid" name="actatthisid" value="0">
-				<input type="hidden" id="monitorid" name="monitorid" value="1021">
+				<input type="hidden" id="generatemode" name="generatemode" value="2">
+				<input type="hidden" id="actAttId" name="actAttId" value="0">
+				<input type="hidden" id="startTime" name="startTime" value="">
+				<input type="hidden" id="categoryIdLst" name="categoryIdLst" value="10227~10228~10229~">
+				<input type="hidden" id="actatthisid" name="actatthisid" value="">
+				<input type="hidden" id="monitorid" name="monitorid" value="">
 				<input type="hidden" id="autoCommit" name="autoCommit" value="false">
 				<input type="hidden" id="curAnsweredQueId" name="curAnsweredQueId" value="">
 				<input type="hidden" id="answeredQuestion" name="answeredQuestion" value="">
@@ -953,9 +967,9 @@
 				
 					
 						
+							<input type="hidden" name="singleSelectInput" value="830~831~832~833~834~835~836~837~838~839~">
 						
 						
-							<input type="hidden" name="unmuSelectInput" value="1127~1128~1129~1130~1131~1132~1133~">
 						
 						
 						
@@ -968,14 +982,25 @@
 						
 						
 						
-							<input type="hidden" name="jurgeInput" value="1113~1114~1115~1116~1117~1118~1119~1120~1121~1122~1123~1124~1125~">
+							<input type="hidden" name="jurgeInput" value="820~821~822~823~824~825~826~827~828~829~">
+						
+						
+					
+				
+					
+						
+						
+						
+						
+							<input type="hidden" name="fillBlankInput" value="851_85~850_83~850_84~849_82~848_80~848_81~853_88~853_89~853_90~852_86~852_87~842_63~842_64~842_65~843_66~843_67~840_61~841_62~846_74~846_75~846_76~847_77~847_78~847_79~844_68~844_69~844_70~845_71~845_72~845_73~">
+						
 						
 						
 					
 				
 
-				<div class="panel" style="display: block; width: auto;"><div id="testContent" onclick="hiddenPrompt()" style="overflow-x: hidden; overflow-y: auto; width: 750px; height: 750px;" title="" class="panel-body panel-body-noheader panel-body-noborder">
-					<div id="title">时间管理制度考试</div>
+				<div class="panel" style="display: block; width: auto;"><div id="testContent" onclick="hiddenPrompt()" style="overflow-x: hidden; overflow-y: auto; width: 750px; height: 656px;" title="" class="panel-body panel-body-noheader panel-body-noborder">
+					<div id="title">1月公司文件学习考核</div>
 
 					
 						<fieldset>
@@ -983,15 +1008,27 @@
 							<table cellspacing="0" cellpadding="0" border="0">
 								<tbody><tr>
 									<td>卷面总分：<strong>100</strong> 分</td>
-									<td>合格分数线：<strong>80</strong> 分</td>
-									<td>答题时间：<strong>30</strong> 分钟</td>
+									<td>合格分数线：<strong>90</strong> 分</td>
+									<td>答题时间：<strong>60</strong> 分钟</td>
 								</tr>
 								<tr>
 									<td>出卷人：袁志鹏</td>
-									<td colspan="2">出卷时间：2015-01-07 17:58</td>
+									<td colspan="2">出卷时间：2014-12-18 16:00</td>
 								</tr>
 							</tbody></table>
 						</fieldset>
+						
+							<fieldset>
+								<legend>答卷情况</legend>
+								<table cellspacing="0" cellpadding="0" border="0">
+									<tbody><tr>
+										<td>我的得分：<strong>92</strong> 分</td>
+										<td>状态：<strong>已合格/已通过</strong></td>
+										<td>交卷时间：2015-01-28 15:12</td>
+									</tr>
+									
+								</tbody></table>
+							</fieldset>
 						
 					
 
@@ -1001,422 +1038,478 @@
 					
 					<div id="split">&nbsp;</div>
 					
-						<div id="categoryIndex1" donenum="0" allnum="7">
+						<div id="categoryIndex1" donenum="0" allnum="10">
 						<div id="categoryNumber1" class="category-title">
-							一、不定项选择题
+							一、单选题
+							
+								<span class="text-emphasis">&nbsp;&nbsp;&nbsp;&nbsp;我的得分：30分</span>
 							
 						</div>
 						
 							
+								
+									
+									<div id="questionNumber1" class="question-content" queid="830">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="sin_que_830_index" href="javascript:void(0);">1</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												绩效委员会（    ）享有最终决策权
+												<span class="point-label">[3分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											</div>
+											<div style="clear: both;"></div>
+										</div>
+										<div class="question-option">
+											<table width="100%" cellspacing="1" cellpadding="0" border="0">
+												
+													<tbody><tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2373" name="sin_que_830" value="2373" alt="A" onclick="setSelectQuestionAnswer(&#39;sin_que_830&#39;, &#39;my_sin_que_asw_830&#39;)"></td>
+														<td width="20" align="center"><label for="sin_que_option_2373">A</label></td>
+														<td width="95%" align="left" valign="middle">主任</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2374" name="sin_que_830" value="2374" alt="B" onclick="setSelectQuestionAnswer(&#39;sin_que_830&#39;, &#39;my_sin_que_asw_830&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2374">B</label></td>
+														<td width="95%" align="left" valign="middle">执行主任</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2375" name="sin_que_830" value="2375" alt="C" onclick="setSelectQuestionAnswer(&#39;sin_que_830&#39;, &#39;my_sin_que_asw_830&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2375">C</label></td>
+														<td width="95%" align="left" valign="middle">委员</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2376" name="sin_que_830" value="2376" alt="D" onclick="setSelectQuestionAnswer(&#39;sin_que_830&#39;, &#39;my_sin_que_asw_830&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2376">D</label></td>
+														<td width="95%" align="left" valign="middle">行政中心副总裁</td>
+													</tr>
+												
+												
+											</tbody></table>
+											标准答案：A 
+										</div>
+									</div>
+								
+									
+									<div id="questionNumber2" class="question-content" queid="831">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="sin_que_831_index" href="javascript:void(0);">2</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												绩效委员会会议需全体委员会成员参加，若有特殊情况，绩效委员会会议（    ）成员参加讨论的决议即可生效
+												<span class="point-label">[3分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											</div>
+											<div style="clear: both;"></div>
+										</div>
+										<div class="question-option">
+											<table width="100%" cellspacing="1" cellpadding="0" border="0">
+												
+													<tbody><tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2377" name="sin_que_831" value="2377" alt="A" onclick="setSelectQuestionAnswer(&#39;sin_que_831&#39;, &#39;my_sin_que_asw_831&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2377">A</label></td>
+														<td width="95%" align="left" valign="middle">1/3</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2378" name="sin_que_831" value="2378" alt="B" onclick="setSelectQuestionAnswer(&#39;sin_que_831&#39;, &#39;my_sin_que_asw_831&#39;)"></td>
+														<td width="20" align="center"><label for="sin_que_option_2378">B</label></td>
+														<td width="95%" align="left" valign="middle">2/3</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2379" name="sin_que_831" value="2379" alt="C" onclick="setSelectQuestionAnswer(&#39;sin_que_831&#39;, &#39;my_sin_que_asw_831&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2379">C</label></td>
+														<td width="95%" align="left" valign="middle">1/2</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2380" name="sin_que_831" value="2380" alt="D" onclick="setSelectQuestionAnswer(&#39;sin_que_831&#39;, &#39;my_sin_que_asw_831&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2380">D</label></td>
+														<td width="95%" align="left" valign="middle">3/4</td>
+													</tr>
+												
+												
+											</tbody></table>
+											标准答案：B 
+										</div>
+									</div>
+								
+									
+									<div id="questionNumber3" class="question-content" queid="832">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="sin_que_832_index" href="javascript:void(0);">3</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												个人成长与智慧贡献评分制度的适用范围包括：（    ）
+												<span class="point-label">[3分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											</div>
+											<div style="clear: both;"></div>
+										</div>
+										<div class="question-option">
+											<table width="100%" cellspacing="1" cellpadding="0" border="0">
+												
+													<tbody><tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2381" name="sin_que_832" value="2381" alt="A" onclick="setSelectQuestionAnswer(&#39;sin_que_832&#39;, &#39;my_sin_que_asw_832&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2381">A</label></td>
+														<td width="95%" align="left" valign="middle">特定人员</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2382" name="sin_que_832" value="2382" alt="B" onclick="setSelectQuestionAnswer(&#39;sin_que_832&#39;, &#39;my_sin_que_asw_832&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2382">B</label></td>
+														<td width="95%" align="left" valign="middle">主管人员</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2383" name="sin_que_832" value="2383" alt="C" onclick="setSelectQuestionAnswer(&#39;sin_que_832&#39;, &#39;my_sin_que_asw_832&#39;)"></td>
+														<td width="20" align="center"><label for="sin_que_option_2383">C</label></td>
+														<td width="95%" align="left" valign="middle">公司全体员工</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2384" name="sin_que_832" value="2384" alt="D" onclick="setSelectQuestionAnswer(&#39;sin_que_832&#39;, &#39;my_sin_que_asw_832&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2384">D</label></td>
+														<td width="95%" align="left" valign="middle">基层员工</td>
+													</tr>
+												
+												
+											</tbody></table>
+											标准答案：C 
+										</div>
+									</div>
+								
+									
+									<div id="questionNumber4" class="question-content" queid="833">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="sin_que_833_index" href="javascript:void(0);">4</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												每个季度的周报评分按照月份以（    ）的比例进行分配核算
+												<span class="point-label">[3分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											</div>
+											<div style="clear: both;"></div>
+										</div>
+										<div class="question-option">
+											<table width="100%" cellspacing="1" cellpadding="0" border="0">
+												
+													<tbody><tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2385" name="sin_que_833" value="2385" alt="A" onclick="setSelectQuestionAnswer(&#39;sin_que_833&#39;, &#39;my_sin_que_asw_833&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2385">A</label></td>
+														<td width="95%" align="left" valign="middle">3:3:4</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2386" name="sin_que_833" value="2386" alt="B" onclick="setSelectQuestionAnswer(&#39;sin_que_833&#39;, &#39;my_sin_que_asw_833&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2386">B</label></td>
+														<td width="95%" align="left" valign="middle">4:5:1</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2387" name="sin_que_833" value="2387" alt="C" onclick="setSelectQuestionAnswer(&#39;sin_que_833&#39;, &#39;my_sin_que_asw_833&#39;)"></td>
+														<td width="20" align="center"><label for="sin_que_option_2387">C</label></td>
+														<td width="95%" align="left" valign="middle">4:4:1</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2388" name="sin_que_833" value="2388" alt="D" onclick="setSelectQuestionAnswer(&#39;sin_que_833&#39;, &#39;my_sin_que_asw_833&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2388">D</label></td>
+														<td width="95%" align="left" valign="middle">2:5:3</td>
+													</tr>
+												
+												
+											</tbody></table>
+											标准答案：C 
+										</div>
+									</div>
+								
+									
+									<div id="questionNumber5" class="question-content" queid="834">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="sin_que_834_index" href="javascript:void(0);">5</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												个人成长与智慧贡献评分制度的核心作用包括收集和整理工作中的（    ）、经验心得、最佳实践及工作建议
+												<span class="point-label">[3分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											</div>
+											<div style="clear: both;"></div>
+										</div>
+										<div class="question-option">
+											<table width="100%" cellspacing="1" cellpadding="0" border="0">
+												
+													<tbody><tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2389" name="sin_que_834" value="2389" alt="A" onclick="setSelectQuestionAnswer(&#39;sin_que_834&#39;, &#39;my_sin_que_asw_834&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2389">A</label></td>
+														<td width="95%" align="left" valign="middle">错误</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2390" name="sin_que_834" value="2390" alt="B" onclick="setSelectQuestionAnswer(&#39;sin_que_834&#39;, &#39;my_sin_que_asw_834&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2390">B</label></td>
+														<td width="95%" align="left" valign="middle">文档</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2391" name="sin_que_834" value="2391" alt="C" onclick="setSelectQuestionAnswer(&#39;sin_que_834&#39;, &#39;my_sin_que_asw_834&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2391">C</label></td>
+														<td width="95%" align="left" valign="middle">PBC</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2392" name="sin_que_834" value="2392" alt="D" onclick="setSelectQuestionAnswer(&#39;sin_que_834&#39;, &#39;my_sin_que_asw_834&#39;)"></td>
+														<td width="20" align="center"><label for="sin_que_option_2392">D</label></td>
+														<td width="95%" align="left" valign="middle">成功案例</td>
+													</tr>
+												
+												
+											</tbody></table>
+											标准答案：D 
+										</div>
+									</div>
+								
+									
+									<div id="questionNumber6" class="question-content" queid="835">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="sin_que_835_index" href="javascript:void(0);">6</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												公司手机号卡管理办法中规定，离职退还时发现手机损坏，按手机维修价格折算赔偿，如不退还，按手机（    ）折算赔偿，费用在个人工资里扣减
+												<span class="point-label">[3分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											</div>
+											<div style="clear: both;"></div>
+										</div>
+										<div class="question-option">
+											<table width="100%" cellspacing="1" cellpadding="0" border="0">
+												
+													<tbody><tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2393" name="sin_que_835" value="2393" alt="A" onclick="setSelectQuestionAnswer(&#39;sin_que_835&#39;, &#39;my_sin_que_asw_835&#39;)"></td>
+														<td width="20" align="center"><label for="sin_que_option_2393">A</label></td>
+														<td width="95%" align="left" valign="middle">原价</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2394" name="sin_que_835" value="2394" alt="B" onclick="setSelectQuestionAnswer(&#39;sin_que_835&#39;, &#39;my_sin_que_asw_835&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2394">B</label></td>
+														<td width="95%" align="left" valign="middle">八折</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2395" name="sin_que_835" value="2395" alt="C" onclick="setSelectQuestionAnswer(&#39;sin_que_835&#39;, &#39;my_sin_que_asw_835&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2395">C</label></td>
+														<td width="95%" align="left" valign="middle">半价</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2396" name="sin_que_835" value="2396" alt="D" onclick="setSelectQuestionAnswer(&#39;sin_que_835&#39;, &#39;my_sin_que_asw_835&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2396">D</label></td>
+														<td width="95%" align="left" valign="middle">当前市场价格</td>
+													</tr>
+												
+												
+											</tbody></table>
+											标准答案：A 
+										</div>
+									</div>
+								
+									
+									<div id="questionNumber7" class="question-content" queid="836">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="sin_que_836_index" href="javascript:void(0);">7</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												公司将对使用公司手机号卡人员予以一定的通讯费补贴，超过补贴标准的，个人薪资里扣减，其中集团编制的13-18级人员补贴标准是：（    ）
+												<span class="point-label">[3分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											</div>
+											<div style="clear: both;"></div>
+										</div>
+										<div class="question-option">
+											<table width="100%" cellspacing="1" cellpadding="0" border="0">
+												
+													<tbody><tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2397" name="sin_que_836" value="2397" alt="A" onclick="setSelectQuestionAnswer(&#39;sin_que_836&#39;, &#39;my_sin_que_asw_836&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2397">A</label></td>
+														<td width="95%" align="left" valign="middle">400元</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2398" name="sin_que_836" value="2398" alt="B" onclick="setSelectQuestionAnswer(&#39;sin_que_836&#39;, &#39;my_sin_que_asw_836&#39;)"></td>
+														<td width="20" align="center"><label for="sin_que_option_2398">B</label></td>
+														<td width="95%" align="left" valign="middle">300元</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2399" name="sin_que_836" value="2399" alt="C" onclick="setSelectQuestionAnswer(&#39;sin_que_836&#39;, &#39;my_sin_que_asw_836&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2399">C</label></td>
+														<td width="95%" align="left" valign="middle">200元</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2400" name="sin_que_836" value="2400" alt="D" onclick="setSelectQuestionAnswer(&#39;sin_que_836&#39;, &#39;my_sin_que_asw_836&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2400">D</label></td>
+														<td width="95%" align="left" valign="middle">100元</td>
+													</tr>
+												
+												
+											</tbody></table>
+											标准答案：B 
+										</div>
+									</div>
+								
+									
+									<div id="questionNumber8" class="question-content" queid="837">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="sin_que_837_index" href="javascript:void(0);">8</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												干部异动管理办法中规定干部异动铁律包括：职数铁律、年资铁律、（    ）、逐级铁律
+												<span class="point-label">[3分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											</div>
+											<div style="clear: both;"></div>
+										</div>
+										<div class="question-option">
+											<table width="100%" cellspacing="1" cellpadding="0" border="0">
+												
+													<tbody><tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2401" name="sin_que_837" value="2401" alt="A" onclick="setSelectQuestionAnswer(&#39;sin_que_837&#39;, &#39;my_sin_que_asw_837&#39;)"></td>
+														<td width="20" align="center"><label for="sin_que_option_2401">A</label></td>
+														<td width="95%" align="left" valign="middle">绩效铁律</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2402" name="sin_que_837" value="2402" alt="B" onclick="setSelectQuestionAnswer(&#39;sin_que_837&#39;, &#39;my_sin_que_asw_837&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2402">B</label></td>
+														<td width="95%" align="left" valign="middle">年龄铁律</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2403" name="sin_que_837" value="2403" alt="C" onclick="setSelectQuestionAnswer(&#39;sin_que_837&#39;, &#39;my_sin_que_asw_837&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2403">C</label></td>
+														<td width="95%" align="left" valign="middle">学位铁律</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2404" name="sin_que_837" value="2404" alt="D" onclick="setSelectQuestionAnswer(&#39;sin_que_837&#39;, &#39;my_sin_que_asw_837&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2404">D</label></td>
+														<td width="95%" align="left" valign="middle">工作内容铁律</td>
+													</tr>
+												
+												
+											</tbody></table>
+											标准答案：A 
+										</div>
+									</div>
+								
+									
+									<div id="questionNumber9" class="question-content" queid="838">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="sin_que_838_index" href="javascript:void(0);">9</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												干部有下列哪个情形时，应予以降级或降职( )
+												<span class="point-label">[3分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											</div>
+											<div style="clear: both;"></div>
+										</div>
+										<div class="question-option">
+											<table width="100%" cellspacing="1" cellpadding="0" border="0">
+												
+													<tbody><tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2405" name="sin_que_838" value="2405" alt="A" onclick="setSelectQuestionAnswer(&#39;sin_que_838&#39;, &#39;my_sin_que_asw_838&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2405">A</label></td>
+														<td width="95%" align="left" valign="middle">四个季度绩效考核成绩均为B</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2406" name="sin_que_838" value="2406" alt="B" onclick="setSelectQuestionAnswer(&#39;sin_que_838&#39;, &#39;my_sin_que_asw_838&#39;)"></td>
+														<td width="20" align="center"><label for="sin_que_option_2406">B</label></td>
+														<td width="95%" align="left" valign="middle">连续两个季度绩效考核均为C</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2407" name="sin_que_838" value="2407" alt="C" onclick="setSelectQuestionAnswer(&#39;sin_que_838&#39;, &#39;my_sin_que_asw_838&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2407">C</label></td>
+														<td width="95%" align="left" valign="middle">四个季度绩效考核成绩均需为A</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2408" name="sin_que_838" value="2408" alt="D" onclick="setSelectQuestionAnswer(&#39;sin_que_838&#39;, &#39;my_sin_que_asw_838&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2408">D</label></td>
+														<td width="95%" align="left" valign="middle">一个季度绩效考核成绩在AA</td>
+													</tr>
+												
+												
+											</tbody></table>
+											标准答案：B 
+										</div>
+									</div>
+								
+									
+									<div id="questionNumber10" class="question-content" queid="839">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="sin_que_839_index" href="javascript:void(0);">10</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												以下哪种情形下应予以劝退（    ）
+												<span class="point-label">[3分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											</div>
+											<div style="clear: both;"></div>
+										</div>
+										<div class="question-option">
+											<table width="100%" cellspacing="1" cellpadding="0" border="0">
+												
+													<tbody><tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2409" name="sin_que_839" value="2409" alt="A" onclick="setSelectQuestionAnswer(&#39;sin_que_839&#39;, &#39;my_sin_que_asw_839&#39;)"></td>
+														<td width="20" align="center"><label for="sin_que_option_2409">A</label></td>
+														<td width="95%" align="left" valign="middle">泄露公司经营状况、技术和商业机密的</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2410" name="sin_que_839" value="2410" alt="B" onclick="setSelectQuestionAnswer(&#39;sin_que_839&#39;, &#39;my_sin_que_asw_839&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2410">B</label></td>
+														<td width="95%" align="left" valign="middle">穿着服装不满足公司着装规定的</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2411" name="sin_que_839" value="2411" alt="C" onclick="setSelectQuestionAnswer(&#39;sin_que_839&#39;, &#39;my_sin_que_asw_839&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2411">C</label></td>
+														<td width="95%" align="left" valign="middle">月末迟到时间超过公司规定的</td>
+													</tr>
+												
+													<tr>
+														<td width="20" align="left"><input type="radio" id="sin_que_option_2412" name="sin_que_839" value="2412" alt="D" onclick="setSelectQuestionAnswer(&#39;sin_que_839&#39;, &#39;my_sin_que_asw_839&#39;)" ></td>
+														<td width="20" align="center"><label for="sin_que_option_2412">D</label></td>
+														<td width="95%" align="left" valign="middle">丢失公司配置给员工的财物的</td>
+													</tr>
+												
+												
+											</tbody></table>
+											标准答案：A 
+										</div>
+									</div>
+								
 							
 							
-								
-									
-									<div id="questionNumber1" class="question-content" queid="1127">
-										<div class="question-title">
-											<div style="float: left; width: 30px;">
-												<a class="question-order" id="unmu_que_1127_index" href="javascript:void(0);">1</a>.
-											</div>
-											<div style="float: left; width: 94%;">
-												因忘打卡或其他原因导致指纹不能打卡的，员工本人应如何处理
-												<span class="point-label">[5分]</span>
-												
-											</div>
-											<div style="clear: both;"></div>
-										</div>
-										<div class="question-option">
-											<table width="100%" cellspacing="1" cellpadding="0" border="0">
-												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2714" name="unmu_que_1127" value="2714" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1127&#39;, &#39;my_unmu_que_asw_1127&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2714">A</label></td>
-														<td width="95%" align="left" valign="middle">在KM中提交未打卡的流程说明</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2715" name="unmu_que_1127" value="2715" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1127&#39;, &#39;my_unmu_que_asw_1127&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2715">B</label></td>
-														<td width="95%" align="left" valign="middle">向直接领导口头说明</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2716" name="unmu_que_1127" value="2716" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1127&#39;, &#39;my_unmu_que_asw_1127&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2716">C</label></td>
-														<td width="95%" align="left" valign="middle">向中心领导书面说明</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2717" name="unmu_que_1127" value="2717" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1127&#39;, &#39;my_unmu_que_asw_1127&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2717">D</label></td>
-														<td width="95%" align="left" valign="middle">向HR考勤负责人写书面说明</td>
-													</tr>
-												
-												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1127"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
-										</div>
-									</div>
-								
-									
-									<div id="questionNumber2" class="question-content" queid="1128">
-										<div class="question-title">
-											<div style="float: left; width: 30px;">
-												<a class="question-order" id="unmu_que_1128_index" href="javascript:void(0);">2</a>.
-											</div>
-											<div style="float: left; width: 94%;">
-												旷工者除当日工资不发放外，每旷工1天扣除当日工资的
-												<span class="point-label">[5分]</span>
-												
-											</div>
-											<div style="clear: both;"></div>
-										</div>
-										<div class="question-option">
-											<table width="100%" cellspacing="1" cellpadding="0" border="0">
-												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2718" name="unmu_que_1128" value="2718" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1128&#39;, &#39;my_unmu_que_asw_1128&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2718">A</label></td>
-														<td width="95%" align="left" valign="middle">1倍</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2719" name="unmu_que_1128" value="2719" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1128&#39;, &#39;my_unmu_que_asw_1128&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2719">B</label></td>
-														<td width="95%" align="left" valign="middle">2倍</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2720" name="unmu_que_1128" value="2720" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1128&#39;, &#39;my_unmu_que_asw_1128&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2720">C</label></td>
-														<td width="95%" align="left" valign="middle">3倍</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2721" name="unmu_que_1128" value="2721" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1128&#39;, &#39;my_unmu_que_asw_1128&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2721">D</label></td>
-														<td width="95%" align="left" valign="middle">4倍</td>
-													</tr>
-												
-												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1128"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
-										</div>
-									</div>
-								
-									
-									<div id="questionNumber3" class="question-content" queid="1129">
-										<div class="question-title">
-											<div style="float: left; width: 30px;">
-												<a class="question-order" id="unmu_que_1129_index" href="javascript:void(0);">3</a>.
-											</div>
-											<div style="float: left; width: 94%;">
-												若员工生日假当天是休息日（含法定节假日）或因工作等特殊原因无法休假的，可提前向部门负责人申请，在生日假生效后的多少天内调休，逾期不予享受。
-												<span class="point-label">[5分]</span>
-												
-											</div>
-											<div style="clear: both;"></div>
-										</div>
-										<div class="question-option">
-											<table width="100%" cellspacing="1" cellpadding="0" border="0">
-												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2722" name="unmu_que_1129" value="2722" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1129&#39;, &#39;my_unmu_que_asw_1129&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2722">A</label></td>
-														<td width="95%" align="left" valign="middle">10天</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2723" name="unmu_que_1129" value="2723" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1129&#39;, &#39;my_unmu_que_asw_1129&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2723">B</label></td>
-														<td width="95%" align="left" valign="middle">20天</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2724" name="unmu_que_1129" value="2724" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1129&#39;, &#39;my_unmu_que_asw_1129&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2724">C</label></td>
-														<td width="95%" align="left" valign="middle">30天</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2725" name="unmu_que_1129" value="2725" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1129&#39;, &#39;my_unmu_que_asw_1129&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2725">D</label></td>
-														<td width="95%" align="left" valign="middle">40天</td>
-													</tr>
-												
-												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1129"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
-										</div>
-									</div>
-								
-									
-									<div id="questionNumber4" class="question-content" queid="1130">
-										<div class="question-title">
-											<div style="float: left; width: 30px;">
-												<a class="question-order" id="unmu_que_1130_index" href="javascript:void(0);">4</a>.
-											</div>
-											<div style="float: left; width: 94%;">
-												员工年度的出勤记录可作用于哪些员工管理环节
-												<span class="point-label">[5分]</span>
-												
-											</div>
-											<div style="clear: both;"></div>
-										</div>
-										<div class="question-option">
-											<table width="100%" cellspacing="1" cellpadding="0" border="0">
-												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2726" name="unmu_que_1130" value="2726" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1130&#39;, &#39;my_unmu_que_asw_1130&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2726">A</label></td>
-														<td width="95%" align="left" valign="middle">下一年度可休年假多少的依据</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2727" name="unmu_que_1130" value="2727" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1130&#39;, &#39;my_unmu_que_asw_1130&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2727">B</label></td>
-														<td width="95%" align="left" valign="middle">调薪及年终奖金</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2728" name="unmu_que_1130" value="2728" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1130&#39;, &#39;my_unmu_que_asw_1130&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2728">C</label></td>
-														<td width="95%" align="left" valign="middle">年度绩效考评</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2729" name="unmu_que_1130" value="2729" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1130&#39;, &#39;my_unmu_que_asw_1130&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2729">D</label></td>
-														<td width="95%" align="left" valign="middle">活动经费申请的依据</td>
-													</tr>
-												
-												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1130"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
-										</div>
-									</div>
-								
-									
-									<div id="questionNumber5" class="question-content" queid="1131">
-										<div class="question-title">
-											<div style="float: left; width: 30px;">
-												<a class="question-order" id="unmu_que_1131_index" href="javascript:void(0);">5</a>.
-											</div>
-											<div style="float: left; width: 94%;">
-												公司正式员工享有带薪的假期有哪些
-												<span class="point-label">[5分]</span>
-												
-											</div>
-											<div style="clear: both;"></div>
-										</div>
-										<div class="question-option">
-											<table width="100%" cellspacing="1" cellpadding="0" border="0">
-												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2730" name="unmu_que_1131" value="2730" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1131&#39;, &#39;my_unmu_que_asw_1131&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2730">A</label></td>
-														<td width="95%" align="left" valign="middle">事假</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2731" name="unmu_que_1131" value="2731" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1131&#39;, &#39;my_unmu_que_asw_1131&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2731">B</label></td>
-														<td width="95%" align="left" valign="middle">婚假</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2732" name="unmu_que_1131" value="2732" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1131&#39;, &#39;my_unmu_que_asw_1131&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2732">C</label></td>
-														<td width="95%" align="left" valign="middle">生日假</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2733" name="unmu_que_1131" value="2733" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1131&#39;, &#39;my_unmu_que_asw_1131&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2733">D</label></td>
-														<td width="95%" align="left" valign="middle">工伤假</td>
-													</tr>
-												
-												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1131"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
-										</div>
-									</div>
-								
-									
-									<div id="questionNumber6" class="question-content" queid="1132">
-										<div class="question-title">
-											<div style="float: left; width: 30px;">
-												<a class="question-order" id="unmu_que_1132_index" href="javascript:void(0);">6</a>.
-											</div>
-											<div style="float: left; width: 94%;">
-												申请病假应递交的纸质证明文件有哪些
-												<span class="point-label">[5分]</span>
-												
-											</div>
-											<div style="clear: both;"></div>
-										</div>
-										<div class="question-option">
-											<table width="100%" cellspacing="1" cellpadding="0" border="0">
-												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2734" name="unmu_que_1132" value="2734" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1132&#39;, &#39;my_unmu_que_asw_1132&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2734">A</label></td>
-														<td width="95%" align="left" valign="middle">由医疗单位出具的病假单（疾病诊断书）</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2735" name="unmu_que_1132" value="2735" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1132&#39;, &#39;my_unmu_que_asw_1132&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2735">B</label></td>
-														<td width="95%" align="left" valign="middle">病历本出诊记录页的复印件</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2736" name="unmu_que_1132" value="2736" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1132&#39;, &#39;my_unmu_que_asw_1132&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2736">C</label></td>
-														<td width="95%" align="left" valign="middle">病假期间医疗单位当日的收费单据</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2737" name="unmu_que_1132" value="2737" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1132&#39;, &#39;my_unmu_que_asw_1132&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2737">D</label></td>
-														<td width="95%" align="left" valign="middle">由居委会或当地派出所出具的亲属关系证明复印件</td>
-													</tr>
-												
-												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1132"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
-										</div>
-									</div>
-								
-									
-									<div id="questionNumber7" class="question-content" queid="1133">
-										<div class="question-title">
-											<div style="float: left; width: 30px;">
-												<a class="question-order" id="unmu_que_1133_index" href="javascript:void(0);">7</a>.
-											</div>
-											<div style="float: left; width: 94%;">
-												关于哺乳假，下面说法不正确的是
-												<span class="point-label">[5分]</span>
-												
-											</div>
-											<div style="clear: both;"></div>
-										</div>
-										<div class="question-option">
-											<table width="100%" cellspacing="1" cellpadding="0" border="0">
-												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2738" name="unmu_que_1133" value="2738" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1133&#39;, &#39;my_unmu_que_asw_1133&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2738">A</label></td>
-														<td width="95%" align="left" valign="middle">符合条件的女员工每天享有两次哺乳时间，每次30分钟，也可合并60分钟一起使用</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2739" name="unmu_que_1133" value="2739" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1133&#39;, &#39;my_unmu_que_asw_1133&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2739">B</label></td>
-														<td width="95%" align="left" valign="middle">多胞胎生育的，每多哺乳1名婴儿，每次哺乳时间增加30分钟，即每天增加1小时。</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2740" name="unmu_que_1133" value="2740" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1133&#39;, &#39;my_unmu_que_asw_1133&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2740">C</label></td>
-														<td width="95%" align="left" valign="middle">女员工申请哺乳假，需按月申请或一次性全部申请完成，申请后不得变更哺乳假的休假方式。</td>
-													</tr>
-												
-													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2741" name="unmu_que_1133" value="2741" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1133&#39;, &#39;my_unmu_que_asw_1133&#39;)"></td>
-														<td width="20" align="center"><label for="unmu_que_option_2741">D</label></td>
-														<td width="95%" align="left" valign="middle">员工当天应休但未休的哺乳假，可以累加与调休。</td>
-													</tr>
-												
-												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1133"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
-										</div>
-									</div>
-								
 							
 							
 							
@@ -1425,9 +1518,11 @@
 						</div>
 						
 					
-						<div id="categoryIndex2" donenum="0" allnum="13">
+						<div id="categoryIndex2" donenum="0" allnum="10">
 						<div id="categoryNumber2" class="category-title">
 							二、判断题
+							
+								<span class="text-emphasis">&nbsp;&nbsp;&nbsp;&nbsp;我的得分：10分</span>
 							
 						</div>
 						
@@ -1438,421 +1533,579 @@
 							
 								
 									
-									<div id="questionNumber8" class="question-content" queid="1113">
+									<div id="questionNumber11" class="question-content" queid="820">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1113_index" href="javascript:void(0);">8</a>.
+												<a class="question-order" id="jurge_que_820_index" href="javascript:void(0);">11</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												员工在离职通知期内不可申请事假。
-												<span class="point-label">[5分]</span>
-												
+												绩效管理委员会由主任、执行主任、委员组成
+												<span class="point-label">[1分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
 													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1113" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1113_R" name="jurge_que_1113" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1113&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1113_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1113_W" name="jurge_que_1113" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1113&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1113_W">错</label></td>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_820_R"></td>
+														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_820_R">对</label></td>
+														<td align="left"><input type="radio" id="jurge_que_820_W" ></td>
+														<td align="left" style="padding-left:2px;"><label for="jurge_que_820_W">错</label></td>
 													</tr>
-													
 												</tbody></table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber9" class="question-content" queid="1114">
+									<div id="questionNumber12" class="question-content" queid="821">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1114_index" href="javascript:void(0);">9</a>.
+												<a class="question-order" id="jurge_que_821_index" href="javascript:void(0);">12</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												所有转正后的正式员工，每年可享有2天的全薪病假
-												<span class="point-label">[5分]</span>
-												
+												绩效管理委员会属于决定与调整公司绩效管理政策与方向的最高决策机构
+												<span class="point-label">[1分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
 													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1114" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1114_R" name="jurge_que_1114" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1114&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1114_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1114_W" name="jurge_que_1114" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1114&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1114_W">错</label></td>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_821_R"></td>
+														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_821_R">对</label></td>
+														<td align="left"><input type="radio" id="jurge_que_821_W" ></td>
+														<td align="left" style="padding-left:2px;"><label for="jurge_que_821_W">错</label></td>
 													</tr>
-													
 												</tbody></table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber10" class="question-content" queid="1115">
+									<div id="questionNumber13" class="question-content" queid="822">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1115_index" href="javascript:void(0);">10</a>.
+												<a class="question-order" id="jurge_que_822_index" href="javascript:void(0);">13</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												工伤假为全薪连续日假，员工休假期间工资按正常出勤工资80%发放。
-												<span class="point-label">[5分]</span>
-												
+												干部免职铁律规定，干部职业操守不端正，经考察不适合继续担任原职务的，应予以劝退
+												<span class="point-label">[1分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
 													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1115" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1115_R" name="jurge_que_1115" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1115&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1115_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1115_W" name="jurge_que_1115" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1115&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1115_W">错</label></td>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_822_R"></td>
+														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_822_R">对</label></td>
+														<td align="left"><input type="radio" id="jurge_que_822_W" ></td>
+														<td align="left" style="padding-left:2px;"><label for="jurge_que_822_W">错</label></td>
 													</tr>
-													
 												</tbody></table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber11" class="question-content" queid="1116">
+									<div id="questionNumber14" class="question-content" queid="823">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1116_index" href="javascript:void(0);">11</a>.
+												<a class="question-order" id="jurge_que_823_index" href="javascript:void(0);">14</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												如员工的结婚证书签发之日不在本公司雇佣期内的，则不可享用婚假。
-												<span class="point-label">[5分]</span>
-												
+												绩效委员会一旦决议，所有成员均应遵循
+												<span class="point-label">[1分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
 													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1116" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1116_R" name="jurge_que_1116" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1116&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1116_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1116_W" name="jurge_que_1116" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1116&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1116_W">错</label></td>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_823_R"></td>
+														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_823_R">对</label></td>
+														<td align="left"><input type="radio" id="jurge_que_823_W" ></td>
+														<td align="left" style="padding-left:2px;"><label for="jurge_que_823_W">错</label></td>
 													</tr>
-													
 												</tbody></table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber12" class="question-content" queid="1117">
+									<div id="questionNumber15" class="question-content" queid="824">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1117_index" href="javascript:void(0);">12</a>.
+												<a class="question-order" id="jurge_que_824_index" href="javascript:void(0);">15</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												未婚怀孕者流产时可以享有计划生育假。
-												<span class="point-label">[5分]</span>
-												
+												干部异动管理办法适用于公司总监级及以上干部和分店店总、区总的异动管理
+												<span class="point-label">[1分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
 													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1117" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1117_R" name="jurge_que_1117" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1117&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1117_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1117_W" name="jurge_que_1117" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1117&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1117_W">错</label></td>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_824_R"></td>
+														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_824_R">对</label></td>
+														<td align="left"><input type="radio" id="jurge_que_824_W" ></td>
+														<td align="left" style="padding-left:2px;"><label for="jurge_que_824_W">错</label></td>
 													</tr>
-													
 												</tbody></table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber13" class="question-content" queid="1118">
+									<div id="questionNumber16" class="question-content" queid="825">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1118_index" href="javascript:void(0);">13</a>.
+												<a class="question-order" id="jurge_que_825_index" href="javascript:void(0);">16</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												员工如在休法定年休假期间生病，即使符合获准病假的条件，应仍视同为法定年休假，不作病假处理。
-												<span class="point-label">[5分]</span>
-												
+												个人成长与智慧贡献评分规则中，每周的工作周报由行政中心收集，维也纳大学知识管理部初评，绩效管理委员会进行复核
+												<span class="point-label">[1分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
 													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1118" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1118_R" name="jurge_que_1118" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1118&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1118_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1118_W" name="jurge_que_1118" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1118&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1118_W">错</label></td>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-false">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_825_R" ></td>
+														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_825_R">对</label></td>
+														<td align="left"><input type="radio" id="jurge_que_825_W"></td>
+														<td align="left" style="padding-left:2px;"><label for="jurge_que_825_W">错</label></td>
 													</tr>
-													
 												</tbody></table>
 											
-											
-											
+											标准答案：<span class="judge-false">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber14" class="question-content" queid="1119">
+									<div id="questionNumber17" class="question-content" queid="826">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1119_index" href="javascript:void(0);">14</a>.
+												<a class="question-order" id="jurge_que_826_index" href="javascript:void(0);">17</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												出差时间如包含周末休息日，休息日不计入加班时间。
-												<span class="point-label">[5分]</span>
-												
+												公司手机号卡管理办法中，公司手机号卡的所有权归公司所有，使用人员只有保管权及使用权
+												<span class="point-label">[1分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
 													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1119" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1119_R" name="jurge_que_1119" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1119&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1119_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1119_W" name="jurge_que_1119" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1119&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1119_W">错</label></td>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_826_R"></td>
+														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_826_R">对</label></td>
+														<td align="left"><input type="radio" id="jurge_que_826_W" ></td>
+														<td align="left" style="padding-left:2px;"><label for="jurge_que_826_W">错</label></td>
 													</tr>
-													
 												</tbody></table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber15" class="question-content" queid="1120">
+									<div id="questionNumber18" class="question-content" queid="827">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1120_index" href="javascript:void(0);">15</a>.
+												<a class="question-order" id="jurge_que_827_index" href="javascript:void(0);">18</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												违反国家计划生育规定的不可享受产假。
-												<span class="point-label">[5分]</span>
-												
+												公司手机号卡管理目的是为了更加经济有效地利用通讯设备，加强业务信息反馈，保证联络及时、通畅和避免公司信息流失
+												<span class="point-label">[1分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
 													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1120" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1120_R" name="jurge_que_1120" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1120&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1120_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1120_W" name="jurge_que_1120" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1120&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1120_W">错</label></td>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_827_R"></td>
+														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_827_R">对</label></td>
+														<td align="left"><input type="radio" id="jurge_que_827_W" ></td>
+														<td align="left" style="padding-left:2px;"><label for="jurge_que_827_W">错</label></td>
 													</tr>
-													
 												</tbody></table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber16" class="question-content" queid="1121">
+									<div id="questionNumber19" class="question-content" queid="828">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1121_index" href="javascript:void(0);">16</a>.
+												<a class="question-order" id="jurge_que_828_index" href="javascript:void(0);">19</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												属于合法再婚的，不给予婚假。
-												<span class="point-label">[5分]</span>
-												
+												手机卡发放原则中，事业发展中心、供应链管理中心、市场销售事业部领取的手机卡号，可以转到其他部门使用
+												<span class="point-label">[1分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
 													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1121" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1121_R" name="jurge_que_1121" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1121&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1121_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1121_W" name="jurge_que_1121" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1121&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1121_W">错</label></td>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-false">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_828_R" ></td>
+														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_828_R">对</label></td>
+														<td align="left"><input type="radio" id="jurge_que_828_W"></td>
+														<td align="left" style="padding-left:2px;"><label for="jurge_que_828_W">错</label></td>
 													</tr>
-													
 												</tbody></table>
 											
-											
-											
+											标准答案：<span class="judge-false">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber17" class="question-content" queid="1122">
+									<div id="questionNumber20" class="question-content" queid="829">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1122_index" href="javascript:void(0);">17</a>.
+												<a class="question-order" id="jurge_que_829_index" href="javascript:void(0);">20</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												生日假是全薪假，发放全额工资。生日假最小请假单位为1天。
-												<span class="point-label">[5分]</span>
-												
+												干部异动分为干部晋升、干部平调、干部降级、干部降职、干部免职五个类别
+												<span class="point-label">[1分]</span>
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
 													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1122" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1122_R" name="jurge_que_1122" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1122&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1122_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1122_W" name="jurge_que_1122" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1122&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1122_W">错</label></td>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_829_R"></td>
+														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_829_R">对</label></td>
+														<td align="left"><input type="radio" id="jurge_que_829_W" ></td>
+														<td align="left" style="padding-left:2px;"><label for="jurge_que_829_W">错</label></td>
 													</tr>
-													
 												</tbody></table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
+									</div>
+								
+							
+							
+						
+						</div>
+						
+					
+						<div id="categoryIndex3" donenum="0" allnum="14">
+						<div id="categoryNumber3" class="category-title">
+							三、填空题
+							
+								<span class="text-emphasis">&nbsp;&nbsp;&nbsp;&nbsp;我的得分：52分</span>
+							
+						</div>
+						
+							
+							
+							
+							
+								
+									
+									<div id="questionNumber21" class="question-content" queid="851">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="fill_que_851_index" href="javascript:void(0);">21</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												员工离职时需将公司手机号卡交回&nbsp;<input class="fillblank" name="fill_que_851_85" size="28" maxlength="255" value="" >&nbsp;并进行使用注销
+												<span class="point-label">[2分]</span>
+												
+													
+														<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+											<div style="clear: both;"></div>
+										</div>
+										
 									</div>
 								
 									
-									<div id="questionNumber18" class="question-content" queid="1123">
+									<div id="questionNumber22" class="question-content" queid="850">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1123_index" href="javascript:void(0);">18</a>.
+												<a class="question-order" id="fill_que_850_index" href="javascript:void(0);">22</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												法定节假日，所有正式员工有资格享受法定节假日
-												<span class="point-label">[5分]</span>
+												手机卡号使用规定，使用人员作为公司手机号卡的唯一保管人，对使用的公司手机号卡有&nbsp;<input class="fillblank" name="fill_que_850_83" size="8" maxlength="255" value="" >&nbsp;和&nbsp;<input class="fillblank" name="fill_que_850_84" size="16" maxlength="255" value="" >&nbsp;的义务
+												<span class="point-label">[4分]</span>
 												
-											</div>
+													
+														<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
 											<div style="clear: both;"></div>
 										</div>
-										<div class="question-option">
-											
-												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1123" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1123_R" name="jurge_que_1123" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1123&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1123_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1123_W" name="jurge_que_1123" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1123&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1123_W">错</label></td>
-													</tr>
-													
-												</tbody></table>
-											
-											
-											
-										</div>
+										
 									</div>
 								
 									
-									<div id="questionNumber19" class="question-content" queid="1124">
+									<div id="questionNumber23" class="question-content" queid="849">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1124_index" href="javascript:void(0);">19</a>.
+												<a class="question-order" id="fill_que_849_index" href="javascript:void(0);">23</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												申请加班的对象仅限总监级以下级别的员工。
-												<span class="point-label">[5分]</span>
+												公司手机号卡适用范围包括集团编制职级为&nbsp;<input class="fillblank" name="fill_que_849_82" size="4" maxlength="255" value="" >&nbsp;级以上人员
+												<span class="point-label">[2分]</span>
 												
-											</div>
+													
+														<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
 											<div style="clear: both;"></div>
 										</div>
-										<div class="question-option">
-											
-												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1124" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1124_R" name="jurge_que_1124" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1124&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1124_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1124_W" name="jurge_que_1124" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1124&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1124_W">错</label></td>
-													</tr>
-													
-												</tbody></table>
-											
-											
-											
-										</div>
+										
 									</div>
 								
 									
-									<div id="questionNumber20" class="question-content" queid="1125">
+									<div id="questionNumber24" class="question-content" queid="848">
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
-												<a class="question-order" id="jurge_que_1125_index" href="javascript:void(0);">20</a>.
+												<a class="question-order" id="fill_que_848_index" href="javascript:void(0);">24</a>.
 											</div>
 											<div style="float: left; width: 94%;">
-												生日假在员工转正后享有，不需提前申请，按身份证上的日期为准。
-												<span class="point-label">[5分]</span>
+												成功经验是指在完成工作的过程中，使用和总结比较好的思路、方法、&nbsp;<input class="fillblank" name="fill_que_848_80" size="8" maxlength="255" value="" >&nbsp;、工具等，而且此方法可以&nbsp;<input class="fillblank" name="fill_que_848_81" size="8" maxlength="255" value="" >&nbsp;
+												<span class="point-label">[4分]</span>
 												
-											</div>
+													
+														<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
 											<div style="clear: both;"></div>
 										</div>
-										<div class="question-option">
-											
-												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1125" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1125_R" name="jurge_que_1125" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1125&#39;)"></td>
-														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1125_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1125_W" name="jurge_que_1125" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1125&#39;)"></td>
-														<td align="left" style="padding-left:2px;"><label for="jurge_que_1125_W">错</label></td>
-													</tr>
-													
-												</tbody></table>
-											
-											
-											
-										</div>
+										
 									</div>
 								
+									
+									<div id="questionNumber25" class="question-content" queid="853">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="fill_que_853_index" href="javascript:void(0);">25</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												绩效管理委员会负责召开&nbsp;<input class="fillblank" name="fill_que_853_88" size="8" maxlength="255" value="" >&nbsp;、季度、&nbsp;<input class="fillblank" name="fill_que_853_89" size="12" maxlength="255" value="" >&nbsp;及&nbsp;<input class="fillblank" name="fill_que_853_90" size="8" maxlength="255" value="" >&nbsp;绩效总结会议
+												<span class="point-label">[6分]</span>
+												
+													
+														
+														<span class="judge-more-half-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+											<div style="clear: both;"></div>
+										</div>
+										
+									</div>
+								
+									
+									<div id="questionNumber26" class="question-content" queid="852">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="fill_que_852_index" href="javascript:void(0);">26</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												干部晋升、平调的“救火车”通道定义：对于不符合铁律的干部晋升、调动申请，若其符合“救火车”条件 ，经&nbsp;<input class="fillblank" name="fill_que_852_86" size="20" maxlength="255" value="" >&nbsp;和&nbsp;<input class="fillblank" name="fill_que_852_87" size="12" maxlength="255" value="" >&nbsp;审批通过可以破格晋升或调动
+												<span class="point-label">[4分]</span>
+												
+													
+														<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+											<div style="clear: both;"></div>
+										</div>
+										
+									</div>
+								
+									
+									<div id="questionNumber27" class="question-content" queid="842">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="fill_que_842_index" href="javascript:void(0);">27</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												个人成长与智慧贡献评分制度的中，每周的工作周报由&nbsp;<input class="fillblank" name="fill_que_842_63" size="16" maxlength="255" value="" >&nbsp;收集，维也纳大学&nbsp;<input class="fillblank" name="fill_que_842_64" size="20" maxlength="255" value="" >&nbsp;初评，&nbsp;<input class="fillblank" name="fill_que_842_65" size="28" maxlength="255" value="" >&nbsp;进行复核
+												<span class="point-label">[6分]</span>
+												
+													
+														<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+											<div style="clear: both;"></div>
+										</div>
+										
+									</div>
+								
+									
+									<div id="questionNumber28" class="question-content" queid="843">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="fill_que_843_index" href="javascript:void(0);">28</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												绩效委员会决议原则上遵循“&nbsp;<input class="fillblank" name="fill_que_843_66" size="34" maxlength="255" value="充分讨论，遵循实施" >&nbsp;”的原则，如果在特殊情况下（如讨论无法达成共识），可采取主任最终裁定或者&nbsp;<input class="fillblank" name="fill_que_843_67" size="12" maxlength="255" value="3/4" >&nbsp;投票意见决定
+												<span class="point-label">[4分]</span>
+												
+													
+														
+														<span class="judge-more-half-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+											<div style="clear: both;"></div>
+										</div>
+										
+									</div>
+								
+									
+									<div id="questionNumber29" class="question-content" queid="840">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="fill_que_840_index" href="javascript:void(0);">29</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												成功案例衡量维度是每月至少&nbsp;<input class="fillblank" name="fill_que_840_61" size="4" maxlength="255" value="" >&nbsp;条
+												<span class="point-label">[2分]</span>
+												
+													
+														<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+											<div style="clear: both;"></div>
+										</div>
+										
+									</div>
+								
+									
+									<div id="questionNumber30" class="question-content" queid="841">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="fill_que_841_index" href="javascript:void(0);">30</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												干部免职铁律情形中，如果干部一个季度绩效考核为D的，应&nbsp;<input class="fillblank" name="fill_que_841_62" size="16" maxlength="255" value="" >&nbsp;
+												<span class="point-label">[2分]</span>
+												
+													
+														
+														
+														
+														<span class="judge-false-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+											<div style="clear: both;"></div>
+										</div>
+										
+									</div>
+								
+									
+									<div id="questionNumber31" class="question-content" queid="846">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="fill_que_846_index" href="javascript:void(0);">31</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												干部异动管理办法的核心理念包括：保持活力、&nbsp;<input class="fillblank" name="fill_que_846_74" size="16" maxlength="255" value="" >&nbsp;、注重积累、&nbsp;<input class="fillblank" name="fill_que_846_75" size="16" maxlength="255" value="" >&nbsp;、合理规划、&nbsp;<input class="fillblank" name="fill_que_846_76" size="16" maxlength="255" value="" >&nbsp;
+												<span class="point-label">[6分]</span>
+												
+													
+														
+														<span class="judge-more-half-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+											<div style="clear: both;"></div>
+										</div>
+										
+									</div>
+								
+									
+									<div id="questionNumber32" class="question-content" queid="847">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="fill_que_847_index" href="javascript:void(0);">32</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												个人成长与智慧贡献评分制度目的是为了提升集团及分店人员的&nbsp;<input class="fillblank" name="fill_que_847_77" size="16" maxlength="255" value="" >&nbsp;，加强集团的&nbsp;<input class="fillblank" name="fill_que_847_78" size="16" maxlength="255" value="" >&nbsp;，有效地进行&nbsp;<input class="fillblank" name="fill_que_847_79" size="16" maxlength="255" value="" >&nbsp;
+												<span class="point-label">[6分]</span>
+												
+													
+														<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+											<div style="clear: both;"></div>
+										</div>
+										
+									</div>
+								
+									
+									<div id="questionNumber33" class="question-content" queid="844">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="fill_que_844_index" href="javascript:void(0);">33</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												绩效管理委员会委员是：COO、风险管理中心副总裁、&nbsp;<input class="fillblank" name="fill_que_844_68" size="32" maxlength="255" value="" >&nbsp;、&nbsp;<input class="fillblank" name="fill_que_844_69" size="36" maxlength="255" value="" >&nbsp;、高级总裁助理、&nbsp;<input class="fillblank" name="fill_que_844_70" size="32" maxlength="255" value="" >&nbsp;
+												<span class="point-label">[6分]</span>
+												
+													
+														<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+											<div style="clear: both;"></div>
+										</div>
+										
+									</div>
+								
+									
+									<div id="questionNumber34" class="question-content" queid="845">
+										<div class="question-title">
+											<div style="float: left; width: 30px;">
+												<a class="question-order" id="fill_que_845_index" href="javascript:void(0);">34</a>.
+											</div>
+											<div style="float: left; width: 94%;">
+												干部异动管理办法中，干部晋升指干部个人级别由低到高上升，包括&nbsp;<input class="fillblank" name="fill_que_845_71" size="8" maxlength="255" value="" >&nbsp;晋升、&nbsp;<input class="fillblank" name="fill_que_845_72" size="8" maxlength="255" value="" >&nbsp;晋升和&nbsp;<input class="fillblank" name="fill_que_845_73" size="8" maxlength="255" value="" >&nbsp;晋升
+												<span class="point-label">[6分]</span>
+												
+													
+														<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+											<div style="clear: both;"></div>
+										</div>
+										
+									</div>
+								
+							
 							
 							
 						
@@ -1866,24 +2119,9 @@
 				</div></div>
 				
 					
-						<div id="unAnswerQuestionNumberDiv" style="position: absolute; left: 20px; bottom: 45px; display: none; z-index: 1000;">
-							<div id="unAnswerQuestionNumber" style="padding:5px; background:yellow; border:1px solid black; font-size:13px;"></div>
-							<img src="./SunLearning1_files/tooltipConnectorDown.png">
-						</div>
-						<div class="toolbar">
-							<div style="float:left;">
-								
-								<a class="garybtn" href="javascript:void(0);" onclick="javascript:checkTest(true);">检查</a>
-								<a class="garybtn" href="javascript:void(0);" onclick="javascript:commitTest();">我要交卷</a>
-							</div>
-							
-								<div style="float:right;" class="Ttime">
-									<span id="leavingTimes">00:29:36</span>
-								</div>
-							
-						</div>
 					
 					
+						<div class="toolbar"></div>
 					
 				
 			</form>
@@ -1891,40 +2129,7 @@
 		
 	
 	</div>
-<!-- <script language="javascript" type="text/javascript" src="/Public/wyndx/extention.js"> </script>	
-<div class="cheatOpen"></div>
-<div class="cheat_cont" style="top:0">
-	<div class="main">
-		<table border="0" width="100%">
-			<tr>
-				<td align="right">选择答案:</td>
-				<td>
-				<div class="select" style="width:540px">
-					<select name="examItem" id="examItem">
-						<option value="1123">1月公司文件学习考核--袁志鹏--2014-12-18 16:00:00</option>
-					</select>
-				</div>
-				<span class="getListStatus">
-					<a href="javascript:void(0)">获取最新</a>
-					<img style="display:none" src="/Public/images/loading.gif" />
-					<span></span>
-				</span>
-				</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td><input type="button" class="cheatBtn" id="cheatNow" value="快速做题" />
-				<input type="text" Id="autoTime" vale="5" class="cheatText" style="width:48px; margin-left:50px;" /> <label>分钟后自动交卷</label>
-				<input type="button" class="cheatBtn" id="cheatConfirmTime" value="确 认" />
-				<label id="timeLeft"></label>
-				</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td><span style="color:green">已清除Alt,Tab,Win键限制，请放心操作</span></td>
-			</tr>
-		</table>
-	</div>
-	<a href="javascript:void(0)" class="cheatClose">[ 收 起 ]</a>
-</div> -->
+	
+
+<!-- <script language="javascript" type="text/javascript" src="/Public/wyndx/extention.js"> </script> -->	
 </body></html>

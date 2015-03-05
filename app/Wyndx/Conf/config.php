@@ -11,6 +11,6 @@ return array(
 	'DB_PREFIX' => 'wyndx_', // 数据库表前缀
 	//'URL_MODEL' => 1 ,
 	'TMPL_FILE_DEPR'=> '_', //模板目录简化配置
-	'PUBLIC' => "http://localhost/public"
+	'PUBLIC' => "http://localhost/public" //网站public文件夹目录
 	
 );

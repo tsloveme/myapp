@@ -1,10 +1,34 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<!-- saved from url=(0119)http://wyndx.wyn88.com/testmgt/test!start.action?visitType=html&activityId=862&saveType=ACTIVITY&actAttId=258552&id=100 -->
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 	<title>SunLearning网络学习平台</title>
-<meta http-equiv="Cache-Control" content="no-store">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Cache-Control" content="no-store"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
 <meta content="深圳市鑫日科科技有限公司(0755-27777522)" name="Author">
 <meta content="www.xinrike.com" name="Copyright">
 
@@ -15,22 +39,21 @@
 	var curLocale = "zh_CN";
 -->
 </script>
-	<link rel="stylesheet" type="text/css" media="all" href="/Public/wyndx/easyui.css">
-	<link rel="stylesheet" type="text/css" media="all" href="/Public/wyndx/exam.css">
-	<link rel="stylesheet" type="text/css" media="all" href="/Public/wyndx/page.css">
-	<link rel="stylesheet" type="text/css" media="all" href="/Public/wyndx/icon.css">
-	<link rel="stylesheet" type="text/css" media="all" href="/Public/wyndx/extention.css">
-	<script src="/Public/wyndx/jquery.js" type="text/javascript"></script>
-	<script src="/Public/wyndx/jquery.easyui.min.js" type="text/javascript"></script>
-	<script src="/Public/wyndx/utils.js" type="text/javascript"></script>
-	<script src="/Public/wyndx/jquery.form.js" type="text/javascript"></script>
-	<script src="/Public/wyndx/jquery.corner.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="/css/blue/zh_CN/easyui.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="/css/blue/zh_CN/exam.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="/newstyle/style/page.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="/css/icon.css" />
+	<script src="/js/jquery.js" type="text/javascript"></script>
+	<script src="/js/jquery.easyui.min.js" type="text/javascript"></script>
+	<script src="/js/utils.js" type="text/javascript"></script>
+	<script src="/js/jquery.form.js" type="text/javascript"></script>
+	<script src="/js/jquery.corner.js" type="text/javascript"></script>
 	<script type="text/javascript">
 	<!--
 		var surveyind = false;
-		var testing = true;
-		var openModule = 'startTest';
-		var displayResult = false;
+		var testing = false;
+		var openModule = 'attendance';
+		var displayResult = true;
 		var answeredQuestion = '';
 		var displayMode = 0;
 		var commitMode = 3;
@@ -282,11 +305,11 @@
 				var returnInfo = $.parseJSON(data);
 				alert(returnInfo.msg);
 				if(returnInfo.success == true){
-					if('ACTIVITY' === 'QUESTIONNAIRE'){
+					if('' === 'QUESTIONNAIRE'){
 						//window.opener.location.reload();
 						//window.opener=null;
 						//window.close();
-					}else if('ACTIVITY' === 'ACTIVITY'){
+					}else if('' === 'ACTIVITY'){
 						//window.parent.reloadAttendance();
 						//window.parent.ClosePop();
 					}
@@ -302,7 +325,7 @@
 		}
 		
 		function changePage(page){
-			window.location.href = '/testmgt/test!checkAttendance.action?visitType=html&actTestAttId=0&page=' + page;
+			window.location.href = '/testmgt/test!checkAttendance.action?visitType=html&actTestAttId=1258&page=' + page;
 		}
 
 		function activeSession() {
@@ -324,7 +347,7 @@
 					dataType : 'json',
 					url: '/onemgt/exam!startMonitor.action',
 					data : {
-						id : '1021'
+						id : ''
 					},
 					success: function(data, textStatus){
 						if(data.forcesubmit == 1){
@@ -344,9 +367,9 @@
 			}, 1000*55);
 		}
 
-		var alt_limit = '2';
+		var alt_limit = '';
 		var ctr_limit = '';
-		var win_limit = '2';
+		var win_limit = '';
 		var win_pressed = 0;
        	var alt_pressed = 0;
        	var ctr_pressed = 0;
@@ -416,8 +439,8 @@
        		var WshShell = new ActiveXObject('WScript.Shell');
        		WshShell.SendKeys('{F11}');
        		if(testing){
-				if('1021' != '0'){
-					window.opener.setMonitorId('1021');
+				if('' != '0'){
+					window.opener.setMonitorId('');
 					startMonitor();
 				}else{
 					activeSession();
@@ -828,7 +851,7 @@
 				var showNextQuestion = function (changeStatus) {
 					var nextQuestion = $('input[queid]:visible:last', '#questionNav').nextAll(':lt(10)');
 					$('input[queid]:visible', '#questionNav').fadeOut("fast", function() {
-						nextQuestion.fadeIn("fast", function(){
+						nextQuestion.fadeIn(</alloptionelements
 							if(changeStatus){
 								onQuestionChange = false;
 							}
@@ -932,30 +955,30 @@
 	</script>
 </head>
 <body>
-	<div id="container" style="zoom: 1; border: none;"><div class="jquery-corner" style="position: relative; margin: -10px -10px -20px;"><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 28px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 26px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 24px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 22px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 20px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 18px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 16px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 14px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 12px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 10px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 8px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 6px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 4px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 2px; background-color: transparent;"></div><div style="overflow: hidden; height: 1px; min-height: 1px; font-size: 1px; border-style: none none none solid; border-color: rgb(144, 153, 174); border-width: 0px 0px 0px 30px; background-color: transparent;"></div></div>
+	<div id="container">
 	<p style="color: red;font-size: 18px;text-align: center;" id="showMessage"></p>
 	
 		
-			<form id="startTestForm" name="startTestForm" action="http://wyndx.wyn88.com/testmgt/testanswer!save.action" method="post" style="margin:0; padding:0;">
-				<input type="hidden" id="testid" name="testid" value="100">
-				<input type="hidden" id="saveType" name="saveType" value="ACTIVITY">
-				<input type="hidden" id="questionnaireId" name="questionnaireId" value="0">
-				<input type="hidden" id="generatemode" name="generatemode" value="1">
-				<input type="hidden" id="actAttId" name="actAttId" value="258552">
-				<input type="hidden" id="startTime" name="startTime" value="1423324528">
-				<input type="hidden" id="categoryIdLst" name="categoryIdLst" value="103~102~">
-				<input type="hidden" id="actatthisid" name="actatthisid" value="0">
-				<input type="hidden" id="monitorid" name="monitorid" value="1021">
-				<input type="hidden" id="autoCommit" name="autoCommit" value="false">
-				<input type="hidden" id="curAnsweredQueId" name="curAnsweredQueId" value="">
-				<input type="hidden" id="answeredQuestion" name="answeredQuestion" value="">
+			<form id="startTestForm" name="startTestForm" action="/testmgt/testanswer!save.action" method="post" style="margin:0; padding:0;">
+				<input type="hidden" id="testid" name="testid" value="100"/>
+				<input type="hidden" id="saveType" name="saveType" value=""/>
+				<input type="hidden" id="questionnaireId" name="questionnaireId" value="0"/>
+				<input type="hidden" id="generatemode" name="generatemode" value="1"/>
+				<input type="hidden" id="actAttId" name="actAttId" value="0"/>
+				<input type="hidden" id="startTime" name="startTime" value=""/>
+				<input type="hidden" id="categoryIdLst" name="categoryIdLst" value="12048~12049~"/>
+				<input type="hidden" id="actatthisid" name="actatthisid" value=""/>
+				<input type="hidden" id="monitorid" name="monitorid" value=""/>
+				<input type="hidden" id="autoCommit" name="autoCommit" value="false"/>
+				<input type="hidden" id="curAnsweredQueId" name="curAnsweredQueId" value=""/>
+				<input type="hidden" id="answeredQuestion" name="answeredQuestion" value=""/>
 
 				
 					
 						
 						
 						
-							<input type="hidden" name="unmuSelectInput" value="1127~1128~1129~1130~1131~1132~1133~">
+							<input type="hidden" name="unmuSelectInput" value="1127~1128~1129~1130~1131~1132~1133~"/>
 						
 						
 						
@@ -968,20 +991,20 @@
 						
 						
 						
-							<input type="hidden" name="jurgeInput" value="1113~1114~1115~1116~1117~1118~1119~1120~1121~1122~1123~1124~1125~">
+							<input type="hidden" name="jurgeInput" value="1113~1114~1115~1116~1117~1118~1119~1120~1121~1122~1123~1124~1125~"/>
 						
 						
 					
 				
 
-				<div class="panel" style="display: block; width: auto;"><div id="testContent" onclick="hiddenPrompt()" style="overflow-x: hidden; overflow-y: auto; width: 750px; height: 750px;" title="" class="panel-body panel-body-noheader panel-body-noborder">
+				<div id="testContent" onclick="hiddenPrompt()" style="overflow-x:hidden; overflow-y:auto;" >
 					<div id="title">时间管理制度考试</div>
 
 					
 						<fieldset>
 							<legend>试卷信息</legend>
 							<table cellspacing="0" cellpadding="0" border="0">
-								<tbody><tr>
+								<tr>
 									<td>卷面总分：<strong>100</strong> 分</td>
 									<td>合格分数线：<strong>80</strong> 分</td>
 									<td>答题时间：<strong>30</strong> 分钟</td>
@@ -990,8 +1013,20 @@
 									<td>出卷人：袁志鹏</td>
 									<td colspan="2">出卷时间：2015-01-07 17:58</td>
 								</tr>
-							</tbody></table>
+							</table>
 						</fieldset>
+						
+							<fieldset>
+								<legend>答卷情况</legend>
+								<table cellspacing="0" cellpadding="0" border="0">
+									<tr>
+										<td>我的得分：<strong>75</strong> 分</td>
+										<td>状态：<strong>不合格/不通过</strong></td>
+										<td>交卷时间：2015-02-16 13:56</td>
+									</tr>
+									
+								</table>
+							</fieldset>
 						
 					
 
@@ -1001,9 +1036,11 @@
 					
 					<div id="split">&nbsp;</div>
 					
-						<div id="categoryIndex1" donenum="0" allnum="7">
-						<div id="categoryNumber1" class="category-title">
+						<div id="categoryIndex1" donenum="0" allnum="7" >
+						<div  id="categoryNumber1" class="category-title" >
 							一、不定项选择题
+							
+								<span class="text-emphasis">&nbsp;&nbsp;&nbsp;&nbsp;我的得分：15分</span>
 							
 						</div>
 						
@@ -1012,7 +1049,7 @@
 							
 								
 									
-									<div id="questionNumber1" class="question-content" queid="1127">
+									<div id="questionNumber1" class="question-content" queid="1127" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="unmu_que_1127_index" href="javascript:void(0);">1</a>.
@@ -1020,57 +1057,45 @@
 											<div style="float: left; width: 94%;">
 												因忘打卡或其他原因导致指纹不能打卡的，员工本人应如何处理
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-false-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											<table width="100%" cellspacing="1" cellpadding="0" border="0">
 												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2714" name="unmu_que_1127" value="2714" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1127&#39;, &#39;my_unmu_que_asw_1127&#39;)"></td>
+													<tr>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2714" name="unmu_que_1127" value="2714" alt="A" onclick="setSelectQuestionAnswer('unmu_que_1127', 'my_unmu_que_asw_1127')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2714">A</label></td>
 														<td width="95%" align="left" valign="middle">在KM中提交未打卡的流程说明</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2715" name="unmu_que_1127" value="2715" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1127&#39;, &#39;my_unmu_que_asw_1127&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2715" name="unmu_que_1127" value="2715" alt="B" onclick="setSelectQuestionAnswer('unmu_que_1127', 'my_unmu_que_asw_1127')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2715">B</label></td>
 														<td width="95%" align="left" valign="middle">向直接领导口头说明</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2716" name="unmu_que_1127" value="2716" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1127&#39;, &#39;my_unmu_que_asw_1127&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2716" name="unmu_que_1127" value="2716" alt="C" onclick="setSelectQuestionAnswer('unmu_que_1127', 'my_unmu_que_asw_1127')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2716">C</label></td>
 														<td width="95%" align="left" valign="middle">向中心领导书面说明</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2717" name="unmu_que_1127" value="2717" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1127&#39;, &#39;my_unmu_que_asw_1127&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2717" name="unmu_que_1127" value="2717" alt="D" onclick="setSelectQuestionAnswer('unmu_que_1127', 'my_unmu_que_asw_1127')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2717">D</label></td>
 														<td width="95%" align="left" valign="middle">向HR考勤负责人写书面说明</td>
 													</tr>
 												
 												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1127"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
+											</table>
+											标准答案：A 
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber2" class="question-content" queid="1128">
+									<div id="questionNumber2" class="question-content" queid="1128" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="unmu_que_1128_index" href="javascript:void(0);">2</a>.
@@ -1078,57 +1103,45 @@
 											<div style="float: left; width: 94%;">
 												旷工者除当日工资不发放外，每旷工1天扣除当日工资的
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-false-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											<table width="100%" cellspacing="1" cellpadding="0" border="0">
 												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2718" name="unmu_que_1128" value="2718" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1128&#39;, &#39;my_unmu_que_asw_1128&#39;)"></td>
+													<tr>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2718" name="unmu_que_1128" value="2718" alt="A" onclick="setSelectQuestionAnswer('unmu_que_1128', 'my_unmu_que_asw_1128')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2718">A</label></td>
 														<td width="95%" align="left" valign="middle">1倍</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2719" name="unmu_que_1128" value="2719" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1128&#39;, &#39;my_unmu_que_asw_1128&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2719" name="unmu_que_1128" value="2719" alt="B" onclick="setSelectQuestionAnswer('unmu_que_1128', 'my_unmu_que_asw_1128')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2719">B</label></td>
 														<td width="95%" align="left" valign="middle">2倍</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2720" name="unmu_que_1128" value="2720" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1128&#39;, &#39;my_unmu_que_asw_1128&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2720" name="unmu_que_1128" value="2720" alt="C" onclick="setSelectQuestionAnswer('unmu_que_1128', 'my_unmu_que_asw_1128')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2720">C</label></td>
 														<td width="95%" align="left" valign="middle">3倍</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2721" name="unmu_que_1128" value="2721" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1128&#39;, &#39;my_unmu_que_asw_1128&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2721" name="unmu_que_1128" value="2721" alt="D" onclick="setSelectQuestionAnswer('unmu_que_1128', 'my_unmu_que_asw_1128')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2721">D</label></td>
 														<td width="95%" align="left" valign="middle">4倍</td>
 													</tr>
 												
 												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1128"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
+											</table>
+											标准答案：B 
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber3" class="question-content" queid="1129">
+									<div id="questionNumber3" class="question-content" queid="1129" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="unmu_que_1129_index" href="javascript:void(0);">3</a>.
@@ -1136,57 +1149,45 @@
 											<div style="float: left; width: 94%;">
 												若员工生日假当天是休息日（含法定节假日）或因工作等特殊原因无法休假的，可提前向部门负责人申请，在生日假生效后的多少天内调休，逾期不予享受。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											<table width="100%" cellspacing="1" cellpadding="0" border="0">
 												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2722" name="unmu_que_1129" value="2722" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1129&#39;, &#39;my_unmu_que_asw_1129&#39;)"></td>
+													<tr>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2722" name="unmu_que_1129" value="2722" alt="A" onclick="setSelectQuestionAnswer('unmu_que_1129', 'my_unmu_que_asw_1129')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2722">A</label></td>
 														<td width="95%" align="left" valign="middle">10天</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2723" name="unmu_que_1129" value="2723" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1129&#39;, &#39;my_unmu_que_asw_1129&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2723" name="unmu_que_1129" value="2723" alt="B" onclick="setSelectQuestionAnswer('unmu_que_1129', 'my_unmu_que_asw_1129')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2723">B</label></td>
 														<td width="95%" align="left" valign="middle">20天</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2724" name="unmu_que_1129" value="2724" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1129&#39;, &#39;my_unmu_que_asw_1129&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2724" name="unmu_que_1129" value="2724" alt="C" onclick="setSelectQuestionAnswer('unmu_que_1129', 'my_unmu_que_asw_1129')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2724">C</label></td>
 														<td width="95%" align="left" valign="middle">30天</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2725" name="unmu_que_1129" value="2725" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1129&#39;, &#39;my_unmu_que_asw_1129&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2725" name="unmu_que_1129" value="2725" alt="D" onclick="setSelectQuestionAnswer('unmu_que_1129', 'my_unmu_que_asw_1129')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2725">D</label></td>
 														<td width="95%" align="left" valign="middle">40天</td>
 													</tr>
 												
 												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1129"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
+											</table>
+											标准答案：C 
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber4" class="question-content" queid="1130">
+									<div id="questionNumber4" class="question-content" queid="1130" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="unmu_que_1130_index" href="javascript:void(0);">4</a>.
@@ -1194,57 +1195,45 @@
 											<div style="float: left; width: 94%;">
 												员工年度的出勤记录可作用于哪些员工管理环节
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											<table width="100%" cellspacing="1" cellpadding="0" border="0">
 												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2726" name="unmu_que_1130" value="2726" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1130&#39;, &#39;my_unmu_que_asw_1130&#39;)"></td>
+													<tr>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2726" name="unmu_que_1130" value="2726" alt="A" onclick="setSelectQuestionAnswer('unmu_que_1130', 'my_unmu_que_asw_1130')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2726">A</label></td>
 														<td width="95%" align="left" valign="middle">下一年度可休年假多少的依据</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2727" name="unmu_que_1130" value="2727" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1130&#39;, &#39;my_unmu_que_asw_1130&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2727" name="unmu_que_1130" value="2727" alt="B" onclick="setSelectQuestionAnswer('unmu_que_1130', 'my_unmu_que_asw_1130')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2727">B</label></td>
 														<td width="95%" align="left" valign="middle">调薪及年终奖金</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2728" name="unmu_que_1130" value="2728" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1130&#39;, &#39;my_unmu_que_asw_1130&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2728" name="unmu_que_1130" value="2728" alt="C" onclick="setSelectQuestionAnswer('unmu_que_1130', 'my_unmu_que_asw_1130')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2728">C</label></td>
 														<td width="95%" align="left" valign="middle">年度绩效考评</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2729" name="unmu_que_1130" value="2729" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1130&#39;, &#39;my_unmu_que_asw_1130&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2729" name="unmu_que_1130" value="2729" alt="D" onclick="setSelectQuestionAnswer('unmu_que_1130', 'my_unmu_que_asw_1130')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2729">D</label></td>
 														<td width="95%" align="left" valign="middle">活动经费申请的依据</td>
 													</tr>
 												
 												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1130"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
+											</table>
+											标准答案：B C 
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber5" class="question-content" queid="1131">
+									<div id="questionNumber5" class="question-content" queid="1131" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="unmu_que_1131_index" href="javascript:void(0);">5</a>.
@@ -1252,57 +1241,45 @@
 											<div style="float: left; width: 94%;">
 												公司正式员工享有带薪的假期有哪些
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-false-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											<table width="100%" cellspacing="1" cellpadding="0" border="0">
 												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2730" name="unmu_que_1131" value="2730" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1131&#39;, &#39;my_unmu_que_asw_1131&#39;)"></td>
+													<tr>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2730" name="unmu_que_1131" value="2730" alt="A" onclick="setSelectQuestionAnswer('unmu_que_1131', 'my_unmu_que_asw_1131')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2730">A</label></td>
 														<td width="95%" align="left" valign="middle">事假</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2731" name="unmu_que_1131" value="2731" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1131&#39;, &#39;my_unmu_que_asw_1131&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2731" name="unmu_que_1131" value="2731" alt="B" onclick="setSelectQuestionAnswer('unmu_que_1131', 'my_unmu_que_asw_1131')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2731">B</label></td>
 														<td width="95%" align="left" valign="middle">婚假</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2732" name="unmu_que_1131" value="2732" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1131&#39;, &#39;my_unmu_que_asw_1131&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2732" name="unmu_que_1131" value="2732" alt="C" onclick="setSelectQuestionAnswer('unmu_que_1131', 'my_unmu_que_asw_1131')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2732">C</label></td>
 														<td width="95%" align="left" valign="middle">生日假</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2733" name="unmu_que_1131" value="2733" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1131&#39;, &#39;my_unmu_que_asw_1131&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2733" name="unmu_que_1131" value="2733" alt="D" onclick="setSelectQuestionAnswer('unmu_que_1131', 'my_unmu_que_asw_1131')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2733">D</label></td>
 														<td width="95%" align="left" valign="middle">工伤假</td>
 													</tr>
 												
 												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1131"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
+											</table>
+											标准答案：B C D 
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber6" class="question-content" queid="1132">
+									<div id="questionNumber6" class="question-content" queid="1132" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="unmu_que_1132_index" href="javascript:void(0);">6</a>.
@@ -1310,57 +1287,45 @@
 											<div style="float: left; width: 94%;">
 												申请病假应递交的纸质证明文件有哪些
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											<table width="100%" cellspacing="1" cellpadding="0" border="0">
 												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2734" name="unmu_que_1132" value="2734" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1132&#39;, &#39;my_unmu_que_asw_1132&#39;)"></td>
+													<tr>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2734" name="unmu_que_1132" value="2734" alt="A" onclick="setSelectQuestionAnswer('unmu_que_1132', 'my_unmu_que_asw_1132')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2734">A</label></td>
 														<td width="95%" align="left" valign="middle">由医疗单位出具的病假单（疾病诊断书）</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2735" name="unmu_que_1132" value="2735" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1132&#39;, &#39;my_unmu_que_asw_1132&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2735" name="unmu_que_1132" value="2735" alt="B" onclick="setSelectQuestionAnswer('unmu_que_1132', 'my_unmu_que_asw_1132')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2735">B</label></td>
 														<td width="95%" align="left" valign="middle">病历本出诊记录页的复印件</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2736" name="unmu_que_1132" value="2736" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1132&#39;, &#39;my_unmu_que_asw_1132&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2736" name="unmu_que_1132" value="2736" alt="C" onclick="setSelectQuestionAnswer('unmu_que_1132', 'my_unmu_que_asw_1132')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2736">C</label></td>
 														<td width="95%" align="left" valign="middle">病假期间医疗单位当日的收费单据</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2737" name="unmu_que_1132" value="2737" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1132&#39;, &#39;my_unmu_que_asw_1132&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2737" name="unmu_que_1132" value="2737" alt="D" onclick="setSelectQuestionAnswer('unmu_que_1132', 'my_unmu_que_asw_1132')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2737">D</label></td>
 														<td width="95%" align="left" valign="middle">由居委会或当地派出所出具的亲属关系证明复印件</td>
 													</tr>
 												
 												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1132"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
+											</table>
+											标准答案：A B C 
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber7" class="question-content" queid="1133">
+									<div id="questionNumber7" class="question-content" queid="1133" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="unmu_que_1133_index" href="javascript:void(0);">7</a>.
@@ -1368,52 +1333,40 @@
 											<div style="float: left; width: 94%;">
 												关于哺乳假，下面说法不正确的是
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-false-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											<table width="100%" cellspacing="1" cellpadding="0" border="0">
 												
-													<tbody><tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2738" name="unmu_que_1133" value="2738" alt="A" onclick="setSelectQuestionAnswer(&#39;unmu_que_1133&#39;, &#39;my_unmu_que_asw_1133&#39;)"></td>
+													<tr>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2738" name="unmu_que_1133" value="2738" alt="A" onclick="setSelectQuestionAnswer('unmu_que_1133', 'my_unmu_que_asw_1133')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2738">A</label></td>
 														<td width="95%" align="left" valign="middle">符合条件的女员工每天享有两次哺乳时间，每次30分钟，也可合并60分钟一起使用</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2739" name="unmu_que_1133" value="2739" alt="B" onclick="setSelectQuestionAnswer(&#39;unmu_que_1133&#39;, &#39;my_unmu_que_asw_1133&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2739" name="unmu_que_1133" value="2739" alt="B" onclick="setSelectQuestionAnswer('unmu_que_1133', 'my_unmu_que_asw_1133')"  /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2739">B</label></td>
 														<td width="95%" align="left" valign="middle">多胞胎生育的，每多哺乳1名婴儿，每次哺乳时间增加30分钟，即每天增加1小时。</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2740" name="unmu_que_1133" value="2740" alt="C" onclick="setSelectQuestionAnswer(&#39;unmu_que_1133&#39;, &#39;my_unmu_que_asw_1133&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2740" name="unmu_que_1133" value="2740" alt="C" onclick="setSelectQuestionAnswer('unmu_que_1133', 'my_unmu_que_asw_1133')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2740">C</label></td>
 														<td width="95%" align="left" valign="middle">女员工申请哺乳假，需按月申请或一次性全部申请完成，申请后不得变更哺乳假的休假方式。</td>
 													</tr>
 												
 													<tr>
-														<td width="20" align="left"><input type="checkbox" id="unmu_que_option_2741" name="unmu_que_1133" value="2741" alt="D" onclick="setSelectQuestionAnswer(&#39;unmu_que_1133&#39;, &#39;my_unmu_que_asw_1133&#39;)"></td>
+														<td width="20" align="left" ><input type="checkbox" id="unmu_que_option_2741" name="unmu_que_1133" value="2741" alt="D" onclick="setSelectQuestionAnswer('unmu_que_1133', 'my_unmu_que_asw_1133')"  checked="checked" /></td>
 														<td width="20" align="center"><label for="unmu_que_option_2741">D</label></td>
 														<td width="95%" align="left" valign="middle">员工当天应休但未休的哺乳假，可以累加与调休。</td>
 													</tr>
 												
 												
-													<tr>
-														<td align="left" colspan="3" class="myAnswer">
-															<div style="float:left;" class="selectMutiAnswer">
-																
-																	
-																	我的答案：<label class="answer-label" id="myanswer"><span id="my_unmu_que_asw_1133"></span></label>
-																
-															</div>
-															
-														</td>
-													</tr>
-												
-											</tbody></table>
-											
+											</table>
+											标准答案：D 
 										</div>
 									</div>
 								
@@ -1425,9 +1378,11 @@
 						</div>
 						
 					
-						<div id="categoryIndex2" donenum="0" allnum="13">
-						<div id="categoryNumber2" class="category-title">
+						<div id="categoryIndex2" donenum="0" allnum="13" >
+						<div  id="categoryNumber2" class="category-title" >
 							二、判断题
+							
+								<span class="text-emphasis">&nbsp;&nbsp;&nbsp;&nbsp;我的得分：60分</span>
 							
 						</div>
 						
@@ -1438,7 +1393,7 @@
 							
 								
 									
-									<div id="questionNumber8" class="question-content" queid="1113">
+									<div id="questionNumber8" class="question-content" queid="1113" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1113_index" href="javascript:void(0);">8</a>.
@@ -1446,31 +1401,30 @@
 											<div style="float: left; width: 94%;">
 												员工在离职通知期内不可申请事假。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1113" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1113_R" name="jurge_que_1113" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1113&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1113_R"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1113_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1113_W" name="jurge_que_1113" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1113&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1113_W" /></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1113_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber9" class="question-content" queid="1114">
+									<div id="questionNumber9" class="question-content" queid="1114" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1114_index" href="javascript:void(0);">9</a>.
@@ -1478,31 +1432,30 @@
 											<div style="float: left; width: 94%;">
 												所有转正后的正式员工，每年可享有2天的全薪病假
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-false-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1114" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1114_R" name="jurge_que_1114" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1114&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-false">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1114_R" /></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1114_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1114_W" name="jurge_que_1114" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1114&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1114_W"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1114_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber10" class="question-content" queid="1115">
+									<div id="questionNumber10" class="question-content" queid="1115" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1115_index" href="javascript:void(0);">10</a>.
@@ -1510,31 +1463,30 @@
 											<div style="float: left; width: 94%;">
 												工伤假为全薪连续日假，员工休假期间工资按正常出勤工资80%发放。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1115" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1115_R" name="jurge_que_1115" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1115&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1115_R"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1115_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1115_W" name="jurge_que_1115" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1115&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1115_W" /></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1115_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber11" class="question-content" queid="1116">
+									<div id="questionNumber11" class="question-content" queid="1116" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1116_index" href="javascript:void(0);">11</a>.
@@ -1542,31 +1494,30 @@
 											<div style="float: left; width: 94%;">
 												如员工的结婚证书签发之日不在本公司雇佣期内的，则不可享用婚假。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1116" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1116_R" name="jurge_que_1116" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1116&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1116_R"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1116_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1116_W" name="jurge_que_1116" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1116&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1116_W" /></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1116_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber12" class="question-content" queid="1117">
+									<div id="questionNumber12" class="question-content" queid="1117" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1117_index" href="javascript:void(0);">12</a>.
@@ -1574,31 +1525,30 @@
 											<div style="float: left; width: 94%;">
 												未婚怀孕者流产时可以享有计划生育假。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1117" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1117_R" name="jurge_que_1117" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1117&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-false">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1117_R" /></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1117_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1117_W" name="jurge_que_1117" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1117&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1117_W"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1117_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-false">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber13" class="question-content" queid="1118">
+									<div id="questionNumber13" class="question-content" queid="1118" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1118_index" href="javascript:void(0);">13</a>.
@@ -1606,31 +1556,30 @@
 											<div style="float: left; width: 94%;">
 												员工如在休法定年休假期间生病，即使符合获准病假的条件，应仍视同为法定年休假，不作病假处理。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1118" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1118_R" name="jurge_que_1118" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1118&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1118_R"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1118_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1118_W" name="jurge_que_1118" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1118&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1118_W" /></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1118_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber14" class="question-content" queid="1119">
+									<div id="questionNumber14" class="question-content" queid="1119" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1119_index" href="javascript:void(0);">14</a>.
@@ -1638,31 +1587,30 @@
 											<div style="float: left; width: 94%;">
 												出差时间如包含周末休息日，休息日不计入加班时间。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1119" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1119_R" name="jurge_que_1119" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1119&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1119_R"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1119_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1119_W" name="jurge_que_1119" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1119&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1119_W" /></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1119_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber15" class="question-content" queid="1120">
+									<div id="questionNumber15" class="question-content" queid="1120" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1120_index" href="javascript:void(0);">15</a>.
@@ -1670,31 +1618,30 @@
 											<div style="float: left; width: 94%;">
 												违反国家计划生育规定的不可享受产假。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1120" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1120_R" name="jurge_que_1120" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1120&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1120_R"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1120_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1120_W" name="jurge_que_1120" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1120&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1120_W" /></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1120_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber16" class="question-content" queid="1121">
+									<div id="questionNumber16" class="question-content" queid="1121" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1121_index" href="javascript:void(0);">16</a>.
@@ -1702,31 +1649,30 @@
 											<div style="float: left; width: 94%;">
 												属于合法再婚的，不给予婚假。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1121" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1121_R" name="jurge_que_1121" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1121&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-false">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1121_R" /></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1121_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1121_W" name="jurge_que_1121" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1121&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1121_W"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1121_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-false">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber17" class="question-content" queid="1122">
+									<div id="questionNumber17" class="question-content" queid="1122" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1122_index" href="javascript:void(0);">17</a>.
@@ -1734,31 +1680,30 @@
 											<div style="float: left; width: 94%;">
 												生日假是全薪假，发放全额工资。生日假最小请假单位为1天。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1122" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1122_R" name="jurge_que_1122" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1122&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1122_R"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1122_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1122_W" name="jurge_que_1122" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1122&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1122_W" /></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1122_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber18" class="question-content" queid="1123">
+									<div id="questionNumber18" class="question-content" queid="1123" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1123_index" href="javascript:void(0);">18</a>.
@@ -1766,31 +1711,30 @@
 											<div style="float: left; width: 94%;">
 												法定节假日，所有正式员工有资格享受法定节假日
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1123" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1123_R" name="jurge_que_1123" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1123&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1123_R"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1123_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1123_W" name="jurge_que_1123" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1123&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1123_W" /></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1123_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber19" class="question-content" queid="1124">
+									<div id="questionNumber19" class="question-content" queid="1124" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1124_index" href="javascript:void(0);">19</a>.
@@ -1798,31 +1742,30 @@
 											<div style="float: left; width: 94%;">
 												申请加班的对象仅限总监级以下级别的员工。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1124" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1124_R" name="jurge_que_1124" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1124&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1124_R"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1124_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1124_W" name="jurge_que_1124" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1124&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1124_W" /></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1124_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
 									
-									<div id="questionNumber20" class="question-content" queid="1125">
+									<div id="questionNumber20" class="question-content" queid="1125" >
 										<div class="question-title">
 											<div style="float: left; width: 30px;">
 												<a class="question-order" id="jurge_que_1125_index" href="javascript:void(0);">20</a>.
@@ -1830,26 +1773,25 @@
 											<div style="float: left; width: 94%;">
 												生日假在员工转正后享有，不需提前申请，按身份证上的日期为准。
 												<span class="point-label">[5分]</span>
-												
+												<span class="judge-true-red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 											</div>
 											<div style="clear: both;"></div>
 										</div>
 										<div class="question-option">
 											
+											
 												<table cellspacing="1" cellpadding="0" border="0">
-													<tbody><tr>
-														<td align="left">我的答案：</td>
-														<td align="left" width="50"><span id="my_jurge_que_asw_1125" class="">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-														<td align="left"><input type="radio" id="jurge_que_1125_R" name="jurge_que_1125" value="R" onclick="setJurgeQuestionAnswer(&#39;R&#39;, &#39;my_jurge_que_asw_1125&#39;)"></td>
+													<tr>
+														<td align="left">我的答案</td>
+														<td align="left" width="50"><span class="judge-false">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+														<td align="left"><input type="radio" id="jurge_que_1125_R" /></td>
 														<td align="left" style="padding-left:2px; padding-right:20px;"><label for="jurge_que_1125_R">对</label></td>
-														<td align="left"><input type="radio" id="jurge_que_1125_W" name="jurge_que_1125" value="W" onclick="setJurgeQuestionAnswer(&#39;W&#39;, &#39;my_jurge_que_asw_1125&#39;)"></td>
+														<td align="left"><input type="radio" id="jurge_que_1125_W"  checked="checked"/></td>
 														<td align="left" style="padding-left:2px;"><label for="jurge_que_1125_W">错</label></td>
 													</tr>
-													
-												</tbody></table>
+												</table>
 											
-											
-											
+											标准答案：<span class="judge-false">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 										</div>
 									</div>
 								
@@ -1863,26 +1805,21 @@
 						
 						
 					
-				</div></div>
+				</div>
 				
 					
-						<div id="unAnswerQuestionNumberDiv" style="position: absolute; left: 20px; bottom: 45px; display: none; z-index: 1000;">
-							<div id="unAnswerQuestionNumber" style="padding:5px; background:yellow; border:1px solid black; font-size:13px;"></div>
-							<img src="./SunLearning1_files/tooltipConnectorDown.png">
-						</div>
+					
 						<div class="toolbar">
 							<div style="float:left;">
-								
-								<a class="garybtn" href="javascript:void(0);" onclick="javascript:checkTest(true);">检查</a>
-								<a class="garybtn" href="javascript:void(0);" onclick="javascript:commitTest();">我要交卷</a>
+								<select id="page" name="page" onchange="changePage(this.value)">
+									
+										<option value="1" >第1次提交成绩</option>
+									
+										<option value="2"  selected="selected">第2次提交成绩</option>
+									
+								</select>
 							</div>
-							
-								<div style="float:right;" class="Ttime">
-									<span id="leavingTimes">00:29:36</span>
-								</div>
-							
-						</div>
-					
+			</div>
 					
 					
 				
@@ -1891,40 +1828,5 @@
 		
 	
 	</div>
-<!-- <script language="javascript" type="text/javascript" src="/Public/wyndx/extention.js"> </script>	
-<div class="cheatOpen"></div>
-<div class="cheat_cont" style="top:0">
-	<div class="main">
-		<table border="0" width="100%">
-			<tr>
-				<td align="right">选择答案:</td>
-				<td>
-				<div class="select" style="width:540px">
-					<select name="examItem" id="examItem">
-						<option value="1123">1月公司文件学习考核--袁志鹏--2014-12-18 16:00:00</option>
-					</select>
-				</div>
-				<span class="getListStatus">
-					<a href="javascript:void(0)">获取最新</a>
-					<img style="display:none" src="/Public/images/loading.gif" />
-					<span></span>
-				</span>
-				</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td><input type="button" class="cheatBtn" id="cheatNow" value="快速做题" />
-				<input type="text" Id="autoTime" vale="5" class="cheatText" style="width:48px; margin-left:50px;" /> <label>分钟后自动交卷</label>
-				<input type="button" class="cheatBtn" id="cheatConfirmTime" value="确 认" />
-				<label id="timeLeft"></label>
-				</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td><span style="color:green">已清除Alt,Tab,Win键限制，请放心操作</span></td>
-			</tr>
-		</table>
-	</div>
-	<a href="javascript:void(0)" class="cheatClose">[ 收 起 ]</a>
-</div> -->
-</body></html>
+</body>
+</html>
