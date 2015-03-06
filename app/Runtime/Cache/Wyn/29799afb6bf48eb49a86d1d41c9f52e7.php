@@ -25,8 +25,8 @@ $(function(){
 	<div class="logo"></div>
 	<ul>
 		<li class="selected"><a href="/index.php/Wyn/AddLink" target="content">酒店批量加链接</a></li>
-		<li><a href="/index.php/Wyn/Index/datasync" target="content">同步官网数据</a></li>
-		<!-- <li><a href="" target="content">表格/数据导入导出</a></li>
+		<!--<li><a href="/index.php/Wyn/Index/datasync" target="content">同步官网数据</a></li>
+		 <li><a href="" target="content">表格/数据导入导出</a></li>
 		<li><a href="" target="content">酒店数据查询</a></li> -->
 	</ul>
 </header>

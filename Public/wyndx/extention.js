@@ -93,7 +93,9 @@
 		$(".getListStatus span").css("color","red").html("");
 		$.ajax({
 			url:"http://localhost/index.php/wyndx/Index/getAnswerList",
+			dataType:"json",
 			type:"POST",
+			data:{},
 			success:function(data){
 				if(data==null){
 					$("#examItem").empty().html('<option value="0">没有查到任何数据！</option>');

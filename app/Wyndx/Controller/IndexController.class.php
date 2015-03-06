@@ -138,6 +138,49 @@ class IndexController extends Controller{
 		$data = $e->field('examId,examTestId,examTitle,examAuthor,examTime')->select();
 		$this->ajaxReturn($data);
 	}
+	public function getAnswerList_GET(){//jsonp方式获取
+		$e = M('exam');
+		$callback = $_GET['callback'];
+		$data = $e->field('examId,examTestId,examTitle,examAuthor,examTime')->select();
+		//$this->ajaxReturn($data);
+		$result = json_encode($data);
+		echo $callback.'('.$result.')';
+		exit;
+	}
+	//获取题目答案（jsonp方式）
+	public function getAnswer_GET(){
+		header("Content-type: text/html; charset=utf-8");
+		$examid=$_GET['examid'];
+		$callback=$_GET['callback'];
+		//$examid='19';
+		
+		$e = M('exam');
+		$data = $e->find($examid);
+		//dump($data);
+		$arr = array();
+
+		if($data["examanswersin"]!=null){
+			$examanswersin = explode('$$',$data["examanswersin"]);
+			
+		}
+		if($data["examanswermul"]!=null){
+			$examanswermul = explode('$$',$data["examanswermul"]);
+			
+		}
+		if($data["examanswerjud"]!=null){
+			$examanswerjud = explode('$$',$data["examanswerjud"]);
+			
+		}
+		if($data["examanswerfil"]!=null){
+			$examanswerfil = explode('$$',$data["examanswerfil"]);
+			
+		}
+		//dump($arr);
+		//$this->ajaxReturn(array('examanswersin'=>$examanswersin,'examanswermul'=>$examanswermul,'examanswerjud'=>$examanswerjud,'examanswerfil'=>$examanswerfil));
+		//$this->ajaxReturn($arr);
+		$result = json_encode(array('examanswersin'=>$examanswersin,'examanswermul'=>$examanswermul,'examanswerjud'=>$examanswerjud,'examanswerfil'=>$examanswerfil));
+		echo $callback.'('.$result.')';
+	}
 	//获取题目答案
 	public function getAnswer(){
 		header("Content-type: text/html; charset=utf-8");
