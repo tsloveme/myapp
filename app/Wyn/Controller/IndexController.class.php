@@ -89,7 +89,7 @@ class IndexController extends Controller{
 			}
 
 		}
-		$info = array("num"=>count($arr),'errlist'=>$ErrorArr,'addNum'=>$addNum,'updateNum'=>$updateNum);
+		$info = array("num"=>count($arr),/*'errlist'=>$ErrorArr,*/'addNum'=>$addNum,'updateNum'=>$updateNum);
 		$this->ajaxReturn($info);
 		//dump($arr);
 		//$this->display();

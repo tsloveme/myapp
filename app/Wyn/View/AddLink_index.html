@@ -24,28 +24,37 @@ KindEditor.ready(function(K) {
 	K(".ke-toolbar").append(sync);
 	K("#snycPop").bind("click", function(){
 		var dialog = K.dialog({
-				width : 640,
+				width : 480,
 				title : '同步官网新上线酒店',
-				body : '<div id="syncState" style="margin:10px;margin-right:0; height:320px; overflow-y:scroll"><p align="center">同步进程</p>'+
+				body : '<div id="syncState" style="margin:10px;margin-right:0; height:240px; overflow-y:scroll"><p style="padding:100px 10px 0 0; text-align:center; color:#ccc">同步结果将在这里展示。</p>'+
 				''+
 				'</div>'
 				,
 				closeBtn : {
 						name : '关闭',
 						click : function(e) {
+							if($("#hotelUpdateState").val()=="1"){
+								var b = confirm("正在更新操作，要退出吗？");
+								if (b){
+									$("#hotelUpdateState").val(" ");
+									dialog.remove();
+								}
+							}
+							else{
 								dialog.remove();
+							}
 						}
 				},
 				yesBtn : {
 						name : '开始同步',
 						click : function(e) {
-								alert(this.value);
+								$("#startUpdate").click();
 						}
 				},
 				noBtn : {
 						name : '终止操作',
 						click : function(e) {
-								dialog.remove();
+							$("#hotelUpdateState").val(" ");
 						}
 				}
 		});
@@ -130,67 +139,69 @@ function getJsonObjLength(jsonObj) {
     return Length;
   }
 //省份更新
-$("#updateProvince").click(function(){
-	$("#updateProvinceLoading").show();
-	$("#updateProvinceState").empty();
+$("#startUpdate").click(function (){
+	$("#hotelUpdateState").val("1")
+	$(".ke-dialog-yes .ke-button").attr("disabled","disabled");
+	$(".ke-dialog-footer").prepend('<img src="__PUBLIC__/images/loading.gif" height="16" style="vertical-align:middle" />');
+	$("#syncState").empty().append('<p><b>正在更新省份...</b></p>');
 	$.ajax({
-		url:"__URL__/proviceInsert",
+		url:"__MODULE__/Index/proviceInsert",
 		type:"GET",
 		success:function(data){
-			//alert(111);
-			$("#updateProvinceLoading").hide();
-			$("#updateProvinceState").html("更新成功！"+data.num+" " + data.errList+" 更新"+data.updateNum+" 新加"+data.addNum);
+			$("#syncState").append("<p>操作成功: 总数"+data.num+"条，更新"+data.updateNum+"条记录，新增"+data.addNum+"条记录</p>");
+			updateCity();
 		},
 	});
 });
 //城市更新
-$("#updateCity").click(function(){
-	$("#updateCity").parent().children(".loading").show();
-	$("#updateCity").parent().children(".state").empty();
+function updateCity(){
+	if($("#hotelUpdateState").val()==" "){
+		$(".ke-dialog-yes .ke-button").removeAttr("disabled");
+		$(".ke-dialog-footer img").remove();
+		$("#syncState").append('<p><b style="color:red">同步过程被终止！！！</b></p>');
+		return;
+	}	$("#syncState").append('<p><b>正在更新城市...</b></p>');
 	$.ajax({
-		url:"__URL__/updateCity",
+		url:"__MODULE__/Index/updateCity",
 		type:"GET",
 		success:function(data){
-			//alert(1222);
-			$("#updateCity").parent().children(".loading").hide();
-			$("#updateCity").parent().children(".state").html("更新成功！" +data.num);
+			$("#syncState").append("<p>操作成功: 更新"+data.num+"条记录</p>");
+			updateHotel();
 		},
 	});
-});
+};
 //获取城市列表信息并逐一更新酒店。
-$("#updatehotel").click(function(){
-	$("#hotelUpdateState").val("1");
-	$("#updatehotel").parent().children(".loading").show();
-	$("#updatehotel").parent().children(".state").empty();
+function updateHotel(){
+	if($("#hotelUpdateState").val()==" "){
+		$(".ke-dialog-yes .ke-button").removeAttr("disabled");
+		$(".ke-dialog-footer img").remove();
+		$("#syncState").append('<p><b style="color:red">同步过程被终止！！！</b></p>');
+		return;
+	}	$("#syncState").append('<p><b>获取城市列表逐一更新酒店...</b></p>');
 	$.ajax({
-		url:"__URL__/getcity",
+		url:"__MODULE__/Index/getcity",
 		type:"GET",
 		success:function(data){
 			//alert(data);
 			updateByCity(data,1);
 		},
 		error:function(){
-			$("#updatehotel").parent().children(".state").html("获取城市列表失败！");
+			$("#syncState").append("<p>获取城市列表失败！</p>");
 		}
 	});
-});
+};
 
 //更新单个城市酒店
 function updateByCity(data,i){
-	if(!$("#hotelUpdateState").val()){
-		alert("用户中止！");
+	if($("#hotelUpdateState").val()==" "){
+		$(".ke-dialog-yes .ke-button").removeAttr("disabled");
+		$(".ke-dialog-footer img").remove();
+		$("#syncState").append('<p><b style="color:red">同步过程被终止！！！</b></p>');
 		return;
-	}
-	//alert(data[i].cityid+" "+data[i].cityno+" "+decodeURIComponent(data[i].cityname));
-	$("#updatehotel").parent().children(".state").text("正在更新"+ data[i]["cityname"]);
+	}	$("#syncState").append('<p><b>正在更新 '+data[i]["cityname"]+' 的酒店...</b></p>');
 	$.ajax({
-		url:"__URL__/updateHotel",
+		url:"__MODULE__/Index/updateHotel",
 		type:"POST",
-		/*data:{
-		cityId:17,
-		cityNo:4401,
-		cityName:'广州市'
-		},*/
 		data:{
 		cityId:data[i].cityid,
 		cityNo:data[i].cityno,
@@ -199,17 +210,24 @@ function updateByCity(data,i){
 		success:function(da){
 			i+=1;
 			if(i<getJsonObjLength(data)){
-				$("#updatehotel").parent().children(".state").text("更新完成！"+da.num+"条");
+				$("#syncState").append("<p>操作成功！更新"+da.num+"条记录</p>")
+				$("#syncState").scrollTop(500);
 				setTimeout(function(){updateByCity(data,i)},200);
 			}
 			else{
-				$("#updatehotel").parent().children(".loading").hide();
-				$("#updatehotel").parent().children(".state").text("全部更新完成！");			
+				$("#syncState").append('<p style="font-weight:bold; color:green">全部更新完成！</p>');
+				$(".ke-dialog-yes .ke-button").removeAttr("disabled");
+				$(".ke-dialog-footer img").remove();
+				$("#hotelUpdateState").val(" ")
 			}
 			
 			
 		}
 	});
+
+}
+//更新过过程人为终止
+function ifUpdateAbort(){
 
 }
 //end
@@ -271,7 +289,8 @@ function searchHotel(){
 </head>
 <body>
 <div class="contPannel" style="display:block">
-<input type="hidden" id="hotelUpdateState" value="1" />
+<input type="hidden" id="hotelUpdateState" value="" />
+<input type="button" id="startUpdate" style="display:none" />
 
 	<h2>维也纳酒店批量添加链接,请把excel内容粘贴入内，再执行操作！</h2>
 	
