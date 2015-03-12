@@ -21,7 +21,10 @@ KindEditor.plugin('link', function(K) {
 					//search 陈堂宋150216
 					'<div class="ke-dialog-row">' +
 					'<label for="keUrl" style="width:60px;">搜索酒店</label>' +
-					'<input class="ke-input-text" type="text" id="sKeyWorld" name="sKeyWorld" value="'+self.selectedHtml()+'" style="width:480px;" />'+
+					'<input class="ke-input-text" type="text" id="sKeyWorld" name="sKeyWorld" value="'
+					+self.selectedHtml().replace(/(<\w[^\>]+>)|(\<\/\s*\w+\>)/gim,'')+'" style="width:480px;" />'+
+					
+					//'<script>alert("'+self.selectedHtml()+'")<\/script>'+
 					'<input class="ke-input-button" type="button" value=" 查 询 " onclick="searchHotel()" id="dialogSearch">'+
 					'</div>' +
 					

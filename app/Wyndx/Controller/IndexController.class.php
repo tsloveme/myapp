@@ -91,7 +91,7 @@ class IndexController extends Controller{
 			$data['examAnswerFil'] = join("$$",$fillQueAll);
 		}
 		//TestId
-		$ptnTestId = '/<input type="hidden" id="testid" name="testid" value="([\d]*)"\/>/i';
+		$ptnTestId = '/<input type="hidden" id="testid" name="testid" value="([\d]+)"/i';
 		if(preg_match_all($ptnTestId,$str,$mTestId)){
 			$data["examTestId"] = $mTestId[1][0];
 		}
@@ -135,7 +135,7 @@ class IndexController extends Controller{
 	//获取答案列表
 	public function getAnswerList(){
 		$e = M('exam');
-		$data = $e->field('examId,examTestId,examTitle,examAuthor,examTime')->select();
+		$data = $e->field('examId,examTestId,examTitle,examAuthor,examTime')->where('examChecked=1')->select();
 		$this->ajaxReturn($data);
 	}
 	public function getAnswerList_GET(){//jsonp方式获取
@@ -184,7 +184,8 @@ class IndexController extends Controller{
 	//获取题目答案
 	public function getAnswer(){
 		header("Content-type: text/html; charset=utf-8");
-		$examid=$_POST['examid'];
+		//$examid=$_POST['examid'];
+		$examid=$_GET['examid'];
 		//$examid='19';
 		
 		$e = M('exam');
