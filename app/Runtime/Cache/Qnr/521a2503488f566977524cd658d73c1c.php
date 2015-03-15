@@ -7,13 +7,15 @@
 <script lanuage="javascript" type="text/javascript">
 $(function(){
 	$("#updateProxy").click(function(){
-		$(this).attr("disabled","disabled").val("正在更新。。。");
-		$(this).next(".state").html('<img src="/Public/images/loading.gif" height="16" />');
+		var _this = $(this);
+		_this.attr("disabled","disabled").val("正在更新。。。");
+		_this.next(".state").html('<img src="/Public/images/loading.gif" height="16" />');
 		$.ajax({
 			url:"/index.php/Qnr/Index/getIpFromWeb",
 			type:"GET",
 			success:function(data){
-				$(this).next().html('<span style="color">更新成功，'+data.num+'个可用！</span>');
+				_this.next().html('<span style="color">更新成功，'+data.num+'个可用！</span>')
+				.removeAttr("disabled");
 			}
 		});
 		
@@ -32,7 +34,7 @@ $(function(){
 				<td width=25%></td>
 				<td width=25%></td>
 				<td width=25%>
-				<input id="updateProxy" type="button" value="更新代理服务器" />
+				<input id="updateProxy" type="button" value="更新代理服务器" autocomplete="off" />
 					<span class="state"></span>
 				</td>
 			</tr>

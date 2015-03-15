@@ -14,7 +14,8 @@ $(function(){
 			url:"__URL__/getIpFromWeb",
 			type:"GET",
 			success:function(data){
-				_this.next().html('<span style="color">更新成功，'+data.num+'个可用！</span>');
+				_this.next().html('<span style="color">更新成功，'+data.num+'个可用！</span>')
+				.removeAttr("disabled");
 			}
 		});
 		
@@ -33,7 +34,7 @@ $(function(){
 				<td width=25%></td>
 				<td width=25%></td>
 				<td width=25%>
-				<input id="updateProxy" type="button" value="更新代理服务器" />
+				<input id="updateProxy" type="button" value="更新代理服务器" autocomplete="off" />
 					<span class="state"></span>
 				</td>
 			</tr>
