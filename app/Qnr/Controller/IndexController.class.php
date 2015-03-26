@@ -19,8 +19,10 @@ class IndexController extends Controller {
 			$strIp = $mArr[0][0];
 			$ptnIp = '/<td>(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})<\/td>[^\<]*<td>([\d]+)<\/td>[^\<]*<td>[\s\S]*?<\/td>[^\<]*<td>[\s\S]*?<\/td>[^\<]*<td>(\w+)<\/td>/i';
 			
-			
 			if(preg_match_all($ptnIp,$strIp,$mip)){
+				$ips=$this->ValidateIP($mip);
+				dump($ips);
+				exit;
 				$p = M('proxy');
 				$p->where('1')->delete();
 				$i = 0;
@@ -38,6 +40,51 @@ class IndexController extends Controller {
 			
 		}
 		
+	}
+	//验证代理IP能否连接
+	/*返回可以的代理服务器的地址和端口的二维地址。
+	*传入二维数组对象
+	*/
+	protected function ValidateIP($arr){
+		$testUrl='http://libs.baidu.com/zepto/0.8/zepto.min.js';
+		$mh = curl_multi_init();
+		$chs = array();
+		$arr_tem = array();
+		$len = count($arr[1]);
+		//$len = 3;
+		for($i=0; $i<$len; $i++){
+			$chs[$i] = curl_init();
+			curl_setopt($chs[$i],CURLOPT_USERAGENT,'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)');
+			curl_setopt($chs[$i],CURLOPT_URL,$testUrl);
+			curl_setopt($chs[$i],CURLOPT_TIMEOUT,10);
+			curl_setopt($chs[$i],CURLOPT_PROXY,$arr[1][$i]);//ip地址
+			curl_setopt($chs[$i],CURLOPT_PROXYPORT,$arr[2][$i]);//端口
+			//curl_setopt($chs[$i], CURLOPT_PROXYUSERPWD, ":"); //http代理认证帐号，username:password的格式
+			curl_setopt($chs[$i], CURLOPT_RETURNTRANSFER, 0);//返回字符串
+			$file = fopen('E:\cookie\\'.$i.'txt',"a");
+			fwrite($file,"");
+			fclose($file);
+			curl_setopt ($chs[$i], CURLOPT_COOKIEJAR, 'E:\cookie\\'.$i.'.txt');
+			curl_setopt ($chs[$i], CURLOPT_HEADER, 1);
+			curl_setopt ($chs[$i], CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt ($chs[$i], CURLOPT_FOLLOWLOCATION, 1);
+			curl_setopt ($chs[$i], CURLOPT_TIMEOUT, 2);
+			curl_multi_add_handle($mh,$chs[$i]);
+		}
+		do{
+			curl_multi_exec($mh,$active);
+		}while($active);
+		foreach($chs as $k => $v){
+			$result = curl_exec($v);
+			if($result!==false){
+				array_push($arr_tem,array($arr[1][$k],$arr[2][$k],$arr[3][$k]));
+			}
+			curl_multi_remove_handle($mh,$v);
+			curl_close($v);
+		}
+		curl_multi_close($mh);
+		
+		return $arr_tem;		
 	}
 	//多线程demo抓取百度首页并写入文件
 	public function multiThreadTest(){
@@ -74,6 +121,7 @@ class IndexController extends Controller {
 		}*/
 		curl_multi_close($mh);  
 	}
+	//单线程测试
 	public function sigleThread(){
 		set_time_limit(30);
 		$ch = curl_init();
@@ -93,6 +141,7 @@ class IndexController extends Controller {
 		}
 		curl_close($ch);
 	}
+	//多线程没试2
 	public function mutil(){
 		$urls = array(  
 		 'http://www.sina.com.cn/',  
