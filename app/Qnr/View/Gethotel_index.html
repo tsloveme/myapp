@@ -35,37 +35,38 @@ $(function(){
 			type:"GET",
 			success:function(data){
 				var citys = data.citys;
-				var ipids = data.ipids;
+				//var ipids = data.ipids;
 				var cityLen = getJsonLength(data.citys);
-				var ipidLen = getJsonLength(data.ipids);
+				//var ipidLen = getJsonLength(data.ipids);
 				var i=0,j=0;
 				function validate(){
 					var ajax = $.ajax({
 						url:"__URL__/store",
-						data:{"city":citys[i],"ipid":ipids[j]},
+						data:{"cityurl":citys[i].cityurl,"name":citys[i].name/*,"ipid":ipids[j]*/},
 						type:"POST",
 						timeout:12000,
 						success:function(data){
 							bar.style.width=100*(i+1)/cityLen+"%";
-							i++;j++;
-							if (j>=ipidLen){j=0}
+							i++;
+							//j++;
+							//if (j>=ipidLen){j=0}
 							if(i<cityLen){
-								setTimeout(validate,400);
+								setTimeout(validate,600);
 							}
 							else{
 								_this.text(' 更新城市 ');
 								$(".btnGroup button").removeAttr("disabled");
 								$("#processBar").hide();
 							}
-						},
+						}/*,
 						complete:function(XMLHttpRequest,status){
 							if(status=='timeout'){
 								ajax.abort();
 								ipids.splice(j,1);
 								ipidLen = getJsonLength(data.ipids);
-								setTimeout(validate,400);
+								setTimeout(validate,600);
 							}
-						}
+						}*/
 					});
 				};
 				validate();}
@@ -88,40 +89,42 @@ $(function(){
 			type:"GET",
 			success:function(data){
 				$("<li>获取城市成功！</li><li>正在更新酒店...</li>").prependTo(ul);
-				var citys = data.citys;
-				var ipids = data.ipids;
-				var cityLen = getJsonLength(data.citys);
-				var ipidLen = getJsonLength(data.ipids);
-				var i=0,j=0;
+				//var citys = data.citys;
+				//var ipids = data.ipids;
+				//var cityLen = getJsonLength(data.citys);
+				//var ipidLen = getJsonLength(data.ipids);
+				var citys = data;
+				var cityLen = getJsonLength(citys);
+				var i=0/*,j=0*/;
 				var page =1;
 				function validate(){
 					if(!page){
-						$("<li>正在更新"+citys[i]+"的酒店...</li>").prependTo(ul);
+						$("<li>正在更新"+citys[i].cityname+"的酒店...</li>").prependTo(ul);
 						page = 1;
 					}
 					var ajax = $.ajax({
 						url:"__URL__/storeHotel",
-						data:{"city":citys[i],"ipid":ipids[j],"page":page},
+						data:{"cityurl":citys[i].cityurl,"page":page},
 						type:"POST",
 						timeout:12000,
 						success:function(data){
 							page = data.page;
 							if(!page){
 								bar.style.width=100*(i+1)/cityLen+"%";
-								$("<li>"+citys[i]+"酒店更新成功！</li>").prependTo(ul);
+								$("<li>"+citys[i].cityname+"酒店更新成功！</li>").prependTo(ul);
 								i++;
 							}
-							j++;
-							if (j>=ipidLen){j=0}
+							//j++;
+							//if (j>=ipidLen){j=0}
 							if(i<cityLen){
-								setTimeout(validate,400);
+								setTimeout(validate,600);
 							}
 							else{
 								_this.text(' 更新酒店 ');
 								$(".btnGroup button").removeAttr("disabled");
 								$("#processBar").hide();
 							}
-						},
+						}/*,
 						complete:function(XMLHttpRequest,status){
 							if(status=='timeout'){
 								ajax.abort();
@@ -129,7 +132,7 @@ $(function(){
 								ipidLen = getJsonLength(data.ipids);
 								setTimeout(validate,400);
 							}
-						}
+						}*/
 					});
 				};
 				validate();
