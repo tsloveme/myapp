@@ -15,82 +15,207 @@
 $(function(){
 	//酒店报价数据入库更新
 	$("#getPrice").click(function(){
-		alert(111);
 		var _this = $(this);
-		//$(".btnGroup button").attr("disabled","disabled");
 		_this.attr("disabled","disabled").text("数据抓取中...");
 		$("#processBar").show();
 		var bar = $("#processBar .progress-bar").get(0);
 		bar.style.width="0.0%";
 		var ul =$("#hotelUpdateInfo");
 		ul.empty().show();
-		$("<li>正在获取酒店信息和代理ip</li>").prependTo(ul);
+		$("<li>正在获取酒店信息</li>").prependTo(ul);
 		$.ajax({
-			url:"/index.php/Qnr/Index/getIpHotel",
+			url:"/index.php/Qnr/Index/getHotel",
 			type:"GET",
 			success:function(data){
-				$("<li>成功获取酒店和代理Ip！</li><li>开始抓取报价...</li>").prependTo(ul);
+				$("<li>成功获取酒店信息！</li><li>开始抓取报价...</li>").prependTo(ul);
 				var hotel = data.hotel;
-				var ip = data.ip;
 				var hotelLen = getJsonLength(data.hotel);
-				var ipLen = getJsonLength(data.ip);
-				var i=0,j=0;
-				function getPriceUnit(){
+				var i=0;
+				/*function getPriceInit(){
 					var ajax_start = $.ajax({
 						url:"/index.php/Qnr/Index/priceUnitInit",
-						method:"POST",
+						type:"POST",
 						data:{'seq':hotel[i].hotelseq},
 						success:function(data){
-							alert(data);
+							//alert(data);
+							//alert(data[1]);
 						}
 					})
-					
-					/*if(!page){
-						$("<li>正在更新"+citys[i].cityname+"的酒店...</li>").prependTo(ul);
-						page = 1;
-					}
-					var ajax = $.ajax({
-						url:"/index.php/Qnr/Index/storeHotel",
-						data:{"cityurl":citys[i].cityurl,"page":page},
-						type:"POST",
-						timeout:12000,
-						success:function(data){
-							page = data.page;
-							if(!page){
-								bar.style.width=100*(i+1)/cityLen+"%";
-								$("<li>"+citys[i].cityname+"酒店更新成功！</li>").prependTo(ul);
-								i++;
+				}	*/
+				//makeIframe('http://hotel.qunar.com/city/shenzhen/dt-8524/');
+				makeIframe(0);
+				function storePrice(){
+					if($("#priceData textarea").length > 0){
+						$("<li>正在抓取"+hotel[i].hotelname+"的报价</li>").prependTo(ul);
+						$.ajax({
+							url:"/index.php/Qnr/Index/storePrice",
+							type:'POST',
+							data:{'seq':hotel[i].hotelseq,'pricedata':$("#priceData textarea").eq(0).val(),'timeid':data.timeId},
+							success:function(){
+								$("<li>抓取成功！！！</li>").prependTo(ul);
+								bar.style.width=100*(i+1)/hotelLen+"%";
+								$("#priceData textarea").eq(0).remove();
+								if (++i < hotelLen){
+									/*setTimeout(function(){
+										if($("#priceData textarea").length > 0){
+											storePrice(j);
+										}
+										else{
+											setTimeout(arguments.callee,400);
+										}
+									},100);*/
+									storePrice(i);
+								}
+								else{
+									$("<li>全部抓取成功！！！</li>").prependTo(ul);
+									_this.text(' 更新城市 ');
+									$("#getPrice").removeAttr("disabled");
+									$("#processBar").hide();
+								}
 							}
-							//j++;
-							//if (j>=ipidLen){j=0}
-							if(i<cityLen){
-								setTimeout(validate,600);
+						});
+					}
+					else{
+						setTimeout(arguments.callee,400);
+					}
+
+				}
+				storePrice(0);
+				function makeIframe(j){
+					var j = j || 0;
+					var src ="http://hotel.qunar.com/city/"+(hotel[j].hotelseq.replace(/_(?=\d+)/,'/dt\-'))+"\/\?";
+					//var src = "/index.php/Qnr/Index/?seq="+hotel[j].hotelseq;
+					$("#iframe").empty();
+					var dom = $('<iframe src="'+src+'" name="iframe" width="100%" height="100%"><\/iframe>');
+					dom.get(0).onload = function(){
+					var QNR = window.iframe.window.$;
+						QNR(".btn_openPrc").click();
+						var prices = [];
+						function timmer(){
+							if((QNR("#QunarPopBoxBG").length > 0)||((QNR(".e_loading").length ==0)&&(QNR(".htl-type-list li").length==0))){
+								//alert(1111);
+								makeIframe(j);
+								return;
+							}
+							var flag =true;
+							QNR(".similar-type-agent-list").each(function(){
+								if(QNR(this).children(".similar-type-agent-item").length < 1){
+									flag = false;
+								}
+								});
+							if(flag){
+								setTimeout(arguments.callee,150);
 							}
 							else{
-								_this.text(' 更新酒店 ');
-								$(".btnGroup button").removeAttr("disabled");
-								$("#processBar").hide();
+								QNR(".htl-type-list li").each(function(){
+									_this = QNR(this);
+									var roomType = QNR.trim(_this.find(".js-p-name").html());
+									var priceWyn = _this.find("[alt='维也纳酒店官网直销']").parents("table").find(".count_pr").text();
+									//priceWyn = priceWyn.replace(/[^\d]/gm,"");
+									priceWynRet = priceWyn.match(/\d+/);
+									priceWyn = priceWynRet ? priceWynRet[0] : 1;
+									var priceQnr = _this.find("[src='http://userimg.qunar.com/imgs/201407/17/w3ovewzqCvgLjWiSHexact.jpg']").parents("table").find(".count_pr").text();
+									//priceQnr = priceQnr.replace(/[^\d]/gm,"");
+									priceQnrRet = priceQnr.match(/\d+/);
+									priceQnr = priceQnrRet ? priceQnrRet[0] : 1;
+									prices.push(['","roomType":"'+roomType,'","priceQnr":"'+priceQnr,'","priceWyn":"'+priceWyn].join(""));
+								});
+								prices = prices.join("");
+								$("#priceData").append("<textarea>"+prices+'"'+"<\/textarea>");
+								//alert(prices);
+								if (++j < hotelLen){
+									makeIframe(j);
+								}
 							}
-						}*/
-						//complete:function(XMLHttpRequest,status){
-						//	if(status=='timeout'){
-						//		ajax.abort();
-						//		ipids.splice(j,1);
-						//		ipidLen = getJsonLength(data.ipids);
-						//		setTimeout(validate,400);
-						//	}
-						//}
-				};
-				getPriceUnit();
+							
+						 }
+						 timmer();
+						 //setTimeout(timmer,150);
+						}
+					$("#iframe").append(dom);
+				}
 		}
 	});
-})
+});
+
+$("#iframeToggle").hover(
+	function(){
+		$("#iframe").css("visibility","visible");
+	},
+	function(){
+		$("#iframe").css("visibility","hidden");
+	}
+);
+
+//iframe 递归取数据;
+/*function makeIframe(j){
+	var j = j || 0;
+	alert(hotel[j].hotelseq);
+	var src ="http://hotel.qunar.com/city/"+(hotel[j].hotelseq.replace(/_(?=\d+)/,'/dt\-'))+"\/\?";
+	$("#iframe").empty();
+	var dom = $('<iframe src="'+src+'" name="iframe"><\/iframe>');
+	dom.get(0).onload = function(){
+	var QNR = window.iframe.window.$;
+		QNR(".btn_openPrc").click();
+		var prices = [];
+		function timmer(){
+			var flag =true;
+			QNR(".similar-type-agent-list").each(function(){
+				if(QNR(this).children(".similar-type-agent-item").length < 1){
+					flag = false;
+				}
+				});
+			if(flag){
+				setTimeout(arguments.callee,150);
+			}
+			else{
+				QNR(".htl-type-list li").each(function(){
+					_this = QNR(this);
+					var roomtype = QNR.trim(_this.find(".js-p-name").html());
+					var priceWyn = _this.find("[alt='维也纳酒店官网直销']").parents("table").find(".count_pr").text();
+					//priceWyn = priceWyn.replace(/[^\d]/gm,"");
+					priceWynRet = priceWyn.match(/\d+/);
+					priceWyn = priceWynRet ? priceWynRet[0] : 1;
+					var priceQnr = _this.find("[src='http://userimg.qunar.com/imgs/201407/17/w3ovewzqCvgLjWiSHexact.jpg']").parents("table").find(".count_pr").text();
+					//priceQnr = priceQnr.replace(/[^\d]/gm,"");
+					priceQnrRet = priceQnr.match(/\d+/);
+					priceQnr = priceQnrRet ? priceQnrRet[0] : 1;
+					prices.push(['","roomtype":"'+roomtype,'","priceQnr":"'+priceQnr,'","priceWyn":"'+priceWyn].join(""));
+				});
+				prices = prices.join("");
+				$("#priceData").append("<textarea>"+prices+"<\/textarea>");
+				if (++j < hotelLen){
+					makeIframe(j);
+				}
+			}
+			
+		 }
+		 timmer();
+		 //setTimeout(timmer,150);
+		}
+	$("#iframe").append(dom);
+}*/
+
+
+/*
+$.ajax({
+	url:'/index.php/Qnr/Index/priceRobot',
+	data:{'P':[{"id":"8","roomname":"u8c6au534eu53ccu4ebau623f"},{"id":"9","roomname":"u8c6au534eu5355u4ebau623f"},{"id":"10","roomname":"u5546u52a1u6570u7801u623f"},{"id":"11","roomname":"u9ad8u7ea7u623f"},{"id":"12","roomname":"u5546u52a1u5355u4ebau623f"},{"id":"13","roomname":"u5bb6u5eadu666fu89c2u623f"},{"id":"14","roomname":"u8c6au534eu5957u623f"},{"id":"15","roomname":"u6807u51c6u5355u4ebau623f(u65e0u7a97)"}],
+	},
+	method:"POST",
+	success:function(){
+		alert(data);
+	}
+})*/
 		
 });
 
 </script>
 </head>
 <body>
+<div id="iframe" style="position:fixed; right:0;top:0; width:600px; height:480px; z-index:9999; visibility:hidden"></div>
+<div style="width:50px; height:50px; position:fixed; right:0; top:0; z-index:99999" id="iframeToggle"></div>
+<form id="priceData" style="display:none"></form>
 <!--sidebar-menu-->
 <div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-th"></i>Tables</a>
   <ul>
@@ -120,11 +245,38 @@ $(function(){
 	<div class="container-fluid">
 	<div class="row-fluid">
 		<div class="span12">
-			<h3>让蜘蛛去爬吧！</h3>
+			<div class="row-fluid btnGroup">
+				<div class="span6">
+					<h3>爬</h3>
+					<p style="font-size:1.2em">同步
+					</p> 
+					<button class="btn btn-primary btn-lg" id="getPrice" autocomplete="off"> 去爬数据 </button>
+				</div>
+				<div class="span6">
+					<form role="form">
+					  <div class="form-group ">
+						<label for="name" class="col-sm-2 control-label">时间</label>
+						<div class="col-sm-10">
+						<select class="form-control">
+							 <option value="">默认选择</option>
+							 <option value="">默认选择</option>
+							 <option value="">默认选择</option>
+							 <option value="">默认选择</option>
+						</select>
+						</div>
+					  </div>
+					 </form>
+					 <br /> <br /> <br />
+					<div><button class="btn btn-primary btn-lg" id="getdata" autocomplete="off"> 报价数据 </button>
+					</div>
+					
+				</div>
+			</div>
+			<!-- <h3>让蜘蛛去爬吧！</h3>
 			<p style="font-size:1.2em">
 			建议执行此动作前先去获取最新的IP地址。才能获得更好的爬行速度。
 			</p>
-			<button class="btn btn-primary btn-lg" id="getPrice" autocomplete="off"> 去爬数据 </button>
+			<button class="btn btn-primary btn-lg" id="getPrice" autocomplete="off"> 去爬数据 </button> -->
 			
 			<div class="progress progress-striped active" id="processBar" style="display:none">
 			   <div class="progress-bar" role="progressbar" style="width:0%;">
@@ -157,12 +309,15 @@ $(function(){
 					 </div>
 				  </div><!-- /.modal-content -->
 			</div><!-- /.modal -->
-			
-			<ul id="hotelUpdateInfo"></ul>
-			
-
-			
 		</div>
+			<p></p>
+			<div class="cont">
+				<ul id="hotelUpdateInfo"></ul>
+			</div>
+			<div class="cont">
+				
+			</div>
+			
 	</div>
 	</div>
 

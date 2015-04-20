@@ -44,4 +44,9 @@ class IndexController extends Controller{
 		$this->assign('data', $list);
 		$this->display('index');
 	}
+	
+	public function relate(){
+		
+		
+	}
 }
