@@ -134,6 +134,7 @@ class IndexController extends Controller{
 	}
 	//获取答案列表
 	public function getAnswerList(){
+		header("Content-type: text/html; charset=utf-8");
 		$e = M('exam');
 		$data = $e->field('examId,examTestId,examTitle,examAuthor,examTime')->where('examChecked=1')->select();
 		$this->ajaxReturn($data);

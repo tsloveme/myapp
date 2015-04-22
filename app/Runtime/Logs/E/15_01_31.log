@@ -1,6 +1,0 @@
-[ 2015-01-31T23:07:21+08:00 ] 127.0.0.1 /index.php/E/Index/
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
-INFO: [ app_init ] --END-- [ RunTime:0.009705s ]
-NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\phpweb\myapp\app\E\Conf\config.php 第 4 行.
-

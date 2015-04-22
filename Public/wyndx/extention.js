@@ -92,9 +92,10 @@
 		$(".getListStatus img").show();
 		$(".getListStatus span").css("color","red").html("");
 		$.ajax({
-			url:"http://localhost/index.php/wyndx/Index/getAnswerList",
+			url:"http://10.8.25.25/index.php/wyndx/Index/getAnswerList",
+			//url:"http://localhost/index.php/wyndx/Index/getAnswerList",
 			dataType:"json",
-			type:"POST",
+			type:"GET",
 			data:{},
 			success:function(data){
 				if(data==null){
@@ -169,8 +170,9 @@
 		var err=""; 
 		var examid=$("#examItem").val();
 		$.ajax({
-			url:"http://localhost/index.php/wyndx/Index/getAnswer",
-			type:"POST",
+			url:"http://10.8.25.25/index.php/wyndx/Index/getAnswer",
+			//url:"http://localhost/index.php/wyndx/Index/getAnswer",
+			type:"GET",
 			data:{examid:examid},
 			success:function(data){
 				//题数检测

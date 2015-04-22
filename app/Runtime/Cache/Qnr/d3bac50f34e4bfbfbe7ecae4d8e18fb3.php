@@ -148,11 +148,11 @@ $(function(){
 <!--sidebar-menu-->
 <div id="sidebar">
   <ul>
-	<li class="title">XXX</li>
+	<li class="title">房价倒挂监测</li>
     <li><a href="<?php echo U('Index/index');?>"><i class="glyphicon glyphicon-home"></i> <span>首页</span></a> </li>
     <li> <a href="<?php echo U('Ipconfig/index');?>"><i class="glyphicon glyphicon-transfer"></i> <span>代理IP</span></a> </li>
     <li class="active"><a href="<?php echo U('Gethotel/index');?>"><i class="glyphicon glyphicon-cloud-download"></i> <span>更新</span></a> </li>
-    <li><a href="#"><i class="glyphicon glyphicon-floppy-save"></i> <span>数据导出</span></a></li>
+    <li><a href="<?php echo U('Pricedata/index');?>"><i class="glyphicon glyphicon-floppy-save"></i> <span>数据导出</span></a></li>
   </ul>
 </div>
 
@@ -160,14 +160,14 @@ $(function(){
 <div class="container-fluid">
 	<div class="row-fluid btnGroup">
 		<div class="span6">
-			<h3>更新</h3>
-			<p style="font-size:1.2em">同步
+			<h3>更新城市列表</h3>
+			<p style="font-size:1.2em">同步城市列表，同步去哪儿线上有 "维也纳" 的城市。
 			</p> 
 			<button class="btn btn-primary btn-lg" id="updateCity" autocomplete="off"> 更新城市 </button>
 		</div>
 		<div class="span6">
-			<h3>更新</h3>
-			<p style="font-size:1.2em">同步
+			<h3>更新线上酒店</h3>
+			<p style="font-size:1.2em">按照一个个城市同步去哪儿线上的所有维也纳酒店，
 			</p> 
 			<button class="btn btn-primary btn-lg" id="updateHotel" autocomplete="off"> 更新酒店 </button>
 		</div>

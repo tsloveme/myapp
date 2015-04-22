@@ -7,18 +7,20 @@ class PriceModel extends RelationModel{
 	}
 	
 	protected $_link = array(
+		//'hotel' => array(),
 		'room' => array(
 			'mapping_type' => self::BELONGS_TO,
 			'foreign_key'	=>	'roomtypeid',
-			'mapping_fields'=>	'roomName',
+			'mapping_fields'=>	'roomname',
 			'mapping_class'	=>	'room',
-			//'mapping_class' =>	'room',
-			'as_fields'=>'roomName:room_name'
+			'as_fields'=>'roomname'
 		),
-		//'hotel' => array(
-			//'mapping_type'=> self::HAS_MANY,
-		///	'foreign_key'=>'hotelId',
-		//)
+		'hotel' => array(
+			'mapping_type'=> self::BELONGS_TO,
+			'foreign_key'=>'hotelid',
+			'mapping_fields'=>'hotelname,hotelseq',
+			'as_fields'=>'hotelname,hotelseq'
+		)
 	);
 	/*protected $_link = array(
 		'room' => array(

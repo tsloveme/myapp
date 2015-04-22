@@ -60,11 +60,11 @@ $(function(){
 <!--sidebar-menu-->
 <div id="sidebar">
   <ul>
-	<li class="title">XXX</li>
+	<li class="title">房价倒挂监测</li>
     <li><a href="<?php echo U('Index/index');?>"><i class="glyphicon glyphicon-home"></i> <span>首页</span></a> </li>
     <li class="active"> <a href="<?php echo U('Ipconfig/index');?>"><i class="glyphicon glyphicon-transfer"></i> <span>代理IP</span></a> </li>
      <li> <a href="<?php echo U('Gethotel/index');?>"><i class="glyphicon glyphicon-cloud-download"></i> <span>更新酒店</span></a>
-    <li><a href="#"><i class="glyphicon glyphicon-floppy-save"></i> <span>数据导出</span></a></li>
+    <li><a href="<?php echo U('Pricedata/index');?>"><i class="glyphicon glyphicon-floppy-save"></i> <span>数据导出</span></a></li>
   </ul>
 </div>
 
@@ -73,7 +73,7 @@ $(function(){
 	<div class="row-fluid">
 		<div class="span12">
 			<h3>更新代理IP地址</h3>
-			<p style="font-size:1.2em">更新按钮建议至少隔3秒按一次，否则去哪儿网会把IP资源屏蔽掉。这是去其他网站上爬出的免费代理IP。蜘蛛程序的爬行就靠它们了。
+			<p style="font-size:1.2em"> 系统代理IP地址。本想做为24小时监控房价用，去哪儿做了数据加密。功能失败，，解密中。。。。。
 			</p> 
 			<button class="btn btn-primary btn-lg" id="updateIp" autocomplete="off"> 更新代理IP </button>
 			<br /><br />

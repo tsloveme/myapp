@@ -34,7 +34,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="/Public/wyndx/page.css">
 	<link rel="stylesheet" type="text/css" media="all" href="/Public/wyndx/icon.css">
 	<link rel="stylesheet" type="text/css" media="all" href="/Public/wyndx/extention.css">
-	<script src="/Public/wyndx/jquery.js" type="text/javascript"></script>
+	<script src="/Public/js/jquery-1.8.3.min.js" type="text/javascript"></script>
 	<script src="/Public/wyndx/jquery.easyui.min.js" type="text/javascript"></script>
 	<script src="/Public/wyndx/utils.js" type="text/javascript"></script>
 	<script src="/Public/wyndx/jquery.form.js" type="text/javascript"></script>

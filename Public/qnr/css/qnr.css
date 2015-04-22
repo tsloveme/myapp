@@ -4,7 +4,7 @@ a{color:#666;}
 a:hover, a:focus {text-decoration: none; color:#28b779;}
 html,body{height:100%}
 /* Sidebar Navigation */
-#sidebar { display: block; float: left; position: relative; width: 150px; z-index: 16;}
+#sidebar { display: block; float: left; position: relative; width: 150px; z-index: 16;position:fixed}
 #sidebar > ul { list-style: none; margin: 0px 0 0; padding: 0; position: absolute; width: 150px;}
 #sidebar > ul > li { display: block; position: relative;}
 #sidebar > ul > li.title{font-size:18px;font-family:"微软雅黑"; text-align:center;color:white; background-color:#000; font-weight:bold; line-height:2.8; padding-right:10px;}

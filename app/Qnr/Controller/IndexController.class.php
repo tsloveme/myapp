@@ -239,12 +239,7 @@ class IndexController extends Controller {
 		return $reArr;
 	}
 	public function GetTop(){
-
 		$price = D("price");
-		//$price->alert();
-		//$data = $price->relation(true)->limit(10)->select();
-		//$data = $price->relation(true)->find(100);
-		//$data = $price->limit(10)->select();
 		$data = $price->where('timeStampId=35')->limit(10)->relation(true)->select();
 		dump($data);
 	}
