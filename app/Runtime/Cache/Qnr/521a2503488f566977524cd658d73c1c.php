@@ -113,11 +113,11 @@ $(function(){
 									var priceWyn = _this.find("[alt='维也纳酒店官网直销']").parents("table").find(".count_pr").text();
 									//priceWyn = priceWyn.replace(/[^\d]/gm,"");
 									priceWynRet = priceWyn.match(/\d+/);
-									priceWyn = priceWynRet ? priceWynRet[0] : 1;
+									priceWyn = priceWynRet ? priceWynRet[0] : 0;
 									var priceQnr = _this.find("[src='http://userimg.qunar.com/imgs/201407/17/w3ovewzqCvgLjWiSHexact.jpg']").parents("table").find(".count_pr").text();
 									//priceQnr = priceQnr.replace(/[^\d]/gm,"");
 									priceQnrRet = priceQnr.match(/\d+/);
-									priceQnr = priceQnrRet ? priceQnrRet[0] : 1;
+									priceQnr = priceQnrRet ? priceQnrRet[0] : 0;
 									prices.push(['","roomType":"'+roomType,'","priceQnr":"'+priceQnr,'","priceWyn":"'+priceWyn].join(""));
 								});
 								prices = prices.join("");

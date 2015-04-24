@@ -26,6 +26,7 @@ class IndexController extends Controller {
 		$h = M('hotel');
 		$hotel = $h->select();
 		$time = M('timestamp');
+		$timeCompare = time() -(60*5);
 		$timeid = $time->add(array('time'=>null));
 		$this->ajaxReturn(array('hotel'=>$hotel,timeId=>$timeid,'ips'=>$ips));
 		

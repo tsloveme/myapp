@@ -40,25 +40,44 @@ $(function(){
 	<div class="container-fluid">
 	<div class="row-fluid">
 		<div class="span12">
-			<form role="form" action="/index.php/Qnr/Pricedata/search" id="datasearch" method="post">
+			<form role="form" class="form-inline" action="/index.php/Qnr/Pricedata/search" id="datasearch" method="post">
 			  <div class="form-group ">
-				<label for="name" class="col-sm-2 control-label">选择已抓取的记录</label>
-				<div class="col-sm-10">
+				<label for="timeid">选择已抓取的记录</label>
 				<select class="form-control" name="timeid">
 				<?php if(is_array($selects)): $i = 0; $__LIST__ = $selects;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$s1): $mod = ($i % 2 );++$i;?><option value="<?php echo ($s1["id"]); ?>"><?php echo ($s1["time"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
 				</select>
-				</div>
 			  </div>
+			  <div class="form-group">
+				<input type="checkbox" class="checkbox" name="qnr" checked="checked" />
+				<lable for="qnr">去哪儿价</lable>
+			  </div>
+			  <div class="form-group">
+				<input type="checkbox" name="ctrip"  />
+				<lable for="ctrip">携程价</lable>
+			  </div>
+			  <div class="form-group">
+				<input type="checkbox" name="elong" />
+				<lable for="elong">艺龙价</lable>
+			  </div>
+			  <div class="form-group">
+				<input type="checkbox" class="disabled" name="wyn" checked="checked"  />
+				<lable for="wyn">官网价</lable>
+			  </div>
+			   <div class="form-group" style="padding-left:25px;">
+				<input type="checkbox" class="disabled" name="fanli" />
+				<lable for="fanli">返利</lable>
+			  </div>
+			  
 			 </form>
-			 <br /> <br /> <br />
-			<div><button class="btn btn-primary btn-lg" id="getdata" autocomplete="off"> 查询数据 </button>
-			</div> <br /> <br /> 
+			 <br /> 
+			<div><button class="btn btn-primary" id="getdata" autocomplete="off"> 查询数据 </button>
+			</div> <br />
 			
 			<div id="dataBox">
 				<table class="table table-condensed table-bordered">
 				
 				<thead>
-				    <?php if($time): ?><tr><th colspan="5" align="center"><p><?php echo ($time); ?>的数据如下</p></th></tr>
+				    <?php if($time): ?><tr><th colspan="6" align="center"><p><?php echo ($time); ?>抓取到的数据如下</p></th></tr>
 					<?php else: endif; ?>
 				<tr>
 				<th>编 号</th>
