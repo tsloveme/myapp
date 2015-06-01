@@ -81,6 +81,11 @@ $(function(){
 
 				}
 				storePrice(0);
+				/*
+				*	iframe页面遍历价格提交到主窗体 textarea中供
+				*	数据入库使用。每次加载完销毁。
+				*	再重新生成下一个酒店详情页。一直到遍历完为止
+				*/
 				function makeIframe(j){
 					var j = j || 0;
 					var src ="http://hotel.qunar.com/city/"+(hotel[j].hotelseq.replace(/_(?=\d+)/,'/dt\-'))+"\/\?";
@@ -89,10 +94,19 @@ $(function(){
 					var dom = $('<iframe src="'+src+'" name="iframe" width="100%" height="100%"><\/iframe>');
 					dom.get(0).onload = function(){
 					var QNR = window.iframe.window.$;
+						QNR(".js-room-more a").click();
 						QNR(".btn_openPrc").click();
+						QNR(".js-room-more a").click();
 						var prices = [];
 						function timmer(){
 							if((QNR("#QunarPopBoxBG").length > 0)||((QNR(".e_loading").length ==0)&&(QNR(".htl-type-list li").length==0))){
+								//没有报价信息的话停止刷新页面，继续下一个酒店。。。
+								if(QNR("#statusBar").text()!=""){
+									if (++j < hotelLen){
+									makeIframe(j);
+								}
+									return;
+								}
 								//alert(1111);
 								makeIframe(j);
 								return;
@@ -109,17 +123,40 @@ $(function(){
 							else{
 								QNR(".htl-type-list li").each(function(){
 									_this = QNR(this);
+									//房型
 									var roomType = QNR.trim(_this.find(".js-p-name").html());
+									
+									//官网价格抓取，抓取不到默认为0;
 									var priceWyn = _this.find("[alt='维也纳酒店官网直销']").parents("table").find(".count_pr").text();
-									//priceWyn = priceWyn.replace(/[^\d]/gm,"");
 									priceWynRet = priceWyn.match(/\d+/);
 									priceWyn = priceWynRet ? priceWynRet[0] : 0;
+									
+									//去哪儿价格抓取，抓取不到默认为0;
 									var priceQnr = _this.find("[src='http://userimg.qunar.com/imgs/201407/17/w3ovewzqCvgLjWiSHexact.jpg']").parents("table").find(".count_pr").text();
 									//priceQnr = priceQnr.replace(/[^\d]/gm,"");
 									priceQnrRet = priceQnr.match(/\d+/);
 									priceQnr = priceQnrRet ? priceQnrRet[0] : 0;
-									prices.push(['","roomType":"'+roomType,'","priceQnr":"'+priceQnr,'","priceWyn":"'+priceWyn].join(""));
+									
+									//艺龙价格抓取，抓取不到默认为0;
+									var priceElong = _this.find("[alt='艺龙旅行网']").parents("table").find(".count_pr").text();
+									priceElongRet = priceElong.match(/\d+/);
+									priceElong = priceElongRet ? priceElongRet[0] : 0;
+									
+									//携程价格抓取，抓取不到默认为0;
+									var priceCtrip = _this.find("[alt='携程旅行网']").parents("table").find(".count_pr").text();
+									priceCtripRet = priceCtrip.match(/\d+/);
+									priceCtrip = priceCtripRet ? priceCtripRet[0] : 0;
+									
+									//信息入列
+									prices.push([
+									'","roomType":"'	+	roomType,
+									'","priceElong":"'	+	priceElong,
+									'","priceCtrip":"'	+	priceCtrip,
+									'","priceQnr":"'	+	priceQnr,
+									'","priceWyn":"'	+	priceWyn
+									].join(""));
 								});
+								//入textarea
 								prices = prices.join("");
 								$("#priceData").append("<textarea>"+prices+'"'+"<\/textarea>");
 								//alert(prices);

@@ -26,7 +26,7 @@ class IndexController extends Controller {
 		$h = M('hotel');
 		$hotel = $h->select();
 		$time = M('timestamp');
-		$timeCompare = time() -(60*5);
+		$timeCompare = time() -(60*10);
 		$timeid = $time->add(array('time'=>null));
 		$this->ajaxReturn(array('hotel'=>$hotel,timeId=>$timeid,'ips'=>$ips));
 		
@@ -193,7 +193,7 @@ class IndexController extends Controller {
 		$h = M("hotel");
 		$hotelid = $h->field('id')->where('hotelSeq = "'.$hotelSeq.'"')->find();
 		$hotelid = $hotelid['id'];
-		$ptnPrice = '/"roomType":"([^"]+)","priceQnr":"([^"]+)","priceWyn":"([^"]+)"/';
+		$ptnPrice = '/"roomType":"([^"]+)",'.'"priceElong":"([^"]+)",'.'"priceCtrip":"([^"]+)",'.'"priceQnr":"([^"]+)","priceWyn":"([^"]+)"/';
 		$dataList = array();
 		$price = M('price');
 		if(preg_match_all($ptnPrice,$priceData,$matchs)){
@@ -209,11 +209,13 @@ class IndexController extends Controller {
 				'timeStampId' => $timeid
 				));*/
 				$price->add(array(
-				'roomTypeId' => $roomtypeIds[$k],
-				'hotelId' => $hotelid,
-				'priceQnr' => $v,
-				'priceWyn' => $matchs[3][$k],
-				'timeStampId' => $timeid
+				'roomTypeId'	 => 	$roomtypeIds[$k],
+				'hotelId'		 => 	$hotelid,
+				'priceElong'	 =>		$matchs[2][$k],
+				'priceCtrip'	 =>		$matchs[3][$k],
+				'priceQnr' 		 => 	$v,
+				'priceWyn'		 => 	$matchs[5][$k],
+				'timeStampId'	 => 	$timeid
 				));
 			}
 			//$price->addAll($dataList);

@@ -77,12 +77,14 @@ $(function(){
 				<table class="table table-condensed table-bordered">
 				
 				<thead>
-				    <?php if($time): ?><tr><th colspan="6" align="center"><p><?php echo ($time); ?>抓取到的数据如下</p></th></tr>
+				    <?php if($time): ?><tr><th colspan="8" align="center"><p><?php echo ($time); ?>抓取到的数据如下</p></th></tr>
 					<?php else: endif; ?>
 				<tr>
 				<th>编 号</th>
 				<th>酒 店</th>
 				<th>房 型</th>
+				<th>艺龙价</th>
+				<th>携程价</th>
 				<th>去哪儿价格</th>
 				<th>官网价格</th>
 				<th>qunar.com</th>
@@ -93,6 +95,8 @@ $(function(){
 				<td><?php echo ($p1["id"]); ?></td>
 				<td><?php echo ($p1["hotelname"]); ?></td>
 				<td><?php echo ($p1["roomname"]); ?></td>
+				<td><?php echo ($p1["priceelong"]); ?></td>
+				<td><?php echo ($p1["pricectrip"]); ?></td>
 				<td><?php echo ($p1["priceqnr"]); ?></td>
 				<td><?php echo ($p1["pricewyn"]); ?></td>
 				<td><a href="http://hotel.qunar.com/city/<?php echo ($p1["hotelseq"]); ?>" target="_blank">查看&gt;&gt;</a></td>
