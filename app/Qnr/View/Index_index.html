@@ -99,13 +99,15 @@ $(function(){
 						QNR(".js-room-more a").click();
 						var prices = [];
 						function timmer(){
-							if((QNR("#QunarPopBoxBG").length > 0)||((QNR(".e_loading").length ==0)&&(QNR(".htl-type-list li").length==0))){
+							if((QNR("#QunarPopBoxBG").length > 0)||((QNR(".e_loading").length ==0) && (QNR(".htl-type-list li").length==0))){
 								//没有报价信息的话停止刷新页面，继续下一个酒店。。。
 								if(QNR("#statusBar").text()!=""){
+                                    console.log(QNR("#statusBar"));
+                                    j = j+1;
 									if (++j < hotelLen){
-									makeIframe(j);
-								}
-									return;
+                                        makeIframe(j);
+								    }
+                                    return;
 								}
 								//alert(1111);
 								makeIframe(j);

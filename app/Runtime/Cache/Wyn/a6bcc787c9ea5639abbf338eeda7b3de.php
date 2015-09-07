@@ -89,9 +89,10 @@ function addLink(json,linkType){
 	}
 	$.each(json,function(i){
 		var fullName = json[i].hotelname;
-		var shortName = fullName.replace(/([\u4e00-\u9fa5]*?\（)|）/g,"");
-		var regFull = new RegExp(fullName+"(?![\s\n]*?\<\/a>)","mg");
-		var regShort = new RegExp(shortName+"(?![）]?[\s\n]*?\<\/a>)","mg");
+		var fullName1 = json[i].hotelname.replace('(','\\\(').replace(')','\\\)');
+		var shortName = fullName.replace(/([\u4e00-\u9fa5]*?\（)|([\u4e00-\u9fa5]*?\()|）|\(|\)/g,"");
+		var regFull = new RegExp(fullName1+"(?![\\s\\n]*?\<\/a>)","mg");
+		var regShort = new RegExp(shortName+"(?![）]?[\\s\\n]*?\<\/a>)","mg");
 		//全名匹配
 		if(regFull.test(bdinner)){
 			bdinner = bdinner.replace(regFull,makeHotelLink(i,fullName));
@@ -192,7 +193,7 @@ function updateHotel(){
 };
 
 //更新单个城市酒店
-function updateByCity(data,i){
+/*function updateByCity(data,i){
 	if($("#hotelUpdateState").val()==" "){
 		$(".ke-dialog-yes .ke-button").removeAttr("disabled");
 		$(".ke-dialog-footer img").remove();
@@ -220,12 +221,61 @@ function updateByCity(data,i){
 				$(".ke-dialog-footer img").remove();
 				$("#hotelUpdateState").val(" ")
 			}
-			
-			
+
+
 		}
 	});
 
-}
+}*/
+    function updateByCity(data,i){
+        if($("#hotelUpdateState").val()==" "){
+            $(".ke-dialog-yes .ke-button").removeAttr("disabled");
+            $(".ke-dialog-footer img").remove();
+            $("#syncState").append('<p><b style="color:red">同步过程被终止！！！</b></p>');
+            return;
+        }	$("#syncState").append('<p><b>正在更新 '+data[i]["cityname"]+' 的酒店...</b></p>');
+
+        //第几页码
+        var page = 1;
+        var addSuccess = 0;
+        //单次页码抓取
+        var singleAjax = function(){
+            $.ajax({
+                url:"/index.php/Wyn/Index/updateHotel",
+                type:"POST",
+                data:{
+                    cityId:data[i].cityid,
+                    cityNo:data[i].cityno,
+                    cityName:decodeURIComponent(data[i].cityname),
+                    pageI:page
+                },
+                success:function(da){
+                    page+=1;
+                    addSuccess+= da.num;
+                    if(page<=da.url){
+                        singleAjax();
+                        return;
+                    }
+                    $("#syncState").append("<p>操作成功！更新"+addSuccess+"条记录</p>")
+                    $("#syncState").scrollTop(5000);
+                    //遍历下一个城市
+                    i+=1;
+                    if(i<getJsonObjLength(data)){
+                        setTimeout(function(){updateByCity(data,i)},200);
+                    }
+                    else{
+                        $("#syncState").append('<p style="font-weight:bold; color:green">全部更新完成！</p>');
+                        $(".ke-dialog-yes .ke-button").removeAttr("disabled");
+                        $(".ke-dialog-footer img").remove();
+                        $("#hotelUpdateState").val(" ")
+                    }
+
+
+                }
+            });
+        }
+        singleAjax();
+    }
 //更新过过程人为终止
 function ifUpdateAbort(){
 

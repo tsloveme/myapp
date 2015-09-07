@@ -21,6 +21,38 @@ class IndexController extends Controller {
 		$this->ajaxReturn(array('ip'=>$ip,'hotel'=>$hotel));
 	}*/
 	public function getHotel(){
+        //test
+       /* $this->ajaxReturn(array(
+            'hotel'=> array(
+                array(
+                "id" =>1093,
+                "cityid"=>232,
+                "hotelname"=>"\u7ef4\u4e5f\u7eb3\u9152\u5e97\u4e0a\u6d77\u4e94\u89d2\u573a\u5e97",
+                "hotelseq"=>"shanghai_city_21988"
+                ),
+                array(
+                    "id" =>1094,
+                    "cityid"=>233,
+                    "hotelname"=>"\u7ef4\u4e5f\u7eb3\u9152\u5e97\u5e7f\u5dde\u5e7f\u4ece\u8def\u5e97",
+                    "hotelseq"=>"guangzhou_17254"
+                ),
+                array(
+                    "id" =>1095,
+                    "cityid"=>278,
+                    "hotelname"=>"\u7ef4\u4e5f\u7eb3\u9152\u5e97\u4e09\u4e9a\u6d77\u5357\u6b65\u884c\u8857\u5e97",
+                    "hotelseq"=>"sanya_11532"
+                ),
+                array(
+                    "id" =>1096,
+                    "cityid"=>279,
+                    "hotelname"=>"\u7ef4\u4e5f\u7eb3\u9152\u5e97\u798f\u5efa\u971e\u6d66\u5e97",
+                    "hotelseq"=>"ningde_3771"
+                )
+            ),
+            imeId=>60,
+            'ips'=> null,
+        ));
+        //test*/
 		$p = M('proxy');
 		$ips = $p->select();
 		$h = M('hotel');

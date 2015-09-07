@@ -146,62 +146,106 @@ class IndexController extends Controller{
 		$cityData=$c->getField('cityId,cityName,cityNo');
 		$this->ajaxReturn($cityData);
 	}
-	public function updateHotel(){//酒店信息更新
-		/*$cityId = 17;
-		$cityNo = '4401';
-		$cityName = '广州市';*/
-		$cityId = $_POST['cityId'];
-		$cityNo = $_POST['cityNo'];
-		$cityName = $_POST['cityName'];
-		$str = file_get_contents('http://www.wyn88.com/resv/city_'.$cityNo.'.html?cityName='.$cityName);
-		$ptn = '/pageNo=(\d+)">\d+<\/a><span class=\'left\'>/';
-		preg_match_all($ptn, $str, $matches);
-		$pageQuantity = intval($matches[1][0]);//匹配pageNo页数
-		$pageQuantity = $pageQuantity ? $pageQuantity : 1;
-		//var_dump($pageQuantity);
-		$h = M('hotel');
-		$addNum=0;//更新计数器
-		//页码循环
-		for($j=1; $j<=$pageQuantity; $j++){
-			$strPage = file_get_contents('http://www.wyn88.com/resv/city_'.$cityNo.'.html?cityName='.$cityName.'&pageNo='.$j);
-			$ptnhotel = '/<a href = "[^\"]*_(\d+)\.html" target = "_blank">([^\<]*)<\/a>/';
-			preg_match_all($ptnhotel, $strPage,$mhotel);
-			//页内遍历
-			for($i=0;$i<count($mhotel[0]);$i++){
-				/*array_push($hotelList,array(
-				'cityid' => $cityId,
-				'hotelName' => $mhotel[2][$i],
-				'hotelPmsCode' => $mhotel[1][$i])); */
-				$data = array(
-				'hotelName' => $mhotel[2][$i],
-				'cityid' => $cityId,
-				'hotelPmsCode' => $mhotel[1][$i]
-				);
-				$ifHave = $h->where($data)->find();
-				if($ifHave){
-					continue;
-				}
-				else{
-					/*$data['cityid'] = $cityId;
-					$data['hotelPmsCode'] = $mhotel[1][$i]; */
-					$addNum+=1;
-					$h->add($data);
-				}
-			}
-		}
-		/*$this->ajaxReturn(array('num'=>$addNum));*/
-		$this->ajaxReturn(array(
-		'num'=>$addNum,
-		'cityId' => $cityId,
-		'cityNo' => $cityNo,
-		'cityName' => $cityName,
-		'url'=> $pageQuantity 
-		));
-		//dump($hotelList);
-		
-		
-		
-		
-	}
+    public function updateHotel(){//酒店信息更新
+        /*$cityId = 17;
+        $cityNo = '4401';
+        $cityName = '广州市';*/
+        $cityId = $_POST['cityId'];
+        $cityNo = $_POST['cityNo'];
+        $cityName = $_POST['cityName'];
+        $pageI = $_POST['pageI'];
+        $str = file_get_contents('http://www.wyn88.com/resv/city_'.$cityNo.'.html?cityName='.$cityName);
+        $ptn = '/">(\d+)<\/a>[\s\n]*<span class=\'left\'>/';
+        preg_match_all($ptn, $str, $matches);
+        $pageQuantity = intval($matches[1][0]);//匹配pageNo页数
+        $pageQuantity = $pageQuantity ? $pageQuantity : 1;
+        $h = M('hotel');
+        $addNum=0;//更新计数器
+        //页码循环
+        $strPage = file_get_contents('http://www.wyn88.com/resv/city_'.$cityNo.'.html?cityName='.$cityName.'&pageNo='.$pageI);
+        $ptnhotel = '/<a href = "[^\"]*_(\d+)\.html" target = "_blank">([^\<]*)<\/a>/';
+        preg_match_all($ptnhotel, $strPage,$mhotel);
+        //页内遍历
+        for($i=0;$i<count($mhotel[0]);$i++){
+            $data = array(
+                'hotelName' => $mhotel[2][$i],
+                'cityid' => $cityId,
+                'hotelPmsCode' => $mhotel[1][$i]
+            );
+            $ifHave = $h->where($data)->find();
+            if($ifHave){
+                continue;
+            }
+            else{
+                $addNum+=1;
+                $h->add($data);
+            }
+        }
+        //$this->ajaxReturn(array('num'=>$addNum));
+        $this->ajaxReturn(array(
+            'num'=>$addNum,
+            'cityId' => $cityId,
+            'cityNo' => $cityNo,
+            'cityName' => $cityName,
+            'url'=> $pageQuantity
+        ));
+    }
+    /*public function updateHotel(){//酒店信息更新
+        //$cityId = 17;
+        //$cityNo = '4401';
+        //$cityName = '广州市';
+        $cityId = $_POST['cityId'];
+        $cityNo = $_POST['cityNo'];
+        $cityName = $_POST['cityName'];
+        $str = file_get_contents('http://www.wyn88.com/resv/city_'.$cityNo.'.html?cityName='.$cityName);
+        $ptn = '/pageNo=(\d+)">\d+<\/a><span class=\'left\'>/';
+        preg_match_all($ptn, $str, $matches);
+        $pageQuantity = intval($matches[1][0]);//匹配pageNo页数
+        $pageQuantity = $pageQuantity ? $pageQuantity : 1;
+        //var_dump($pageQuantity);
+        $h = M('hotel');
+        $addNum=0;//更新计数器
+        //页码循环
+        for($j=1; $j<=$pageQuantity; $j++){
+            $strPage = file_get_contents('http://www.wyn88.com/resv/city_'.$cityNo.'.html?cityName='.$cityName.'&pageNo='.$j);
+            $ptnhotel = '/<a href = "[^\"]*_(\d+)\.html" target = "_blank">([^\<]*)<\/a>/';
+            preg_match_all($ptnhotel, $strPage,$mhotel);
+            //页内遍历
+            for($i=0;$i<count($mhotel[0]);$i++){
+                //array_push($hotelList,array(
+                //'cityid' => $cityId,
+                //'hotelName' => $mhotel[2][$i],
+                //'hotelPmsCode' => $mhotel[1][$i]));
+                $data = array(
+                    'hotelName' => $mhotel[2][$i],
+                    'cityid' => $cityId,
+                    'hotelPmsCode' => $mhotel[1][$i]
+                );
+                $ifHave = $h->where($data)->find();
+                if($ifHave){
+                    continue;
+                }
+                else{
+                    //$data['cityid'] = $cityId;
+                    //$data['hotelPmsCode'] = $mhotel[1][$i];
+                    $addNum+=1;
+                    $h->add($data);
+                }
+            }
+        }
+        //$this->ajaxReturn(array('num'=>$addNum));
+        $this->ajaxReturn(array(
+            'num'=>$addNum,
+            'cityId' => $cityId,
+            'cityNo' => $cityNo,
+            'cityName' => $cityName,
+            'url'=> $pageQuantity
+        ));
+        //dump($hotelList);
+
+
+
+
+    }*/
 
 }

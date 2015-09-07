@@ -48,14 +48,14 @@ class IndexController extends Controller{
 		}
 		
 		//单选题匹配
-		$ptnSigQue='/<div id="questionNumber\d*" class="question-content" queid="\d*">[\s\S]*?sin_que_option[\s\S]*?((<\/table>)|(([ABCD])[\s\n]*))<\/div>[\s\n]*<\/div>/i';
+		$ptnSigQue='/<div id="questionNumber\d*" class="question-content" queid="\d*">[\s\S]*?sin_que_option[\s\S]*?((<\/table>)|(([A-Z])[\s\n]*))<\/div>[\s\n]*<\/div>/i';
 		if(preg_match_all($ptnSigQue,$str,$mASigQue)){
 			//dump($mASigQue[4]);
 			$data['examAnswerSin'] = join("$$",$mASigQue[4]);
 		}
 		
 		//多选题匹配
-		$ptnMultiQue='/<label for="unmu_que_option_\d*">[\s\S]*?标准答案：([ABCD\s]*)/i';
+		$ptnMultiQue='/<label for="unmu_que_option_\d*">[\s\S]*?标准答案：([A-Z\s]*)/i';
 		if(preg_match_all($ptnMultiQue,$str,$mAMultiQue))
 		{	
 			$arrMultiQue = array();
